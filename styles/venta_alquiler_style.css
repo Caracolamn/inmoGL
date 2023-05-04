@@ -1,0 +1,241 @@
+body{
+    margin: 0 !important;
+    background-image: none !important;
+    background-color: #3399FF;
+}
+
+/*FILTER POBLACION DROPDOWN MENU---------------*/
+
+.filter-pueblos {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+#location-select {
+  min-height: 3rem;
+  border-radius: 2rem;
+}
+select:focus {
+  outline: none;
+}
+
+
+
+select option:checked:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+
+
+
+/*firefox issues*/
+
+
+
+select {
+  background: white;
+  text-align-last: center;
+
+}
+
+select::-moz-focus-inner {
+  border: 0;
+}
+
+
+/*END DROPDOWN MENU-----------------*/
+
+
+
+
+
+
+p {
+  
+  /*justify-content: space-around; //////////////////////*/
+  padding: 0;
+  margin: 0;
+}
+
+/*
+h2 {
+  font-size: 1rem;
+}  */
+
+.pueblo {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.center-h1 {
+  /*border: 1px solid  green;*/
+  text-align: center;
+  margin-top:  2rem !important;
+}
+
+.container {
+ /* border: 4px solid  green; */
+    margin: auto;
+    max-width: 80%;
+    display: flex;
+   /* flex-wrap: wrap;*/
+   align-items: center;
+    align-content: center;
+    align-items: center;
+    min-height: 12.5rem !important;
+    justify-content:center; /*This will result in the three boxes being evenly spaced along the main axis of the container, with half of the space before the first item and after the last item.*/
+    gap: 1rem;  
+    line-height: .1;
+}
+  
+  .box {
+    /*border: 4px solid  orange;*/
+    background-color: white;  
+    padding:0 1.1rem;
+    width: 15.625rem;
+    height: 21.875rem;
+    padding-bottom: 1rem;
+   
+  }
+
+  .ficha {
+    /*border: .0625rem solid red;*/
+    /*background-color: whitesmoke;*/
+  }
+  
+  #wrap {
+    flex-wrap: wrap;
+  }
+  
+
+.main-content img{
+   /* border: .0625rem solid red;*/
+    padding: 0 !important;
+    margin: 0;
+    width: 15.625rem;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+
+.foto-inmueble {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+
+
+
+.specs-row {
+  /*border: .0625rem solid greenyellow;*/
+    display: flex;
+    justify-content: space-between;
+    /*align-content: baseline;*/
+    border-top: .0625rem solid grey;
+    border-bottom: .0625rem solid grey;
+    /*margin-bottom: 1rem;*/
+    line-height: 1;
+    width: 15.625rem;
+    height: auto;
+    align-items: baseline;
+    align-content: baseline;
+    justify-items: baseline;
+    padding: .2rem 0  0  0;
+
+}
+
+/*.tipo-inmueble{
+    text-transform: uppercase;
+}*/
+
+
+.ubicacion{
+  /*border: .0625rem solid red;*/
+    color: grey;
+}
+
+.specs-inmueble {
+ /*border: 2px solid brown;*/
+  padding: 0 !important;
+  margin: 0 auto;
+  height: 3.1rem;
+  display: flex;
+  justify-content: center !important;
+  justify-items: center !important;
+  align-items: center !important;
+  align-content: center !important;
+  text-align: center;
+   
+
+}
+
+
+.specs-inmueble img{
+  /*border: .0625rem solid blueviolet;*/
+   width: 1.875rem !important;
+   object-fit: fill;
+   aspect-ratio: 1/1;
+ 
+  
+}
+
+.moneda {
+ /* border: .0625rem solid red;*/
+  margin-top: 1rem;
+  font-weight: bolder;
+}
+
+
+	.currSign::after {
+		content: ' €';
+	}
+
+
+  .meters-label::after {
+    content: "m²";
+    margin-left: 0.2em;
+    font-size: 0.8em;
+  }
+
+ .more {
+  display: flex;
+  justify-content: right;
+
+ text-align: right;
+  color: #FF8000 !important;
+  font-size: 1rem;
+  text-align: right !important;
+  font-weight: bolder !important;
+}
+
+
+
+/*MEDIA QUERY  MEDIA QUERY  MEDIA QUERY  MEDIA QUERY*/
+
+
+
+@media only screen and (max-width: 895px) {
+
+  .box {
+
+    padding-bottom: 0;
+   
+  }
+
+  
+}
+
+
+
+  /*GENERAL CSS-----------------------------------------------------------*/
