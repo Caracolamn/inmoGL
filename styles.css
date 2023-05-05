@@ -6,9 +6,9 @@ html{
 
 
 body {
-   background: url('images/HOME_PATTERNS_1080px_BLUE_02.png');
+   background: url('images/HOME_PATTERNS_1080px_BLUE_02.svg');
     background-repeat: repeat;
-    background-color: #fff5ee;    /*#fff5ee*/
+  /*  background-color: #fff5ee; */   /*#fff5ee*/
    /* background-color: #3399ff; */
     background-position: bottom;
     /*line-height: 1.2;*/
