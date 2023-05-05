@@ -1,5 +1,4 @@
-/*
-  Content-Security-Policy: default-src 'self'; 
+                           default-src 'self'; 
                            script-src 'self' https://www.termsfeed.com;
                            style-src 'self';
                            img-src 'self' https://www.google.com https://*.idealista.com;
@@ -15,3 +14,4 @@
                            prefetch-src 'self';
                            media-src 'self';
                            block-all-mixed-content;
+
