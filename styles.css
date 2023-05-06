@@ -19,11 +19,15 @@ body {
   
   @media screen and (min-width: 2560px) {
     /* styles for 2k screens */
-    html{
-      
+    html{  
       font-size: 1.33rem;
-  
   }
+
+    /*LANGUAGE SELECT*/
+    .cc-pc-head-lang-select option {
+      font-size: .3rem !important;
+    }
+
   }
 
 
@@ -35,48 +39,27 @@ body {
       font-size: 2rem;
   
   }
+
+    /*LANGUAGE SELECT*/
+    .cc-pc-head-lang-select option {
+      font-size: .2rem !important;
+    }
+
   }
 
 
   @media screen and (min-width: 7680px) {
     /* styles for 8k screens */
     html{
-      
       font-size: 4rem !important;
-  
   }
 
-  .termsfeed-com---pc-dialog {
-
-    margin: 7.5rem auto !important;
-    width: 80rem !important;
-    max-width: 80rem !important;
-    height: 70rem !important;
-    font-size: 2rem !important;
-}
-
-.termsfeed-com---pc-dialog .cc-pc-container {
-  height:max-content !important;
-  font-size: 20rem !important;
-}
 
 
-
-.termsfeed-com---pc-dialog .cc-pc-container {
-  width: 500%;
-  display: flex;
-  background:#3399FF !important;
-  flex-direction: column;
-}
-
-.termsfeed-com---pc-dialog .cc-pc-head-lang {
-  display: flex;
-  align-items: center;
-  padding-right: 1rem !important;
-  min-height: 80px;
-  justify-content: center;
-}
-
+  /*LANGUAGE SELECT*/
+  .cc-pc-head-lang-select option {
+    font-size: .1rem !important;
+  }
 
   }
 
@@ -1020,35 +1003,46 @@ align-content: baseline!important;
 
       
       .termsfeed-com---pc-dialog {
+        /*border: 4px solid yellow;*/
         position: absolute;
         margin: 1.875rem auto !important;
-        width: 50rem !important;
+        min-width: 40rem;
+        min-height: auto;
         max-width: 50rem !important;
-        height: 45rem !important;
+        max-height: 34rem !important;
         left: 0;
         right: 0;
     }
 
 
     .termsfeed-com---palette-light .cc-cp-body {
+     /* border: 4px solid red;*/
       background: #3399ff !important;
+      min-width: 40rem;
+      min-height: auto;
+      max-width: 50rem !important;
+      max-height: 40rem !important;
 
   }
 
+
+  /*popup-LEFT*/
 .termsfeed-com---nb {
   background-color: #3399ff !important;
   min-width: 16.875rem !important;
-  width: 15% !important; /*20%*/
-  max-height: 60% !important; /*50%*/
+  width: 25rem !important; /*20%*/
+  max-height: 50rem !important; /*50%*/
   float: right !important;
-
   border: .0625rem solid black;
+  font-size: 1rem !important;
 }
 .cc-nb-main-container {
   padding: 1.25rem !important;
+
 }
 .cc-nb-title {
   color: black!important;
+  font-size: 1.5rem !important;
 }
 .cc-nb-text,
 .cc-pc-head-title-headline,
@@ -1056,6 +1050,7 @@ align-content: baseline!important;
   color: black !important;
   font-weight: normal !important;
   font-size: clamp(.5rem, 1rem, 2rem) !important;
+/*-----------------------------------------------------------------------------------------*/
 }
 
 /*buttons Cookie Dialog*/
@@ -1095,9 +1090,11 @@ align-content: baseline!important;
 /*extended Privacy menu Cookie Dialog*/
 
 .cc-cp-foot-save {
+
   background: #ff9933 !important;
   color: black !important;
   position: relative !important;
+  font-size: 1rem !important;
   font-weight: 600 !important;
 }
 .cc-cp-foot-save:hover {
@@ -1110,44 +1107,104 @@ align-content: baseline!important;
   background-color: #3399ff !important;
   color: black !important;
   border: none !important;
+  font-size: 1rem !important;
+  max-width: 100% !important;
+  height: 100% !important;
 }
 .cc-cp-body-content-entry-title {
   color: black !important;
+  font-size: 1rem !important;
 }
 .cc-cp-body-content-entry-text {
   color: black !important;
+  font-size: 1rem !important;
 }
 .cc-cp-body-content-entry-text a {
   color: #ff9933 !important;
+  max-width: 100% !important;
+  height: 100% !important;
 }
 .cc-nb-text-urls-privacy a {
   color: #ff9933 !important;
+  max-width: 100% !important;
+  height: 100% !important;
 }
 .cc-pc-head-title {
   border: none !important;
+  max-width: 100% !important;
+  height: 100% !important;
 }
+
+/*title with cookie*/
 .cc-pc-head-title-text {
   color: #FF8000 !important;
+  font-size: 1.5rem !important;
+  max-width: 100% !important;
+  height: 100% !important;
 }
+
+/*LANGUAGE DROPDOWN MENU*/
 .cc-pc-head-lang {
-  background-color: #007FFF !important;
+  background-color: none !important;
   opacity: 90% !important;
   border: none !important;
+  font-size: 1rem !important;
 }
+
+.termsfeed-com---palette-light .cc-pc-head-lang select{
+  font-size: 1rem !important;
+  width: 15rem !important;
+ 
+}
+
+/*
+.cc-pc-head-lang-select option {
+
+  background-color: yellow !important;
+  font-size: .1rem !important;
+}*/
+
+/*
+option {
+  font-weight: normal; 
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2rem;
+  padding: 0px .125rem 1.0625rem !important; 
+
+}*/
+
+/*X close tag*/
+.termsfeed-com---pc-dialog .cc-pc-head-close {
+  font-size: 1.5rem !important;
+  margin-left: 1rem !important;
+  padding: 0 !important;
+}
+
+/*cookie footer*/
 .cc-cp-foot {
   background-color: #007FFF !important;
   opacity: 90% !important;
   border: none !important;
 }
+.cc-cp-foot-byline {
+  font-size: 1rem !important;
+}
+
 div.cc-pc-head {
   background-color: #007FFF !important;
   opacity: 90% !important;
   border: none !important;
+  height: 5rem;
+  padding: 1rem !important;
 }
+
 .cc-cp-body-tabs-item-link {
-  background-color: #007FFF !important;
+  background-color: #007FFF!important;
   border: .0625rem solid #007FFF !important;
   opacity: 90% !important;
+  height: 4rem !important;
+  line-height: 1 !important;
 }
 .cc-cp-body-tabs-item-link:focus {
   background-color: #ff993395 !important;
@@ -1157,6 +1214,9 @@ div.cc-pc-head {
 .cc-cp-body-tabs {
   background-color: #3399ff !important;
   opacity: 90% !important;
+  width: 40rem !important;
+  line-height: 1 !important;
+  
 }
 
 /*Content tab padding Cookie Dialog*/
@@ -1233,12 +1293,39 @@ div.cc-pc-head {
 }
 
 
+
+
+/*second display cookie consent mobile*/
 @media only screen and (max-width: 460px), (max-width: 768px) {
   .cookies-button,
 .control-links {
     font-size: clamp(.5rem, 1rem, 2rem) !important;
 
   }
+
+  div.cc-pc-head {
+    height: 9rem;
+  }
+
+  .termsfeed-com---pc-dialog {
+    position: absolute;
+    margin: 1.875rem auto !important;
+    min-width: 100%;
+    min-height: fit-content !important;
+    max-width: 20rem !important;
+    max-height: auto !important;
+    left: 0;
+    right: 0;
+}
+
+
+.termsfeed-com---palette-light .cc-cp-body {
+  background: #3399ff !important;
+  min-width: 100%;
+  min-height: 55rem !important; /*footer height*/
+  max-width: 20rem !important;
+  max-height: auto !important;
+}
 
 
   }
