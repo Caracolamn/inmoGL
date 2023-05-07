@@ -8,16 +8,11 @@ menuBtn.addEventListener('click', () => {
 
 
 
-menuBtn.addEventListener('click', function() {
+const hamburgerBtn = document.querySelector('#hamburger-btn');
+    
+hamburgerBtn.addEventListener('click', function() {
   this.classList.toggle('active');
 });
-
-    
-menuBtn.addEventListener('click', () => {
-  menu.classList.toggle('open');
-  menuBtn.classList.toggle('active');
-});
-
 
 
 
