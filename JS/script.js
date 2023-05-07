@@ -13,9 +13,11 @@ menuBtn.addEventListener('click', function() {
 });
 
     
-hamburgerBtn.addEventListener('click', function() {
-  this.classList.toggle('active');
+menuBtn.addEventListener('click', () => {
+  menu.classList.toggle('open');
+  menuBtn.classList.toggle('active');
 });
+
 
 
 
