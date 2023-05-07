@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
   const menuBtn = document.getElementById('hamburger-btn');
   const menu = document.getElementById('menu');
 
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   const hamburgerBtn = document.querySelector('#hamburger-btn');
-
+      
   hamburgerBtn.addEventListener('click', function() {
     this.classList.toggle('active');
   });
