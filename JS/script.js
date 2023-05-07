@@ -8,7 +8,10 @@ menuBtn.addEventListener('click', () => {
 
 
 
-const hamburgerBtn = document.querySelector('#hamburger-btn');
+menuBtn.addEventListener('click', function() {
+  this.classList.toggle('active');
+});
+
     
 hamburgerBtn.addEventListener('click', function() {
   this.classList.toggle('active');
