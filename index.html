@@ -39,7 +39,8 @@
     </script>
 
     <!--CSP-->
-    <meta http-equiv="Content-Security-Policy" content="block-all-mixed-content; default-src 'self'; script-src 'self' 'report-sample' 'unsafe-inline' https://googletagmanager.com https://tagmanager.google.com https://www.termsfeed.com https://www.googletagmanager.com; style-src 'self' 'report-sample' 'unsafe-inline' data: tagmanager.google.com www.googletagmanager.com; object-src 'none'; frame-src 'self' www.google.com www.googletagmanager.com; child-src 'self' www.googletagmanager.com; img-src 'self' data: www.googletagmanager.com; font-src 'self' data:; connect-src 'self' www.googletagmanager.com; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; worker-src 'self';">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src * data: gap: 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; connect-src *; img-src * data: blob:; style-src * 'unsafe-inline'; font-src *"> -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com; connect-src *; img-src * data: blob:; style-src * 'unsafe-inline'; font-src *"> 
 
     <!--CSP-->
 
