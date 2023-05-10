@@ -12,6 +12,7 @@ body {
     /*line-height: 1.2;*/
     background-attachment: fixed;
     background-size: 45rem;
+    margin: 0 auto;
 }
 @media screen and (min-width: 2560px) {
     /* styles for 2k screens */
