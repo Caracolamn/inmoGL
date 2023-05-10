@@ -192,13 +192,18 @@
       </div>
   </section>
 
-  <!--copyright-->
-  <p class="copyright">&copy;
-    <script type="text/javascript">
-        copyright = new Date();
-        update = copyright.getFullYear();
-        document.write(+update + " " + "inmo GL");
-    </script>
+
+            <!-- copyright -->
+            <p class="copyright">
+              &copy; <span id="currentYear"></span> inmo GL
+          </p>
+          <!-- script to update year -->
+          <script type="text/javascript">
+              const currentYear = new Date().getFullYear();
+              document.getElementById("currentYear").innerHTML = currentYear;
+          </script>
+
+
 </p>
     </div>
 

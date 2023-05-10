@@ -44,7 +44,7 @@
     <!--<link href="styles\reset.css" rel="stylesheet">-->
     <link href="styles.css" rel="stylesheet">
     <link href="styles\venta_alquiler_style.css" rel="stylesheet">
-    
+
     <!--FAVICON-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -1226,16 +1226,17 @@
         </div>
 
 
-
-
-        <!--copyright-->
-        <p class="copyright-ventas">&copy;
+            <!-- copyright -->
+            <p class="copyright">
+                &copy; <span id="currentYear"></span> inmo GL
+            </p>
+            <!-- script to update year -->
             <script type="text/javascript">
-                copyright = new Date();
-                update = copyright.getFullYear();
-                document.write(+update + " " + "inmo GL");
-
+                const currentYear = new Date().getFullYear();
+                document.getElementById("currentYear").innerHTML = currentYear;
             </script>
+
+
         </p>
 
         <section class="adress-phone">

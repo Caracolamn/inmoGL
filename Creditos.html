@@ -344,15 +344,18 @@
 
         </div>
 
-        <p class="copyright-ventas">web developed by Andrea Miggiano</p>
-        <!--copyright-->
-        <p class="copyright-ventas">&copy;
-            <script type="text/javascript">
-                copyright = new Date();
-                update = copyright.getFullYear();
-                document.write(+update + " " + "inmo GL");
 
+            <!-- copyright -->
+            <p class="copyright">
+                &copy; <span id="currentYear"></span> inmo GL
+            </p>
+            <!-- script to update year -->
+            <script type="text/javascript">
+                const currentYear = new Date().getFullYear();
+                document.getElementById("currentYear").innerHTML = currentYear;
             </script>
+
+
         </p>
     </div>
 
