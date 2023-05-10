@@ -169,22 +169,25 @@ section.index-section {
 }
 @media only screen and (max-width: 600px) {
     .AA {
-        width: 30%;
+        width: 35%;
         /*CIRCULAR PHOTO SIZE*/
     }
     .BB {
-        width: 70%;
+        width: 65%;
+        max-width: 20rem;
         /*SECTION TEXT BOX SIZE*/
     }
     .index-image {
-        min-width: 2.9rem;
+       
         width: 100%;
         margin-top: 1rem;
     }
 
     .main-content-2 {
-        border: 1px solid white;
-
+        border-bottom: 1px solid white;
+        margin-top: 3rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
     }
 
     .horizontal-line {
