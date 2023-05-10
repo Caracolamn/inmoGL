@@ -3,26 +3,48 @@
 
 <head>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-WT5JL79');</script>
-        <!-- End Google Tag Manager -->
-      
-         <!-- GOOGLE ANALYTICS -->
-      <!-- Google tag (gtag.js) with SRI hash -->
-      <script src="https://www.googletagmanager.com/gtag/js?id=G-WCYL0F3S02" integrity="sha384-SAAfFAg6xFLUWuZCj5EI60mU7NPVQ68Aegwr7vLuwDBliK7zyRrvCn3G8CnvosuW" crossorigin="anonymous"></script>
-      <script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WT5JL79');
+
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+
+    <!-- GOOGLE ANALYTICS -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WCYL0F3S02"></script>
+    <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
-      
+
         gtag('config', 'G-WCYL0F3S02');
-      </script>
 
+    </script>
 
-    
+    <!--CSP-->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src * data: gap: 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; connect-src *; img-src * data: blob:; style-src * 'unsafe-inline'; font-src *"> -->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src * data: gap: 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com; connect-src *; img-src * data: blob:; style-src * 'unsafe-inline'; font-src *"> --->
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'; frame-ancestors 'self'; block-all-mixed-content; script-src 'self' 'report-sample' 'unsafe-inline' https://www.googletagmanager.com https://tagmanager.google.com https://www.termsfeed.com https://www.google-analytics.com; style-src 'self' 'report-sample' 'unsafe-inline' data: tagmanager.google.com www.googletagmanager.com; object-src 'none'; frame-src 'self' www.google.com www.googletagmanager.com; child-src 'self' www.googletagmanager.com; img-src 'self' data: www.googletagmanager.com; font-src 'self' data:; connect-src 'self' www.googletagmanager.com www.google-analytics.com; manifest-src 'self'; base-uri 'self'; form-action 'self'; media-src 'self';"> -->
+
+    <!--CSP-->
+
     <title>InmoGL Soluciones Inmobiliarias Lerma </title>
     <!--META DESCRIPTION-->
     <meta name="description" content="Inmobiliaria inmoGL Lerma - Venta y tasación de inmuebles en Lerma y la Comarca del Arlanza. Casas, pisos, chalets, terrenos y locales. Contacta con nosotros hoy.">
@@ -48,7 +70,11 @@
 </head>
 
 <body>
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WT5JL79" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
 
 
@@ -197,7 +223,10 @@
             </div>
 
 
-     
+            <section class="index-section" id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2963.7735821047286!2d-3.7632829845542193!3d42.02658937921064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4677f27883fe8d%3A0xe4e17128dd692d40!2sInmoGL%20Soluciones%20Inmobiliarias%20Lerma!5e0!3m2!1ses!2ses!4v1683216106219!5m2!1ses!2ses" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
             <!--copyright-->
             <p class="copyright">&copy;
                 <script type="text/javascript">
