@@ -59,7 +59,7 @@ z-index: 1;
    align-content: center;
    justify-content: center;
    justify-items: center;*/
-    margin: auto;
+    margin: 0 auto;
     margin-top: 8rem;
     max-width: 50%;
     /*MAIN CONTENT VS FRAME RATIO*/
