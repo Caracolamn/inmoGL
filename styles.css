@@ -1546,7 +1546,7 @@ li.current{
 /*THIS CSS HIDES THE MENU ON LARGE VIEWPORT*/
 @media only screen and (min-width: 990px) {
   
-  #hamburger-btn {
+  button#hamburger-btn {
     display: none; /* HIDES HAMBURGER*/
   } 
 
