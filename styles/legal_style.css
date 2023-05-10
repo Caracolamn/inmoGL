@@ -1,98 +1,61 @@
-
-body{
+body {
     background-image: none !important;
     background-color: #3399ff;
-   
 }
-
-
-
-
-  #cookies-section {
+#cookies-section {
     display: flex;
     flex-wrap: wrap;
-
-
     max-width: 50%;
     margin: 0 auto;
-
-        /*border: 1px solid rgb(0, 4, 255);*/
-        background-color: #CAE4FD;
-        padding: 1.6rem 2.5rem;
-        
-        margin-bottom: 2.125rem;
-        border-radius: 1.25rem;
-        box-shadow: 0 0 1.25rem 0 rgba(0,0,0,.50);
-  }
-
-
+    /*border: 1px solid rgb(0, 4, 255);*/
+    background-color: #CAE4FD;
+    padding: 1.6rem 2.5rem;
+    margin-bottom: 2.125rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, .50);
+}
 .privacy-intro {
     padding: 1.875rem;
     /*background-color: #3399FF20;*/
+    font-size: clamp(.9rem, 1rem, 4rem) !important;
 }
-
 .my-web-link,
 .credits-link {
     padding: 0.4em;
 }
-
-
 .cookies-button-2 {
     width: auto;
     border: none;
     padding: 0;
     background-color: transparent;
     color: #007FFF;
-    font-size: clamp(0.9em, 3vw, 1.1em);
+    font-size: clamp(.9rem, 1rem, 4rem) !important;
 }
 .cookies-button-2:hover {
     color: #3399FF;
 }
-
-
-
 .index-image {
     width: 50%;
-  float: right;
-  clear:left;
-  border: -.3125rem solid transparent;
-  border-radius: 50%;
-  
-  box-shadow: 0 0 .625rem 0 rgba(0,0,0,.7);
-  }
-
-
-
-
-  @media only screen and (max-width: 460px), (max-width: 990px) {
-  
+    float: right;
+    clear: left;
+    border: -.3125rem solid transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 .625rem 0 rgba(0, 0, 0, .7);
+}
+@media only screen and (max-width: 460px),
+(max-width: 990px) {
     #cookies-section {
         max-width: 70%;
         margin: 0 auto !important;
-        padding: 1.8rem ;
-        
-
-      }
-  
-      .privacy-intro {
+        padding: 1.8rem;
+    }
+    .privacy-intro {
         padding: 0 !important;
         /*background-color: #3399FF20;*/
     }
-    }
-
-
-
-
-
-    @media only screen and (max-width: 990px) {
-  
-    
-
-      .main-content{
-      
+}
+@media only screen and (max-width: 990px) {
+    .main-content {
         margin-top: 3rem !important;
-      
-      }
-    }    
-
-    
+    }
+}
