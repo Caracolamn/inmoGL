@@ -500,12 +500,18 @@ iframe {
     /*top: 1rem;*/
     /* To offset for fixed header. */
     /*margin-bottom: 2.5rem;*/
-    padding: 0;
+    padding: 0 !important;
     min-height: 12.5rem;
     width: 100%;
     /*border-radius: 1.25rem;*/
     /*box-shadow: 0 0 .625rem 0 rgba(0,0,0,.7);*/
 }
+
+#map-XL iframe  {
+  width: 100% !important;
+  border-radius: 0;
+}
+
 .adress-phone {
     color: black;
     text-align: center;
