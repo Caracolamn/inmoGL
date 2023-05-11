@@ -219,7 +219,7 @@ section.index-section {
     }
 
     .buscando-title {
-      /*border: 1px solid greenyellow;*/
+      /*border: 1px solid greenyellow; */ 
       font-size: 1.3rem !important;
       min-width: max-content;
       position: relative !important;
@@ -260,21 +260,19 @@ section.index-section {
 
     }
 
-
-    /*revisar-----------------------------------------------------------------------------------------*/
     div#buscando-frame.frame {
-     /*border: 5px solid magenta;*/
-    /*display: flex;*/   
-    /*justify-content: space-around;*/
+    /*border: 5px solid magenta;*/
+    display: flex;
+    justify-content: space-around;
 }
 
 
 }
 
 
-.title-gap {
-  /*  padding-bottom: 1.5rem !important;-------------------------REVISAR ESPACIO TITULO---------------------*/
-}
+/*.title-gap {
+    padding-bottom: 1.5rem !important;
+}*/
 @media only screen and (max-width: 460px) {
     /*  contact*/
     #map {
