@@ -1,112 +1,104 @@
-
-
-body{
+body {
     background-image: none !important;
     background-color: #3399ff;
     color: white;
 }
-
-
-.business{
-
-}
-
+.business {}
 .business-container img {
-
-      height: 4rem;
-      
-      display: inline-block;
-      align-items: center;
-      align-content: center;
-      justify-items: center;
-      justify-content:space-around;
- padding: 0 5rem;
-    }
-
-.business-container{
-
-  position:relative;
-  top: 5rem;
- 
-  display: flex;
-  flex-wrap: wrap;
-      align-items: center!important;
-      align-content: center!important;
-      justify-items: center!important;
-      justify-content:space-around!important;
-      margin-bottom: 4rem;
-    
+    height: 4rem;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 0 5rem;
 }
-
+.business-container {
+    position: relative;
+    top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center!important;
+    align-content: center!important;
+    justify-items: center!important;
+    justify-content: space-around!important;
+    margin-bottom: 4rem;
+}
 .main-content {
-
     max-width: 55%;
     text-align: center;
-   /* display: flex !important;
+    /* display: flex !important;
     align-items: center!important;
     align-content: center!important;
     justify-items: center!important;
     justify-content:space-around!important;*/
 }
-
-#point  {
-   margin-top: 6rem;
+#point {
+    margin-top: 6rem;
     text-align: center;
 }
-
 .tag_1 {
     /*border-left: 2px red !important;*/
-
-z-index: 1;
+    z-index: 1;
 }
-
-
-
-@media only screen and (max-width: 460px), (max-width: 895px) {
-  
+@media only screen and (max-width: 460px),
+(max-width: 895px) {
     #map {
-
         margin-bottom: 2rem;
         border-radius: 0rem;
-        
-        }
-     
-
-        
-      }
-
-
-
-
-
-
+    }
+}
 @media only screen and (max-width: 460px) {
-  
     #map {
-
-margin-bottom: 2rem;
-border-radius: 0rem;
-
-}
-
-#point  {
-    margin-top: -1rem !important;
-     text-align: center;
-     
- }
-
-
- .main-content {
-
-    position: relative;
-    top: 2rem; /* To offset for fixed header. */
-}
-
-
-.tag{
-    margin-bottom: 1rem;
+        margin-bottom: 2rem;
+        border-radius: 0rem;
+    }
+    #point {
+        margin-top: -1rem !important;
+        text-align: center;
+    }
+    .main-content {
+        position: relative;
+        top: 2rem;
+        /* To offset for fixed header. */
+    }
+    .tag {
+        margin-bottom: 1rem;
+    }
 }
 
 
-        
-      }
+
+
+/*8k MONITORS MAP CONTROL*/
+@media screen and (min-width: 7680px) {
+    /* styles for 8k screens */ 
+
+    .main-content-XL{
+        max-width: 100%;
+    }
+
+.mapXL-container {
+    width: 70%;
+    margin: 0 auto !important;
+}
+
+#map-XL {
+    background-color: #CAE4FD;
+    display: flex !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    padding: 0 !important;
+    min-height: 12.5rem;
+    width: 70%;
+    margin: 0 auto !important;
+}
+
+#map-XL iframe  {
+    display: flex !important;
+    justify-content: center !important;
+    justify-items: center !important;
+  width: 100% !important;
+  border-radius: 0;
+}
+}

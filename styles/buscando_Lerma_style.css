@@ -311,3 +311,48 @@ section.index-section {
         margin-bottom: 1rem;
     }
 }
+
+
+/*8k MONITORS MAP CONTROL*/
+@media screen and (min-width: 7680px) {
+    /* styles for 8k screens */ 
+
+    .main-content-XL{
+        max-width: 100%;
+    }
+
+.mapXL-container {
+    width: 70%;
+    margin: 0 auto !important;
+}
+
+#map-XL {
+    background-color: #CAE4FD;
+    display: flex !important;
+    justify-content: center !important;
+    justify-items: center !important;
+    padding: 0 !important;
+    min-height: 12.5rem;
+    width: 70%;
+    margin: 0 auto !important;
+}
+
+#map-XL iframe  {
+    display: flex !important;
+    justify-content: center !important;
+    justify-items: center !important;
+  width: 100% !important;
+  border-radius: 0;
+}
+
+.business-container{
+
+    font-size: 1rem !important;
+}
+
+.business-container img {
+    height: 4rem !important;
+    height: 4rem !important;
+
+}
+}
