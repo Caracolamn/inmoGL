@@ -312,6 +312,35 @@ section.index-section {
     }
 }
 
+/*CONTACT IMAGES CONTOL 2K*/
+@media screen and (min-width: 2560px) {
+    .business-container{
+
+        font-size: 1rem !important;
+    }
+    
+    .business-container img {
+        height: 4rem !important;
+        height: 4rem !important;
+    
+    }
+}
+
+
+/*CONTACT IMAGES CONTOL 4K*/
+@media screen and (min-width: 3840px) {
+    .business-container{
+
+        font-size: 1rem !important;
+    }
+    
+    .business-container img {
+        height: 4rem !important;
+        height: 4rem !important;
+    
+    }
+}
+
 
 /*8k MONITORS MAP CONTROL*/
 @media screen and (min-width: 7680px) {
@@ -345,6 +374,7 @@ section.index-section {
   border-radius: 0;
 }
 
+/*CONTACT IMAGES CONTOL 8K*/
 .business-container{
 
     font-size: 1rem !important;
