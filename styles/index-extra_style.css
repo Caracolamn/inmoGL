@@ -144,17 +144,6 @@ section {
     }
 
 
-    .horizoontal-divider {
-        border-top: 1px solid transparent !important; /*SET TO TRANSPARENT FOR THE GRADIENT BELOW*/
-        position: relative;
-        display: flex;
-        justify-content: center;
-        width: 90%;
-        margin-top: 1rem!important;
-        margin-bottom: 1.5rem  !important;
-      
-    }
-    
     /*GRADIENT EFFECT FOR FADED BOTTOM BORDER*/
     .horizoontal-divider::after {
         content: "";
@@ -162,9 +151,6 @@ section {
         bottom: 0;
         left: calc(50% - 9rem);
         right: calc(50% - 9rem);
-        height: 2px;
-        background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
-        background: linear-gradient(to left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
     }
     
 }
