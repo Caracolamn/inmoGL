@@ -177,7 +177,6 @@ section.index-section {
 
 
 @media only screen and (max-width: 895px) {
-    
     section.index-section {
         /*border: 1px solid rgb(0, 4, 255);*/
         margin-top: 2rem !important;
@@ -257,14 +256,14 @@ section.index-section {
         padding-bottom: 0;
         margin-top: 3rem !important;
         margin-bottom: 0;
-     
+        width: 100% !important;
 
     }
 
 
     /*revisar-----------------------------------------------------------------------------------------*/
     div#buscando-frame.frame {
-    /* border: 5px solid magenta;*/
+     /*border: 5px solid magenta;*/
     /*display: flex;*/   
     /*justify-content: space-around;*/
 }
@@ -276,7 +275,6 @@ section.index-section {
 .title-gap {
   /*  padding-bottom: 1.5rem !important;-------------------------REVISAR ESPACIO TITULO---------------------*/
 }
-
 @media only screen and (max-width: 460px) {
     /*  contact*/
     #map {
