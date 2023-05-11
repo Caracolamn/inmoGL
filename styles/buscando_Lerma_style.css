@@ -69,7 +69,7 @@ z-index: 1;
     /*top: 6rem !important; /* To offset for fixed header. */
 }
 section.index-section {
-    /*border: 1px solid rgb(0, 4, 255);*/
+    border: 1px solid red;
     background-color: transparent !important;
     padding-left: 1rem;
     padding-top: .6rem;
@@ -103,11 +103,13 @@ section.index-section {
     min-height: min-content !important;
 }
 .index-section {
+    /*border: 1px solid yellow;*/
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
     justify-content: space-around;
 }
+
 .index-image {
     width: 100%;
     float: right;
@@ -194,7 +196,28 @@ section.index-section {
         visibility: hidden;
     }
 
+
+    section.index-section {
+        /*border: 1px solid rgb(0, 4, 255);*/
+        background-color: transparent !important;
+        padding-left: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 3rem !important;
+        margin-bottom: 0;
+
+    }
+
+    div#buscando-frame.frame {
+     border: 5px solid magenta;
+    display: flex;
+    justify-content: space-around;
 }
+
+
+}
+
+
 @media only screen and (max-width: 460px),
 (max-width: 895px) {
     #map {
