@@ -70,7 +70,7 @@ z-index: 1;
     /*top: 6rem !important; /* To offset for fixed header. */
 }
 section.index-section {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background-color: transparent !important;
     padding-left: 1rem;
     padding-top: .6rem;
@@ -177,8 +177,9 @@ section.index-section {
 
 
 @media only screen and (max-width: 895px) {
+    
     section.index-section {
-        border: 1px solid rgb(0, 4, 255);
+        /*border: 1px solid rgb(0, 4, 255);*/
         margin-top: 2rem !important;
         margin-left: 0;
         margin-right: 0;
@@ -219,8 +220,8 @@ section.index-section {
     }
 
     .buscando-title {
-        font-size: 1.3rem !important;
-      border: 1px solid greenyellow;
+      /*border: 1px solid greenyellow;*/
+      font-size: 1.3rem !important;
       min-width: max-content;
       position: relative !important;
       left: 0 !important;
@@ -256,14 +257,16 @@ section.index-section {
         padding-bottom: 0;
         margin-top: 3rem !important;
         margin-bottom: 0;
-        width: 100% !important;
+     
 
     }
 
+
+    /*revisar-----------------------------------------------------------------------------------------*/
     div#buscando-frame.frame {
-     border: 5px solid magenta;
-    display: flex;
-    justify-content: space-around;
+    /* border: 5px solid magenta;*/
+    /*display: flex;*/   
+    /*justify-content: space-around;*/
 }
 
 
@@ -271,8 +274,9 @@ section.index-section {
 
 
 .title-gap {
-    padding-bottom: 1.5rem !important;
+  /*  padding-bottom: 1.5rem !important;-------------------------REVISAR ESPACIO TITULO---------------------*/
 }
+
 @media only screen and (max-width: 460px) {
     /*  contact*/
     #map {
