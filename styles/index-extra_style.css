@@ -116,6 +116,10 @@ section {
 .features li {
     font-weight: bold;
 }
+
+
+/*MEDIA QUERY MEDIA QUERY MEDIA QUERY--------------------------------*/
+
 @media only screen and (max-width: 600px) {
     .buscando-title {
         text-align: center;

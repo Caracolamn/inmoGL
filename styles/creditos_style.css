@@ -200,7 +200,7 @@ p {
 
 
 
-/*MEDIA QUERY  MEDIA QUERY  MEDIA QUERY  MEDIA QUERY*/
+/*MEDIA QUERY MEDIA QUERY MEDIA QUERY--------------------------------*/
 
 @media only screen and (max-width: 895px) {
     .box {
@@ -227,8 +227,3 @@ p {
     }
     
 }
-
-
-
-
-/*GENERAL CSS-----------------------------------------------------------*/
