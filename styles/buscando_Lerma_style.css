@@ -6,6 +6,7 @@ body {
 }
 
 
+
 .business-container img {
     height: 1rem;
     height: auto;
@@ -49,6 +50,7 @@ z-index: 1;
 
 .buscando-title {
     color: #00000099;
+
 }
 
 /*CONTENIDO*/
@@ -204,10 +206,16 @@ section.index-section {
         font-size: 1rem !important;
     }
     .main-content-2 {
-        margin-top: 4rem;
+        margin-top: 4.5rem !important;
     }
 }
 @media only screen and (max-width: 600px) {
+
+    .title-gap {
+        padding-top: .7rem !important;
+        padding-bottom: .7rem !important;
+    }
+
     .AA {
         width: 35%;
         /*CIRCULAR PHOTO SIZE*/
@@ -225,7 +233,7 @@ section.index-section {
       position: relative !important;
       left: 0 !important;
       right: 0 !important;
-      text-align: center !important;
+      text-align: left !important;
       margin: 0 auto !important;
       padding: 0 !important;
     }
@@ -236,13 +244,31 @@ section.index-section {
         margin-top: 1rem;
     }
 
-    .main-content-2 {
-        border-bottom: 1px solid white;
+    .main-content-2 {   
+        border-bottom: 1px solid transparent; /*SET TO TRANSPARENT FOR THE GRADIENT BELOW*/
+        max-width: 100%;
         margin-top: 3rem;
         margin-left: .5rem;
         margin-right: .5rem;
     }
 
+/*GRADIENT EFFECT FOR FADED BOTTOM BORDER*/
+    .main-content-2::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: calc(50% - 6.25rem);
+        right: calc(50% - 6.25rem);
+        height: 2px;
+        background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+        background: linear-gradient(to left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    }
+
+
+
+
+
+      
     .horizontal-line {
         visibility: hidden;
     }
@@ -253,7 +279,7 @@ section.index-section {
         background-color: transparent !important;
         padding-left: 0;
         padding-top: 0;
-        padding-bottom: 0;
+        padding-bottom: 1rem !important;
         margin-top: 3rem !important;
         margin-bottom: 0;
         width: 100% !important;
