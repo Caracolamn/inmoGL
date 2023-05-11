@@ -179,6 +179,18 @@ section.index-section {
         max-width: 20rem;
         /*SECTION TEXT BOX SIZE*/
     }
+
+    .buscando-title {
+      border: 1px solid greenyellow;
+      min-width: max-content;
+      position: relative !important;
+      left: 0 !important;
+      right: 0 !important;
+      text-align: center !important;
+      margin: 0 auto !important;
+      padding: 0 !important;
+    }
+
     .index-image {
        
         width: 100%;
