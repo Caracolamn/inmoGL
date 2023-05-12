@@ -1,13 +1,13 @@
 body {
-    background-image: none !important;
+    background-image: none;
     background-color: #3399ff;
 }
 #cookies-section {
+    /*border: 1px solid rgb(0, 4, 255);*/
     display: flex;
     flex-wrap: wrap;
     max-width: 50%;
-    margin: 0 auto;
-    /*border: 1px solid rgb(0, 4, 255);*/
+    margin: 0 auto; 
     background-color: #CAE4FD;
     padding: 1.6rem 2.5rem;
     margin-bottom: 2.125rem;
@@ -16,8 +16,7 @@ body {
 }
 .privacy-intro {
     padding: 1.875rem;
-    /*background-color: #3399FF20;*/
-    font-size: clamp(.9rem, 1rem, 4rem) !important;
+    font-size: clamp(.9rem, 1rem, 4rem);
 }
 .my-web-link,
 .credits-link {
@@ -29,7 +28,7 @@ body {
     padding: 0;
     background-color: transparent;
     color: #007FFF;
-    font-size: clamp(.9rem, 1rem, 4rem) !important;
+    font-size: clamp(.9rem, 1rem, 4rem);
 }
 .cookies-button-2:hover {
     color: #3399FF;
@@ -50,16 +49,16 @@ body {
 (max-width: 990px) {
     #cookies-section {
         max-width: 70%;
-        margin: 0 auto !important;
+        margin: 0 auto;
         padding: 1.8rem;
     }
     .privacy-intro {
-        padding: 0 !important;
+        padding: 0;
         /*background-color: #3399FF20;*/
     }
 }
 @media only screen and (max-width: 990px) {
     .main-content {
-        margin-top: 3rem !important;
+        margin-top: 3rem;
     }
 }
