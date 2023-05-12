@@ -22,6 +22,20 @@ body {
 .credits-link {
     padding: 0.4em;
 }
+
+    /*LINKS RESPONSE*/
+    a  {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration:underline;
+    }
+    a:active{
+        color: black;
+    }
+    /*END LINKS RESPONSE*/
+
+
 .cookies-button-2 {
     width: auto;
     border: none;
