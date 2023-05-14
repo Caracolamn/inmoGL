@@ -528,30 +528,30 @@ footer nav li {
         align-content: center;
     }
     #inmo-logo-text {
-        margin: 0 !important;
-        padding: 0 !important;
+        margin: 0;
+        padding: 0;
     }
     /**/
     #GL-Logo {
-        width: 3rem !important;
+        width: 3rem;
+        height: 3.342rem;
         /*FINE TUNE  LOGO VS TXT*********************/
-        height: 3.481rem;
-        padding-right: .3rem !important;
+        padding-right: .3rem;
     }
     #inmo-logo-text,
     #GL {
         /*border: .0625rem dotted red; */
         font-size: clamp(.5rem, .95rem, 2rem)!important;
         /*inmo GL TXT*/
-        padding-left: 0 !important;
+        padding-left: 0;
         /*separates logo txt from logo*/
         line-height: .8 !important;
     }
     #inmo-logo-text #soluciones {
-        font-size: clamp(.5rem, .6rem, 2rem)!important;
+        font-size: clamp(.5rem, .6rem, 2rem);
         /*border: .0625rem solid red;*/
         color: black;
-        padding: 0 !important;
+        padding: 0;
     }
     #INMOBILIARIA {
         font-size: clamp(.4rem, .6rem, 3rem);
