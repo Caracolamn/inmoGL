@@ -61,9 +61,3 @@ document.addEventListener('DOMContentLoaded', () => {
     container.appendChild(boxPrice.box);
   }
 });
-
-
-
-
-// Add event listener with passive: true option
-element.addEventListener('touchstart', onTouchStart, { passive: true });
