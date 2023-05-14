@@ -1,1 +1,133 @@
-html{line-height:1.5}.buscando-title{color:#00000099}#index-frame{display:flex;flex-wrap:wrap;max-height:100%}.frame{margin:0 auto;background-color:#39f;max-width:48%;min-width:min-content;min-height:100%;box-shadow:0 0 2.5rem 0 rgba(0,0,0,2.99);padding-bottom:8rem}.horizoontal-divider{border-top:1px solid transparent;position:relative;display:flex;justify-content:center;width:90%;margin-top:1rem;margin-bottom:1.6rem}.horizoontal-divider::after{content:"";position:absolute;bottom:0;left:calc(50% - 16.25rem);right:calc(50% - 16.25rem);height:2px;background:linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%);background:linear-gradient(to left,rgba(255,255,255,0) 0,rgba(255,255,255,1) 50%,rgba(255,255,255,0) 100%)}section{background-color:#39f;padding:1.6rem 2.5rem}.index-section{margin-top:0;padding-top:0;margin-bottom:0;display:flex;justify-content:space-around}.index-image{width:100%;float:right;clear:left;border:-.3125rem solid transparent;border-radius:50%;box-shadow:0 0 .625rem 0 rgba(0,0,0,.7)}.index-image.one{rotate:-10deg}.AA{padding:1.5rem 0 0 0;margin:0;width:25%;justify-items:flex-end}.BB{width:70%}.features li{font-weight:700}@media only screen and (max-width:600px){.buscando-title{text-align:center;font-size:1.5rem;margin-top:2.5rem;margin-bottom:0;padding:0;line-height:normal}.AA{width:30%}.BB{width:70%}section{background-color:#39f;padding:1rem;margin-bottom:2.125rem}.horizoontal-divider::after{content:"";position:absolute;bottom:0;left:calc(50% - 9rem);right:calc(50% - 9rem)}.index-image{width:120%}}@media only screen and (max-width:990px){.frame{box-shadow:none}}
+html {
+    line-height: 1.5;
+}
+.buscando-title {
+    color: #00000099;
+}
+
+/*EXPANDS FRAME DIV AT THE BOTTOM WITH THE INSIDE CONTENT*/
+
+#index-frame {
+    /*border: 1px solid yellow;*/
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100%;
+}
+.frame {
+    /*border:.0625rem solid red;*/
+    margin: 0 auto;
+    background-color: #3399FF;
+    max-width: 48%;
+    min-width: min-content;
+    min-height: 100%;
+    box-shadow: 0 0 2.5rem 0 rgba(0, 0, 0, 2.99);
+    padding-bottom: 8rem;
+}
+.horizoontal-divider {
+    border-top: 1px solid transparent;
+    /*SET TO TRANSPARENT FOR THE GRADIENT BELOW*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+}
+
+/*GRADIENT EFFECT FOR FADED BOTTOM BORDER*/
+
+.horizoontal-divider::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 16.25rem);
+    right: calc(50% - 16.25rem);
+    height: 2px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 100%);
+}
+
+section {
+    /*border: 1px solid rgb(255, 0, 85);*/
+    background-color: #3399FF;
+    padding: 1.6rem 2.5rem;
+    /*border-radius: 1.25rem;*/
+    /*OUTLINE THIS HIDES THE ROUNDED CORNERS*/
+    /*box-shadow: 0 0 1.25rem 0 rgba(0,0,0,.50);*/
+}
+.index-section {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.index-image {
+    width: 100%;
+    height: auto;
+    float: right;
+    clear: left;
+    border: -.3125rem solid transparent;
+    border-radius: 50%;
+    box-shadow: 0 0 .625rem 0 rgba(0, 0, 0, .7);
+}
+.index-image.one {
+    rotate: -10deg;
+}
+.AA {
+    padding: 1.5rem 0 0 0;
+    margin: 0;
+    width: 25%;
+    justify-items: flex-end;
+    /*CIRCULAR PHOTO SIZE*/
+}
+.BB {
+    width: 70%;
+    /*SECTION TEXT BOX SIZE*/
+}
+.features li {
+    font-weight: bold;
+}
+
+/*MEDIA QUERY MEDIA QUERY MEDIA QUERY--------------------------------*/
+
+@media only screen and (max-width: 600px) {
+    .buscando-title {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 0;
+        padding: 0;
+        line-height: normal;
+    }
+    .AA {
+        width: 30%;
+        /*CIRCULAR PHOTO SIZE*/
+    }
+    .BB {
+        width: 70%;
+        /*SECTION TEXT BOX SIZE*/
+    }
+    section {
+        /*border:.0625rem solid rgb(0, 4, 255);*/
+        background-color: #3399FF;
+        padding: 1rem;
+        margin-bottom: 2.125rem;
+    }
+    /*GRADIENT EFFECT FOR FADED BOTTOM BORDER*/
+    .horizoontal-divider::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: calc(50% - 9rem);
+        right: calc(50% - 9rem);
+    }
+    .index-image {
+        width: 120%;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .frame {
+        box-shadow: none;
+    }
+}
