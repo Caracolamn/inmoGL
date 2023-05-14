@@ -64,16 +64,13 @@ section {
 }
 .index-image {
     width: 100%;
-    height: auto;
     float: right;
     clear: left;
     border: -.3125rem solid transparent;
     border-radius: 50%;
     box-shadow: 0 0 .625rem 0 rgba(0, 0, 0, .7);
 }
-.index-image.one {
-    rotate: -10deg;
-}
+
 .AA {
     padding: 1.5rem 0 0 0;
     margin: 0;
