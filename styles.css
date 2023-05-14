@@ -627,6 +627,7 @@ footer nav li {
         display: block;
         /*border: .0625rem solid yellow;*/
         width: 1.58rem;
+        height: 1.58rem;
         align-items: baseline;
         padding-left: 2rem;
     }
