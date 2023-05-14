@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
+//does nothing to prevent the default behavior of the touch event
 // Add event listener with passive: true option
 document.addEventListener("touchstart", function(e) {
   console.log(e.defaultPrevented);  // will be false
