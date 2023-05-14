@@ -66,4 +66,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // Add event listener with passive: true option
-element.addEventListener('touchstart', onTouchStart, { passive: true });
+document.addEventListener("touchstart", function(e) {
+  console.log(e.defaultPrevented);  // will be false
+  e.preventDefault();   // does nothing since the listener is passive
+  console.log(e.defaultPrevented);  // still false
+}, { passive: true });
