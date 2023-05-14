@@ -535,7 +535,7 @@ footer nav li {
     #GL-Logo {
         width: 3rem !important;
         /*FINE TUNE  LOGO VS TXT*********************/
-        height: auto;
+        height: 3.481rem;
         padding-right: .3rem !important;
     }
     #inmo-logo-text,
