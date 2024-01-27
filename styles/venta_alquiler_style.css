@@ -101,7 +101,7 @@ p {
     color: red;
     font-size:38px;
     font-weight: bold;
-    z-index: 1;
+    z-index: 0;
   }
 
   .texto-encima-R {
@@ -112,7 +112,7 @@ p {
     color: rgb(0, 4, 255);
     font-size:38px;
     font-weight: bold;
-    z-index: 1;
+    z-index: 0;
   }
 
 .specs-row {
