@@ -10,7 +10,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 3. Certain images listed in the "Credits" page are subject to separate licensing terms and may not be used or distributed without permission from the respective owners.
 
-4. The use of external resources, such as the Cookie consent tool provided by www.cookieconsent.com, is subject to the terms and conditions of the respective providers, and the license terms of this Code do not extend to such resources.
+4. The use of external resources linked or embedded in the website is subject to the terms and conditions of their respective providers, and the license terms of this Code do not extend to those resources.
 
 5. This license applies only to the code portion of the project and does not extend to any other assets, such as images or videos, used in the project.
 

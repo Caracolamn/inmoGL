@@ -10,7 +10,7 @@ Por la presente se otorga permiso, de forma gratuita, a cualquier persona que ob
 
 3. Ciertas imágenes enumeradas en la página "Créditos" están sujetas a términos de licencia separados y no se pueden usar ni distribuir sin permiso de los propietarios respectivos.
 
-4. El uso de recursos externos, como la herramienta de consentimiento de cookies proporcionada por www.cookieconsent.com, está sujeto a los términos y condiciones de los proveedores respectivos, y los términos de licencia de este Código no se extienden a dichos recursos.
+4. El uso de recursos externos enlazados o integrados en la web está sujeto a los términos y condiciones de sus respectivos proveedores, y los términos de licencia de este Código no se extienden a dichos recursos.
 
 5. Esta licencia se aplica solo a la porción de código del proyecto y no se extiende a ningún otro activo, como imágenes o videos, utilizados en el proyecto.
 
