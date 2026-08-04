@@ -2,72 +2,53 @@ document.addEventListener('DOMContentLoaded', () => {
   const menuBtn = document.getElementById('hamburger-btn');
   const menu = document.getElementById('menu');
 
-  menuBtn.addEventListener('click', () => {
-    menu.classList.toggle('open');
-  });
-
-  const hamburgerBtn = document.querySelector('#hamburger-btn');
-      
-  hamburgerBtn.addEventListener('click', function() {
-    this.classList.toggle('active');
-  });
-
-  //FILTER POBLACION DROPDOWN MENU
-  // Get a reference to the location select dropdown
-  const locationSelect = document.getElementById('location-select');
-
-  // Get a reference to all the property files
-  const propertyFiles = document.querySelectorAll('.box');
-
-  // Add an event listener to the location select dropdown
-  locationSelect.addEventListener('change', () => {
-    // Get the selected location
-    const selectedLocation = locationSelect.value;
-
-    // Loop through all the property files
-    propertyFiles.forEach(propertyFile => {
-      // Get the location of the current property file
-      const location = propertyFile.querySelector('.ubicacion h3').textContent;
-
-      // If the selected location is empty or matches the current property file location, show the property file. Otherwise, hide it.
-      if (selectedLocation === '' || selectedLocation === location) {
-        propertyFile.style.display = 'block';
-      } else {
-        propertyFile.style.display = 'none';
-      }
+  if (menuBtn && menu) {
+    menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('open');
+      menuBtn.classList.toggle('active');
     });
-  });
+  }
 
-  // refresh page to default FILTER POBLACION DROPDOWN MENU on firefox browser
-  window.onload = function() {
-    document.getElementById("location-select").selectedIndex = 0;
-  };
+  const locationSelect = document.getElementById('location-select');
+  const propertyFiles = Array.from(document.querySelectorAll('.box'));
 
-  //sort property by price fom A to B
-  const container = document.querySelector('.container');
-  const boxes = container.querySelectorAll('.box');
+  if (locationSelect && propertyFiles.length) {
+    const applyLocationFilter = () => {
+      const selectedLocation = locationSelect.value;
 
-  // create array of objects pairing each box with its corresponding price
-  const boxPrices = Array.from(boxes).map(box => ({
-    box: box,
-    price: Number(box.querySelector('.moneda').textContent.replace(/\D/g, ''))
-  }));
+      propertyFiles.forEach(propertyFile => {
+        const locationElement = propertyFile.querySelector('.ubicacion h3');
+        if (!locationElement) return;
 
-  // sort the array of objects based on the price
-  boxPrices.sort((a, b) => a.price - b.price);
+        const location = locationElement.textContent.trim();
+        propertyFile.style.display = (selectedLocation === '' || selectedLocation === location)
+          ? 'block'
+          : 'none';
+      });
+    };
 
-  // loop through the sorted array to append the boxes to the container in the correct order
-  for (const boxPrice of boxPrices) {
-    container.appendChild(boxPrice.box);
+    locationSelect.addEventListener('change', applyLocationFilter);
+
+    const resetLocationFilter = () => {
+      locationSelect.selectedIndex = 0;
+      applyLocationFilter();
+    };
+
+    resetLocationFilter();
+    window.addEventListener('pageshow', resetLocationFilter);
+  }
+
+  const propertyContainer = document.querySelector('.container');
+  if (propertyContainer) {
+    const pricedBoxes = Array.from(propertyContainer.querySelectorAll('.box'))
+      .filter(box => box.querySelector('.moneda'));
+
+    pricedBoxes
+      .map(box => ({
+        box,
+        price: Number(box.querySelector('.moneda').textContent.replace(/\D/g, ''))
+      }))
+      .sort((a, b) => a.price - b.price)
+      .forEach(({ box }) => propertyContainer.appendChild(box));
   }
 });
-
-
-
-//does nothing to prevent the default behavior of the touch event
-// Add event listener with passive: true option
-document.addEventListener("touchstart", function(e) {
-  console.log(e.defaultPrevented);  // will be false
-  e.preventDefault();   // does nothing since the listener is passive
-  console.log(e.defaultPrevented);  // still false
-}, { passive: true });
