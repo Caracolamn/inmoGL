@@ -129,3 +129,12 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
         margin: 0 0.85rem;
     }
 }
+
+/* AJUSTE VERTICAL CO-BRANDING EN ESCRITORIO */
+@media only screen and (min-width: 991px) {
+    header .logo-container {
+        padding-top: 0;
+        align-items: center;
+        align-content: center;
+    }
+}
