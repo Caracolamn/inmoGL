@@ -128,3 +128,48 @@ section {
         box-shadow: none;
     }
 }
+
+
+/* FINANCIACIÓN + SEGUROS */
+.financing-feature {
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+}
+.financing-text {
+    margin-top: 0.25rem;
+}
+.insurance-section {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 1.5rem 0;
+    padding: 1.5rem 2rem;
+    background-color: #D90028;
+    border-radius: 1.25rem;
+    color: #fff;
+    box-shadow: 0 0 .625rem 0 rgba(0, 0, 0, .7);
+}
+.insurance-section h2 {
+    margin: 0.9rem 0 0.25rem;
+    color: #fff;
+}
+.insurance-section p {
+    margin: 0;
+    color: #fff;
+}
+.occident-logo {
+    display: block;
+    width: 42%;
+    max-width: 15rem;
+    height: auto;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .insurance-section {
+        padding: 1.25rem 1.5rem;
+    }
+    .occident-logo {
+        width: 52%;
+        max-width: 12rem;
+    }
+}
