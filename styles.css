@@ -102,6 +102,7 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
     }
     footer .footer-mobile-contact a {
         font-weight: 800;
+        font-size: 0.78rem !important;
     }
 }
 
