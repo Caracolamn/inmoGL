@@ -130,11 +130,29 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
     }
 }
 
-/* AJUSTE VERTICAL CO-BRANDING EN ESCRITORIO */
-@media only screen and (min-width: 991px) {
-    header .logo-container {
-        padding-top: 0;
-        align-items: center;
-        align-content: center;
+/* AJUSTE COMPACTO DEL PIE EN MOBILE */
+@media only screen and (max-width: 990px) {
+    footer nav ul {
+        justify-content: center;
+        gap: 0;
+    }
+
+    footer nav li,
+    footer nav ul a,
+    footer .footer-mobile-contact {
+        margin: 0;
+        padding: 0 !important;
+    }
+
+    footer .footer-mobile-contact::before,
+    footer .footer-mobile-contact::after {
+        margin: 0 0.45rem;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    footer .footer-mobile-contact::before,
+    footer .footer-mobile-contact::after {
+        margin: 0 0.35rem;
     }
 }
