@@ -204,3 +204,10 @@ section {
         max-width: 14.5rem;
     }
 }
+
+/* OCCIDENT: texto descriptivo en negrita solo en escritorio */
+@media only screen and (min-width: 991px) {
+    .insurance-section p {
+        font-weight: 700;
+    }
+}
