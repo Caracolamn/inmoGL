@@ -246,11 +246,18 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
         justify-content: center;
         gap: 0;
     }
+    footer nav li:last-child {
+        display: flex;
+        align-items: center;
+    }
     footer nav li:last-child::before {
-        content: "•";
-        color: #3399FF;
-        display: inline-block;
+        content: "";
+        display: block;
+        flex: 0 0 auto;
+        width: 0.32rem;
+        height: 0.32rem;
         margin: 0 0.65rem;
-        font-weight: 700;
+        background-color: #3399FF;
+        border-radius: 50%;
     }
 }
