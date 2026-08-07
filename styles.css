@@ -260,3 +260,13 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
         top: -0.045rem;
     }
 }
+
+/* AJUSTE EXCLUSIVO BLINK/WEBKIT EN DESKTOP: centrar opticamente el punto del footer.
+   Firefox conserva el ajuste anterior; tablet/mobile no se modifican. */
+@media only screen and (min-width: 991px) {
+    @supports (-webkit-appearance: none) and (not (-moz-appearance: none)) {
+        footer nav li:last-child::before {
+            top: -0.12rem;
+        }
+    }
+}
