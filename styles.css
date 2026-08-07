@@ -207,3 +207,21 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
         transition:none!important;
     }
 }
+
+
+/* SOMBRA FINAL BOTONES FLOTANTES: mas cercana, mas definida y con caida principalmente inferior. */
+#whatsapp.desktop img{
+    filter:drop-shadow(.10rem .28rem .18rem rgba(0,0,0,.34));
+}
+#whatsapp.desktop img:hover{
+    filter:drop-shadow(.10rem .28rem .18rem rgba(0,0,0,.34));
+}
+@media only screen and (max-width:600px){
+    #whatsapp-m.mobile img{
+        filter:drop-shadow(.10rem .28rem .18rem rgba(0,0,0,.34))!important;
+    }
+    #phone-m.mobile{
+        box-shadow:.10rem .28rem .18rem rgba(0,0,0,.34)!important;
+        filter:none!important;
+    }
+}
