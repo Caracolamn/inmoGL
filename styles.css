@@ -170,7 +170,7 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
 /* TELEFONO FLOTANTE: SOLO MOVIL (NO TABLET/ESCRITORIO). Mismo diametro visible que WhatsApp. */
 #phone-m.mobile{display:none}
 @media only screen and (max-width:600px){
-#phone-m.mobile{display:flex!important;position:fixed!important;right:1.25rem!important;bottom:4.25rem!important;width:3rem!important;height:3rem!important;box-sizing:border-box!important;border:0!important;background-color:#cae4fd!important;padding:0!important;border-radius:50%!important;z-index:2!important;align-items:center!important;justify-content:center!important;box-shadow:0 0 .35rem 0 rgba(0,0,0,.35);cursor:pointer}
+#phone-m.mobile{display:flex!important;position:fixed!important;right:1.25rem!important;bottom:4.25rem!important;width:3rem!important;height:3rem!important;box-sizing:border-box!important;border:0!important;background-color:#cae4fd!important;padding:0!important;border-radius:50%!important;z-index:2!important;align-items:center!important;justify-content:center!important;box-shadow:.22rem .22rem .42rem rgba(0,0,0,.28)!important;cursor:pointer}
 #phone-m.mobile img{display:block!important;width:2rem!important;height:2rem!important;padding:0!important;margin:0!important}
 }
 
@@ -184,7 +184,7 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
     #whatsapp-m.mobile img{
         animation:none!important;
         transition:none!important;
-        filter:drop-shadow(0 3px 7px rgba(0,0,0,.16))!important;
+        filter:drop-shadow(.22rem .22rem .42rem rgba(0,0,0,.28))!important;
     }
 
     /* El circulo vectorial visible de WhatsApp mide 112/120 del lienzo de 3rem = 2.8rem.
@@ -195,8 +195,8 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
         height:2.8rem!important;
         right:1.45rem!important;
         bottom:4.45rem!important;
-        box-shadow:none!important;
-        filter:drop-shadow(0 3px 7px rgba(0,0,0,.16))!important;
+        box-shadow:.22rem .22rem .42rem rgba(0,0,0,.28)!important;
+        filter:none!important;
         animation:none!important;
         transition:none!important;
     }
