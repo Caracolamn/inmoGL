@@ -223,3 +223,34 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
         filter:none!important;
     }
 }
+
+
+/* PIE DESKTOP / TABLET ANCHO: centrado vertical + separador azul Legal · Creditos */
+@media only screen and (min-width: 991px) {
+    footer .content {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer nav {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    footer nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+    }
+    footer nav li:last-child::before {
+        content: "•";
+        color: #3399FF;
+        display: inline-block;
+        margin: 0 0.65rem;
+        font-weight: 700;
+    }
+}
