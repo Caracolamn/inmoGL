@@ -227,46 +227,38 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
 
 
 /* PIE DESKTOP / TABLET ANCHO: conservar la geometria original del nav/WhatsApp.
-   Solo se corrige visualmente la linea Legal · Creditos y su separador. */
+   El separador se posiciona de forma absoluta respecto al alto real del item para
+   evitar diferencias de baseline entre Chrome y Firefox. */
 @media only screen and (min-width: 991px) {
-    /* No convertir .content ni nav en flex: eso desplazaba el WhatsApp. */
+    /* No convertir .content ni nav en flex: asi WhatsApp conserva su posicion. */
     footer nav ul {
         justify-content: center;
         gap: 0;
     }
 
-    /* Correccion visual vertical sin alterar el flujo/layout del nav. */
+    /* Correccion vertical del conjunto Legal · Creditos sin alterar el flujo general. */
     footer nav ul > li {
         position: relative;
         transform: translateY(-0.16rem);
     }
 
+    /* Reserva exactamente el espacio del punto + margenes. */
     footer nav li:last-child {
-        display: flex;
-        align-items: center;
+        position: relative;
+        padding-left: 1.62rem !important;
     }
 
+    /* Punto azul centrado matematicamente en el alto del item, no en la baseline. */
     footer nav li:last-child::before {
         content: "";
-        display: block;
-        flex: 0 0 auto;
+        position: absolute;
         width: 0.32rem;
         height: 0.32rem;
-        margin: 0 0.65rem;
+        left: 0.65rem;
+        top: 50%;
+        transform: translateY(-50%);
         background-color: #3399FF;
         border-radius: 50%;
-        /* Pequena compensacion optica para Chrome. */
-        position: relative;
-        top: -0.045rem;
-    }
-}
-
-/* AJUSTE EXCLUSIVO BLINK/WEBKIT EN DESKTOP: centrar opticamente el punto del footer.
-   Firefox conserva el ajuste anterior; tablet/mobile no se modifican. */
-@media only screen and (min-width: 991px) {
-    @supports (-webkit-appearance: none) and (not (-moz-appearance: none)) {
-        footer nav li:last-child::before {
-            top: -0.12rem;
-        }
+        pointer-events: none;
     }
 }
