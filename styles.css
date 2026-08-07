@@ -225,31 +225,27 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
 }
 
 
-/* PIE DESKTOP / TABLET ANCHO: centrado vertical + separador azul Legal · Creditos */
+
+/* PIE DESKTOP / TABLET ANCHO: conservar la geometria original del nav/WhatsApp.
+   Solo se corrige visualmente la linea Legal · Creditos y su separador. */
 @media only screen and (min-width: 991px) {
-    footer .content {
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    footer nav {
-        height: 100%;
-        display: flex;
-        align-items: center;
-    }
+    /* No convertir .content ni nav en flex: eso desplazaba el WhatsApp. */
     footer nav ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        align-items: center;
         justify-content: center;
         gap: 0;
     }
+
+    /* Correccion visual vertical sin alterar el flujo/layout del nav. */
+    footer nav ul > li {
+        position: relative;
+        transform: translateY(-0.16rem);
+    }
+
     footer nav li:last-child {
         display: flex;
         align-items: center;
     }
+
     footer nav li:last-child::before {
         content: "";
         display: block;
@@ -259,5 +255,8 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
         margin: 0 0.65rem;
         background-color: #3399FF;
         border-radius: 50%;
+        /* Pequena compensacion optica para Chrome. */
+        position: relative;
+        top: -0.045rem;
     }
 }
