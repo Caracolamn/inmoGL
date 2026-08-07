@@ -173,3 +173,37 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
 #phone-m.mobile{display:flex!important;position:fixed!important;right:1.25rem!important;bottom:4.25rem!important;width:3rem!important;height:3rem!important;box-sizing:border-box!important;border:0!important;background-color:#cae4fd!important;padding:0!important;border-radius:50%!important;z-index:2!important;align-items:center!important;justify-content:center!important;box-shadow:0 0 .35rem 0 rgba(0,0,0,.35);cursor:pointer}
 #phone-m.mobile img{display:block!important;width:2rem!important;height:2rem!important;padding:0!important;margin:0!important}
 }
+
+/* BOTONES FLOTANTES MOBILE: DIAMETRO VISUAL IGUALADO + SOMBRA CSS SUTIL */
+@media only screen and (max-width:600px){
+    /* WhatsApp conserva su posicion actual invadiendo parcialmente el pie. */
+    #whatsapp-m.mobile{
+        animation:none!important;
+        transition:none!important;
+    }
+    #whatsapp-m.mobile img{
+        animation:none!important;
+        transition:none!important;
+        filter:drop-shadow(0 3px 7px rgba(0,0,0,.16))!important;
+    }
+
+    /* El circulo vectorial visible de WhatsApp mide 112/120 del lienzo de 3rem = 2.8rem.
+       Telefono se iguala a ese diametro real, manteniendo alineado el borde izquierdo.
+       Al reducir su diametro se conserva la cota superior previa para ganar separacion vertical. */
+    #phone-m.mobile{
+        width:2.8rem!important;
+        height:2.8rem!important;
+        right:1.45rem!important;
+        bottom:4.45rem!important;
+        box-shadow:none!important;
+        filter:drop-shadow(0 3px 7px rgba(0,0,0,.16))!important;
+        animation:none!important;
+        transition:none!important;
+    }
+    #phone-m.mobile img{
+        width:1.87rem!important;
+        height:1.87rem!important;
+        animation:none!important;
+        transition:none!important;
+    }
+}
