@@ -20,8 +20,8 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
 .occident-header-logo {
     display: block;
     flex: 0 0 auto;
-    width: 8.2rem;
-    height: auto;
+    width: auto;
+    height: 2.9rem;
 }
 .footer-mobile-contact {
     display: none;
@@ -60,8 +60,9 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
         height: 2.65rem;
         margin: 0 0.7rem;
     }
-    .occident-header-logo {
-        width: 6.4rem;
+   .occident-header-logo {
+        width: auto;
+        height: 2.65rem;
     }
     .stage {
         top: 50% !important;
@@ -109,9 +110,6 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
 @media only screen and (max-width: 390px) {
     .brand-divider {
         margin: 0 0.5rem;
-    }
-    .occident-header-logo {
-        width: 5.7rem;
     }
     #GL-Logo {
         width: 2.7rem !important;
