@@ -165,6 +165,14 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
     }
 }
 
+/* Firma sin copyright: integrada directamente sobre el fondo azul. */
+.site-meta{box-sizing:border-box;width:min(100%,64rem);margin:1.6rem auto 0;padding:.8rem 1rem 1rem;text-align:center;background:transparent;border:0;border-radius:0;line-height:1.25}
+.site-year{margin:0 0 .65rem;color:#fff;font-weight:800}
+.site-contact{color:#171717;font-size:.88rem}
+.site-contact p{margin:.12rem 0}
+.detail-page .site-meta{width:min(1180px,calc(100% - 2rem));margin-top:1rem;margin-bottom:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+@media(max-width:560px){.detail-page .site-meta{width:100%}.site-meta{padding:.7rem .75rem .9rem}.site-year{margin-bottom:.55rem}}
+
 /* TELEFONO FLOTANTE: SOLO MOVIL (NO TABLET/ESCRITORIO). Mismo diametro visible que WhatsApp. */
 #phone-m.mobile{display:none}
 @media only screen and (max-width:600px){
