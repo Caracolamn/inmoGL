@@ -1,8 +1,20 @@
 # Estado de reglas — candidata de prepublicación InmoGL
 
+## Regla canónica de alcance: solo venta
+
+- InmoGL publica exclusivamente los inmuebles en venta de su propia agencia.
+- Los alquileres quedan excluidos sin excepciones del inventario, las fichas,
+  los listados, los precios, los medios, las comparaciones y los carteles.
+- Si un inmueble está anunciado simultáneamente en venta y alquiler, solo se
+  conserva y contabiliza su anuncio de venta.
+- `buscando_Alquiler_Lerma.html` es una página informativa y de contacto; no es
+  una categoría sincronizada y no debe incorporar anuncios de alquiler.
+- La sincronización manual y la automatización futura deben aplicar el filtro
+  de venta antes de comparar o generar cualquier archivo.
+
 ## Implantado en la web
 
-- Fichas internas para los 27 inmuebles del inventario.
+- Fichas internas para los 27 inmuebles en venta del inventario.
 - Enlaces desde los listados hacia las fichas internas.
 - Galería, controles, comparación, planos, vídeo, mapa y año automático.
 - Filtros y ordenación por localidad y precio.
@@ -18,7 +30,7 @@
 
 ## Aprobado pero todavía no automatizado
 
-- Sincronización ligera a las 03:17.
+- Sincronización ligera de la cartera de venta a las 03:17.
 - Comprobación técnica ligera a las 03:47.
 - Revisión SEO a las 04:17.
 - Generación PDF y envío por correo.

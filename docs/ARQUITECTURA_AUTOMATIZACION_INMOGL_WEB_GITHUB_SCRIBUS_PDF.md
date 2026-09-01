@@ -11,7 +11,7 @@
 
 ```mermaid
 flowchart TD
-    A["Portal inmobiliario<br/>Datos e imágenes"] --> B["GitHub<br/>Automatización programada"]
+    A["Anuncios propios en venta<br/>Datos e imágenes"] --> B["GitHub<br/>Automatización programada"]
 
     subgraph G["FUNCIONES QUE HABITAN EN GITHUB"]
         B --> C["Sincronización, controles técnicos<br/>y revisión SEO"]
@@ -31,11 +31,26 @@ flowchart TD
 
 ## Explicación breve
 
-- **Fuente inmobiliaria** — Proporciona los datos y las imágenes que deben reflejarse en InmoGL.
+- **Alcance obligatorio: solo venta** — InmoGL publica únicamente los anuncios
+  en venta de su propia agencia. Los alquileres se descartan antes de contar,
+  comparar, descargar medios, crear fichas o generar carteles. Esta regla no
+  admite excepciones, tampoco cuando un inmueble aparece a la vez en venta y
+  alquiler.
+
+- **Página de alquiler** — `buscando_Alquiler_Lerma.html` se conserva como
+  página estática informativa y de contacto. No forma parte de la cartera
+  sincronizada y no debe mostrar anuncios, precios ni disponibilidad de
+  alquileres.
+
+- **Fuente inmobiliaria** — Proporciona los datos y las imágenes de los
+  anuncios propios en venta que deben reflejarse en InmoGL.
 
 - **GitHub: centro de automatización** — Aloja el repositorio, los procesos programados, las comprobaciones, el generador de carteles y la plantilla Scribus.
 
-- **Actualizaciones programadas** — Arquitectura prevista: sincronización ligera a las **03:17**, revisión técnica a las **03:47** y revisión SEO a las **04:17**. Cada reloj deberá verificarse como realmente activo antes de darlo por configurado.
+- **Actualizaciones programadas** — Arquitectura prevista: sincronización
+  ligera de la cartera de venta a las **03:17**, revisión técnica a las
+  **03:47** y revisión SEO a las **04:17**. Cada reloj deberá verificarse como
+  realmente activo antes de darlo por configurado.
 
 - **Repositorio actualizado** — Conserva los HTML, las fichas internas, las referencias de los inmuebles y los medios necesarios para la web y los carteles.
 
@@ -53,7 +68,10 @@ flowchart TD
 
 - **Separación entre reglas y código** — Las reglas `.md` explican y limitan el comportamiento; el generador es el código que lo ejecuta. Las reglas por sí solas no producen ningún cartel.
 
-- **Inmuebles nuevos o modificados** — Después de la sincronización, el sistema identificará los inmuebles que requieran cartel y generará únicamente sus salidas correspondientes.
+- **Inmuebles nuevos o modificados** — Después de filtrar la operación de
+  venta, el sistema identificará los inmuebles en venta que requieran cartel y
+  generará únicamente sus salidas correspondientes. Nunca se generan carteles
+  de alquiler.
 
 - **Generación del PDF** — El generador rellenará los campos permitidos, encuadrará las dos fotografías, conservará intacta la geometría del maestro y exportará el resultado a PDF mediante Scribus.
 
@@ -94,4 +112,3 @@ flowchart TD
 6. Comprobar el funcionamiento real de los relojes y workflows.
 7. Actualizar los tres ZIP: BACKUP completo, WEB provisional completa y ZIP mínimo para PC.
 8. Elevar a permanentes únicamente las reglas que hayan quedado verificadas.
-
