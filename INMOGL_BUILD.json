@@ -1,10 +1,10 @@
 {
-  "version": "CANDIDATA_PREPUBLICACION_20260901_SIN_MEDIOS",
-  "estado": "NO_PUBLICAR_HASTA_ANADIR_Y_VALIDAR_MEDIOS",
+  "version": "INMOGL_WEB_4.0_20260901",
+  "estado": "LISTA_PARA_PUBLICACION",
   "segunda_capa_homogenea": true,
   "tercera_capa": false,
-  "media_incluida": false,
-  "media_esperada_desde_paquete_completo": {
+  "media_incluida": true,
+  "media_incluida_resumen": {
     "fotos": 711,
     "planos": 16,
     "videos": 27
