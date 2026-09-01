@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="530" height="290" viewBox="0 0 530 290" role="img" aria-label="Escala de eficiencia energética de A a G">
+  <rect width="530" height="290" rx="18" fill="#fff"/>
+  <text x="24" y="32" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#222">Certificado energético · Consumo</text>
+  <g font-family="Arial,sans-serif" font-size="17" font-weight="700" fill="#fff">
+    <polygon points="24,50 210,50 235,65 210,80 24,80" fill="#2ca25f"/><text x="38" y="71">A</text>
+    <polygon points="24,82 235,82 260,97 235,112 24,112" fill="#66bd63"/><text x="38" y="103">B</text>
+    <polygon points="24,114 260,114 285,129 260,144 24,144" fill="#a6d96a"/><text x="38" y="135">C</text>
+    <polygon points="24,146 285,146 310,161 285,176 24,176" fill="#f1dd45"/><text x="38" y="167">D</text>
+    <polygon points="24,178 310,178 335,193 310,208 24,208" fill="#fdae3b"/><text x="38" y="199">E</text>
+    <polygon points="24,210 335,210 360,225 335,240 24,240" fill="#f46d43"/><text x="38" y="231">F</text>
+    <polygon points="24,242 360,242 385,257 360,272 24,272" fill="#d73027"/><text x="38" y="263">G</text>
+  </g>
+  <text x="398" y="68" font-family="Arial,sans-serif" font-size="17" fill="#555">kWh/m² año</text>
+</svg>

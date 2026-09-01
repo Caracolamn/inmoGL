@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50px" height="55.693px" viewBox="0 0 50 55.693" enable-background="new 0 0 50 55.693" xml:space="preserve">
+<g>
+	<defs>
+		<polygon id="SVGID_1_" points="20.834,55.693 0,55.693 0,32.534 6.759,26.972 6.759,48.934 20.834,48.934 		"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-4.1713" y1="58.9232" x2="57.753" y2="-15.7445">
+		<stop  offset="0" style="stop-color:#1A85F8"/>
+		<stop  offset="1" style="stop-color:#16EA9E"/>
+	</linearGradient>
+	<rect x="0" y="26.972" clip-path="url(#SVGID_2_)" fill="url(#SVGID_3_)" width="20.834" height="28.721"/>
+</g>
+<g>
+	<defs>
+		<polygon id="SVGID_4_" points="0,20.571 8.383,13.673 8.383,5.672 15.142,0.111 15.142,8.112 25,0 50,20.571 50,55.693 
+			23.318,55.693 23.318,48.934 43.241,48.934 43.241,23.73 25,8.722 0,29.292 		"/>
+	</defs>
+	<clipPath id="SVGID_5_">
+		<use xlink:href="#SVGID_4_"  overflow="visible"/>
+	</clipPath>
+	<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-2.159" y1="60.5934" x2="59.7683" y2="-14.0742">
+		<stop  offset="0" style="stop-color:#1A85F8"/>
+		<stop  offset="1" style="stop-color:#16EA9E"/>
+	</linearGradient>
+	<rect x="0" y="0" clip-path="url(#SVGID_5_)" fill="url(#SVGID_6_)" width="50" height="55.693"/>
+</g>
+</svg>

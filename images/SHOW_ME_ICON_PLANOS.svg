@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Planos">
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 7h25l9 9v25H7z"/>
+    <path d="M27 7v13H7m20 0h14M19 20v21m0-10h13m0 0v10"/>
+    <path d="M32 20v6a6 6 0 0 1-6-6"/>
+  </g>
+</svg>

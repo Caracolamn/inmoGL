@@ -1,0 +1,715 @@
+[
+  {
+    "id": "107727313",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/107727313/",
+    "image": "images/inmuebles/107727313/foto-001-1321020806.webp",
+    "alt": "Chalet adosado en Lerma",
+    "title": "Chalet adosado - Solana Baja 6",
+    "location": "Lerma",
+    "price_raw": "120000",
+    "specs": [
+      {
+        "text": "2 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "3 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "171",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "112108761",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/112108761/",
+    "image": "images/inmuebles/112108761/foto-001-1459047585.webp",
+    "alt": "Piso en Lerma",
+    "title": "Piso - Santo Domingo 33",
+    "location": "Lerma",
+    "price_raw": "98000",
+    "specs": [
+      {
+        "text": "2 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "1 baño",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "89",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "112372065",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/112372065/",
+    "image": "images/inmuebles/112372065/foto-001-1467688884.webp",
+    "alt": "Piso en Estación 2, Lerma",
+    "title": "Piso - Estación 2",
+    "location": "Lerma",
+    "price_raw": "75000",
+    "specs": [
+      {
+        "text": "4 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "2 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "100",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "111615015",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/111615015/",
+    "image": "images/inmuebles/111615015/foto-001-1442252761.webp",
+    "alt": "Chalet adosado en Lerma",
+    "title": "Chalet adosado - San Francisco 35",
+    "location": "Lerma",
+    "price_raw": "163000",
+    "specs": [
+      {
+        "text": "3 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "3 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "158",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "110828015",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/110828015/",
+    "image": "images/inmuebles/110828015/foto-001-1416771283.webp",
+    "alt": "Casa rural en Lerma",
+    "title": "Casa rural - Mayor 27",
+    "location": "Lerma",
+    "price_raw": "55000",
+    "specs": [
+      {
+        "text": "0 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "0 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "520",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "99227029",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/99227029/",
+    "image": "images/inmuebles/99227029/foto-001-1037141082.webp",
+    "alt": "Chalet adosado en Lerma",
+    "title": "Chalet adosado - Larga 31",
+    "location": "Lerma",
+    "price_raw": "105000",
+    "specs": [
+      {
+        "text": "3 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "2 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "290",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "99227060",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/99227060/",
+    "image": "images/inmuebles/99227060/foto-001-1037141689.webp",
+    "alt": "Chalet adosado en Lerma",
+    "title": "Chalet adosado - Travesía Madrid-Irún",
+    "location": "Lerma",
+    "price_raw": "335000",
+    "specs": [
+      {
+        "text": "12 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "4 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "721",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "111961455",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/111961455/",
+    "image": "images/inmuebles/111961455/foto-001-1454071006.webp",
+    "alt": "Chalet adosado en Cobos de Cerrato",
+    "title": "Chalet adosado - Real Abajo 2",
+    "location": "Cobos de Cerrato",
+    "price_raw": "130000",
+    "specs": [
+      {
+        "text": "5 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "2 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "202",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "102360732",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/102360732/",
+    "image": "images/inmuebles/102360732/foto-001-1153099119.webp",
+    "alt": "Casa rural en Covarrubias",
+    "title": "Casa rural - Gómez Salazar 32",
+    "location": "Covarrubias",
+    "price_raw": "90000",
+    "specs": [
+      {
+        "text": "6 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "1 baño",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "230",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "107855557",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/107855557/",
+    "image": "images/inmuebles/107855557/foto-001-1326339930.webp",
+    "alt": "Chalet independiente en Espinosa de Cerrato",
+    "title": "Chalet independiente - El Mesón 10",
+    "location": "Espinosa de Cerrato",
+    "price_raw": "69000",
+    "specs": [
+      {
+        "text": "4 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "2 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "160",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "107850845",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/107850845/",
+    "image": "images/inmuebles/107850845/foto-001-1326362970.webp",
+    "alt": "Casa de pueblo en Espinosa de Cerrato",
+    "title": "Casa de pueblo - El Campillo 5",
+    "location": "Espinosa de Cerrato",
+    "price_raw": "33000",
+    "specs": [
+      {
+        "text": "4 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "2 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "151",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "110934402",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/110934402/",
+    "image": "images/inmuebles/110934402/foto-001-1420045136.webp",
+    "alt": "Casa rural en Puentedura",
+    "title": "Casa rural - La Fuente 13",
+    "location": "Puentedura",
+    "price_raw": "245000",
+    "specs": [
+      {
+        "text": "4 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "2 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "190",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "111432813",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/111432813/",
+    "image": "images/inmuebles/111432813/foto-001-1436375310.webp",
+    "alt": "Chalet independiente en Royuela de Rio Franco",
+    "title": "Chalet independiente - Real 2",
+    "location": "Royuela de Rio Franco",
+    "price_raw": "39000",
+    "specs": [
+      {
+        "text": "3 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "1 baño",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "88",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "110377005",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/110377005/",
+    "image": "images/inmuebles/110377005/foto-001-1403385843.webp",
+    "alt": "Casa de pueblo en Ruyales del Agua",
+    "title": "Casa de pueblo - Ruyales del Agua 45",
+    "location": "Ruyales del Agua",
+    "price_raw": "58000",
+    "specs": [
+      {
+        "text": "8 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "1 baño",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "282",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "111477969",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/111477969/",
+    "image": "images/inmuebles/111477969/foto-001-1437909484.webp",
+    "alt": "Casa de pueblo en Ruyales del Agua",
+    "title": "Casa de pueblo - Arroyo 18",
+    "location": "Ruyales del Agua",
+    "price_raw": "17000",
+    "specs": [
+      {
+        "text": "0 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "0 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "71",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "112387800",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/112387800/",
+    "image": "images/inmuebles/112387800/foto-001-1468277433.webp",
+    "alt": "Casa de pueblo en Cementerio 2, Santa Inés",
+    "title": "Casa de pueblo - Cementerio 2",
+    "location": "Santa Inés",
+    "price_raw": "36000",
+    "specs": [
+      {
+        "text": "3 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "1 baño",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "100",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "103724641",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/103724641/",
+    "image": "images/inmuebles/103724641/foto-001-1198229814.webp",
+    "alt": "Chalet adosado en Santa María de Mercadillo",
+    "title": "Chalet adosado - Melilla 33",
+    "location": "Santa María de Mercadillo",
+    "price_raw": "69000",
+    "specs": [
+      {
+        "text": "2 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "2 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "100",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "112158825",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/112158825/",
+    "image": "images/inmuebles/112158825/foto-001-1460647110.webp",
+    "alt": "Casa de pueblo en Santillán del Agua",
+    "title": "Casa de pueblo - Mayor 1",
+    "location": "Santillán del Agua",
+    "price_raw": "66000",
+    "specs": [
+      {
+        "text": "2 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "1 baño",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "64",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "102103869",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/102103869/",
+    "image": "images/inmuebles/102103869/foto-001-1144370276.webp",
+    "alt": "Chalet independiente en Solarana",
+    "title": "Chalet independiente - Mayor 14",
+    "location": "Solarana",
+    "price_raw": "68000",
+    "specs": [
+      {
+        "text": "3 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "1 baño",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "169",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "110874063",
+    "category": "Viviendas",
+    "source_file": "Venta.html",
+    "back_href": "../Venta.html",
+    "idealista": "https://www.idealista.com/inmueble/110874063/",
+    "image": "images/inmuebles/110874063/foto-001-1418171628.webp",
+    "alt": "Casa de pueblo en Villoviado",
+    "title": "Casa de pueblo - Mayor 13",
+    "location": "Villoviado",
+    "price_raw": "34000",
+    "specs": [
+      {
+        "text": "5 hab",
+        "icon": "images/habitaciones.svg",
+        "alt": "habitaciones"
+      },
+      {
+        "text": "3 baños",
+        "icon": "images/WC.svg",
+        "alt": "baños"
+      },
+      {
+        "text": "368",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "104256590",
+    "category": "Locales / Naves",
+    "source_file": "buscando_Local_Lerma.html",
+    "back_href": "../buscando_Local_Lerma.html",
+    "idealista": "https://www.idealista.com/inmueble/104256590/",
+    "image": "images/inmuebles/104256590/foto-001-1214644654.webp",
+    "alt": "Local - Venta en Lerma",
+    "title": "Local - Venta - Plaza de San Blas 2",
+    "location": "Lerma",
+    "price_raw": "200000",
+    "specs": [
+      {
+        "text": "1200",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "112138937",
+    "category": "Locales / Naves",
+    "source_file": "buscando_Local_Lerma.html",
+    "back_href": "../buscando_Local_Lerma.html",
+    "idealista": "https://www.idealista.com/inmueble/112138937/",
+    "image": "images/inmuebles/112138937/foto-001-1459998408.webp",
+    "alt": "Nave - Venta en Quintanilla-Tordueles",
+    "title": "Nave - Venta - Camino Vial 156",
+    "location": "Quintanilla-Tordueles",
+    "price_raw": "36000",
+    "specs": [
+      {
+        "text": "239",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "111721668",
+    "category": "Terrenos",
+    "source_file": "buscando_Terreno_Lerma.html",
+    "back_href": "../buscando_Terreno_Lerma.html",
+    "idealista": "https://www.idealista.com/inmueble/111721668/",
+    "image": "images/inmuebles/111721668/foto-001-1446193674.webp",
+    "alt": "Terreno urbano en Lerma",
+    "title": "Terreno urbano - El Bano 3",
+    "location": "Lerma",
+    "price_raw": "195000",
+    "specs": [
+      {
+        "text": "1011",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "101553321",
+    "category": "Terrenos",
+    "source_file": "buscando_Terreno_Lerma.html",
+    "back_href": "../buscando_Terreno_Lerma.html",
+    "idealista": "https://www.idealista.com/inmueble/101553321/",
+    "image": "images/inmuebles/101553321/foto-001-1125913653.webp",
+    "alt": "Terreno urbano en Lerma",
+    "title": "Terreno urbano - San Miguel 22",
+    "location": "Lerma",
+    "price_raw": "190000",
+    "specs": [
+      {
+        "text": "1894",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "102543598",
+    "category": "Terrenos",
+    "source_file": "buscando_Terreno_Lerma.html",
+    "back_href": "../buscando_Terreno_Lerma.html",
+    "idealista": "https://www.idealista.com/inmueble/102543598/",
+    "image": "images/inmuebles/102543598/foto-001-1159052164.webp",
+    "alt": "Terreno urbano en Villalmanzo",
+    "title": "Terreno urbano - Santa Inés 24",
+    "location": "Villalmanzo",
+    "price_raw": "49000",
+    "specs": [
+      {
+        "text": "1500",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "111214566",
+    "category": "Terrenos",
+    "source_file": "buscando_Terreno_Lerma.html",
+    "back_href": "../buscando_Terreno_Lerma.html",
+    "idealista": "https://www.idealista.com/inmueble/111214566/",
+    "image": "images/inmuebles/111214566/foto-001-1429303445.webp",
+    "alt": "Terreno urbanizable en Villalmanzo",
+    "title": "Terreno urbanizable - Albillo 109",
+    "location": "Villalmanzo",
+    "price_raw": "200000",
+    "specs": [
+      {
+        "text": "10538",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  },
+  {
+    "id": "110868288",
+    "category": "Terrenos",
+    "source_file": "buscando_Terreno_Lerma.html",
+    "back_href": "../buscando_Terreno_Lerma.html",
+    "idealista": "https://www.idealista.com/inmueble/110868288/",
+    "image": "images/inmuebles/110868288/foto-001-1417992071.webp",
+    "alt": "Terreno urbano en Villamayor de los Montes",
+    "title": "Terreno urbano - La Iglesia 32",
+    "location": "Villamayor de los Montes",
+    "price_raw": "20000",
+    "specs": [
+      {
+        "text": "1240",
+        "icon": "images/terrain.svg",
+        "alt": "metros cuadrados"
+      }
+    ]
+  }
+]
