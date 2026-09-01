@@ -15,6 +15,13 @@
     "terrenos": 5,
     "total": 27
   },
+  "alcance_publicacion": {
+    "operacion": "venta",
+    "alquileres": false,
+    "excepciones_alquiler": [],
+    "pagina_alquiler": "INFORMATIVA_SIN_INMUEBLES",
+    "fuente": "ANUNCIOS_PROPIOS_DE_LA_AGENCIA"
+  },
   "cartel_scribus": {
     "plantilla_canonica_incluida": true,
     "generador_sla_incluido": true,
