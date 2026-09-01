@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Eficiencia energética">
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 7h32v34H8z"/>
+    <path d="M14 14h15l4 3-4 3H14zm0 8h11l4 3-4 3H14zm0 8h7l4 3-4 3h-7z"/>
+    <path d="M35 24l-4 7h4l-3 7"/>
+  </g>
+</svg>

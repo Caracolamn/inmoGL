@@ -1,217 +1,101 @@
 <!DOCTYPE html>
 <html lang="es" xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
 <title>Terrenos</title>
-
-    <!--META DESCRIPTION-->
-    <meta name="description" content="Inmobiliaria inmoGL Lerma - Terrenos urbanos y rústicos a la venta en nuestra web. Contacta con nosotros hoy.">
-    <!--STYLES-->
+<!--META DESCRIPTION-->
+<meta content="Inmobiliaria inmoGL Lerma - Terrenos urbanos y rústicos a la venta en nuestra web. Contacta con nosotros hoy." name="description">
+<!--STYLES-->
 <link href="styles.css" rel="stylesheet">
-    <link href="styles\venta_alquiler_style.css" rel="stylesheet">
-
-    <!--FAVICON-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3399ff">
-<meta name="theme-color" content="#ffffff">
-    <!--FAVICON END-->
-    <!--Viewport for mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="styles/venta_alquiler_style.css" rel="stylesheet">
+<!--FAVICON-->
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+<link color="#3399ff" href="/safari-pinned-tab.svg" rel="mask-icon">
+<meta content="#ffffff" name="theme-color">
+<!--FAVICON END-->
+<!--Viewport for mobile devices-->
+<meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
-
 <body class="sync-listings">
 <header>
-        <div class="content">
-            <!--HAMBURGUER BUTTON-->
-            <button id="hamburger-btn" aria-label="Menu">
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-            </button>
-
-            <div class="logo-container">
-                <a class="logo" href="index.html"><img id="GL-Logo" src="images/Logo_Inmo_GL_50px.svg" alt="Logotipo con forma de casa"></a>
-                <h1 id="inmo-logo-text">inmo<span id="GL">GL</span>
-                    <br>
-                    <span id="soluciones">SOLUCIONES<br>INMOBILIARIAS</span>
-                    <br>
-                    <span id="Lerma" class="section-highlight-2">Lerma</span>
-                </h1>
-                <span class="brand-divider" aria-hidden="true"></span>
-                <a class="occident-header-link" href="index.html" aria-label="Ir a la página principal"><img class="occident-header-logo" src="images/occident_seguros_rojo.svg" alt="Occident seguros"></a>
-            </div>
-
-
-
-            <nav class="mobile" id="menu">
-                <ul class="vertical-header">
-                    <li><a class="vertical" href="index.html">inicio</a></li>
-                    <li><a class="vertical" href="Venta.html">venta</a></li>
-                    <li><a class="vertical" href="buscando_Alquiler_Lerma.html">Alquiler</a></li>
+<div class="content">
+<!--HAMBURGUER BUTTON-->
+<button aria-label="Menu" id="hamburger-btn">
+<span class="hamburger-line"></span>
+<span class="hamburger-line"></span>
+<span class="hamburger-line"></span>
+</button>
+<div class="logo-container">
+<a class="logo" href="index.html"><img alt="Logotipo con forma de casa" id="GL-Logo" src="images/Logo_Inmo_GL_50px.svg"></a>
+<h1 id="inmo-logo-text">inmo<span id="GL">GL</span>
+<br>
+<span id="soluciones">SOLUCIONES<br>INMOBILIARIAS</span>
+<br>
+<span class="section-highlight-2" id="Lerma">Lerma</span>
+</h1>
+<span aria-hidden="true" class="brand-divider"></span>
+<a aria-label="Ir a la página principal" class="occident-header-link" href="index.html"><img alt="Occident seguros" class="occident-header-logo" src="images/occident_seguros_rojo.svg"></a>
+</div>
+<nav class="mobile" id="menu">
+<ul class="vertical-header">
+<li><a class="vertical" href="index.html">inicio</a></li>
+<li><a class="vertical" href="Venta.html">venta</a></li>
+<li><a class="vertical" href="buscando_Alquiler_Lerma.html">Alquiler</a></li>
 <li><a class="vertical" href="buscando_Local_Lerma.html">Locales</a></li>
 <li class="current"><a href="buscando_Terreno_Lerma.html">Terrenos</a></li>
 <li><a class="vertical" href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-
-            <nav class="desktop">
-                <ul>
-                    <li class="style-link"><a href="index.html">Inicio</a></li>
-                    <li class="style-link"><a href="Venta.html">Venta</a></li>
-                    <li class="style-link"><a href="buscando_Alquiler_Lerma.html">Alquiler</a></li>
+</ul>
+</nav>
+<nav class="desktop">
+<ul>
+<li class="style-link"><a href="index.html">Inicio</a></li>
+<li class="style-link"><a href="Venta.html">Venta</a></li>
+<li class="style-link"><a href="buscando_Alquiler_Lerma.html">Alquiler</a></li>
 <li class="style-link"><a href="buscando_Local_Lerma.html">Locales</a></li>
 <li class="style-link"><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-            <div class="stage mobile">
-                <div class="icon pulsing">
-                    <a href="Venta.html"><img id="sale-icon" src="images/for_sale.svg" alt="botón enlace a pisos en venta"></a>
-                </div>
-            </div>
-
-        </div>
-    </header>
-
-
-
-    <div class="main-content">
-
-        <h1 class="section-highlight center-h1">TERRENOS</h1>
-
-        <div class='container' id='wrap'>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/111721668/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_111721668.webp" alt="Terreno urbano en Lerma" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Terreno urbano - <span class="pueblo">El Bano 3</span></h2></div>
-                    <div class="ubicacion"><h3>Lerma</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>1011</p></div>
-                    </div>
-                    <div class="moneda">195000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/111721668/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/102543598/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_102543598.webp" alt="Terreno urbano en Villalmanzo" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Terreno urbano - <span class="pueblo">Santa Inés 24</span></h2></div>
-                    <div class="ubicacion"><h3>Villalmanzo</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>1500</p></div>
-                    </div>
-                    <div class="moneda">49000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/102543598/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/101553321/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_101553321.webp" alt="Terreno urbano en Lerma" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Terreno urbano - <span class="pueblo">San Miguel 22</span></h2></div>
-                    <div class="ubicacion"><h3>Lerma</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>1894</p></div>
-                    </div>
-                    <div class="moneda">190000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/101553321/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/111214566/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_111214566.webp" alt="Terreno urbanizable en Villalmanzo" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Terreno urbanizable - <span class="pueblo">Albillo 109</span></h2></div>
-                    <div class="ubicacion"><h3>Villalmanzo</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>10538</p></div>
-                    </div>
-                    <div class="moneda">200000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/111214566/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/110868288/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_110868288.webp" alt="Terreno urbano en Villamayor de los Montes" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Terreno urbano - <span class="pueblo">La Iglesia 32</span></h2></div>
-                    <div class="ubicacion"><h3>Villamayor de los Montes</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>1240</p></div>
-                    </div>
-                    <div class="moneda">20000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/110868288/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-        </div>
-
-
-        <!-- copyright -->
-        <p class="copyright">
-            &copy; <span id="currentYear"></span> inmo GL
-        </p>
-        <!-- script to update year -->
-        <script type="text/javascript">
-            const currentYear = new Date().getFullYear();
-            document.getElementById("currentYear").innerHTML = currentYear;
-
-        </script>
-
-
-
-        <section class="adress-phone">
-            <p>P.º de los Mesones, 22, Lerma, Burgos</p>
-            <p>Tel: 670 744 112</p>
-        </section>
-    </div>
-
-
-    <footer>
-        <div class="content">
-            <nav>
-                <ul>
-                    <li class="style-link"><a href="legal.html">Legal</a></li>
-                    <li class="style-link footer-mobile-contact"><a href="contacto.html">CONTACTO</a></li>
-                    <li class="style-link"><a class="footer-credits-link" href="Creditos.html"><span class="credits-desktop">Creditos</span><span class="credits-mobile">Créditos</span></a></li>
-                </ul>
-                <!--WHATSAPP-->
-                <button id="whatsapp" class="desktop" onclick="window.open('https://wa.me/670744112', '_blank')">
-                    <img src="images/whatsapp.svg" alt="botón de whatsapp">
-                </button>
-            </nav>
-        </div>
-
-        <!--TELÉFONO MOBILE-->
-        <button id="phone-m" class="mobile" onclick="window.location.href='tel:+34670744112'" aria-label="Llamar al 670 744 112">
-            <img src="images/phone.svg" alt="">
-        </button>
-
-        <!--WHATSAPP MOBILE-->
-        <button id="whatsapp-m" class="mobile" onclick="window.open('https://wa.me/670744112', '_blank')">
-            <img src="images/whatsapp.svg" alt="botón de whatsapp">
-        </button>
-
-
-    </footer>
-
-    <!-- Javascript code to format the
+</ul>
+</nav>
+<div class="stage mobile">
+<div class="icon pulsing">
+<a href="Venta.html"><img alt="botón enlace a pisos en venta" id="sale-icon" src="images/for_sale.svg"></a>
+</div>
+</div>
+</div>
+</header>
+<div class="main-content">
+<h1 class="section-highlight center-h1">TERRENOS</h1>
+<div class="container" id="wrap"><div class="box"><a class="foto-inmueble" href="inmuebles/111721668.html"><img alt="Terreno urbano en Lerma" loading="lazy" src="images/inmuebles/111721668/foto-001-1446193674.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Terreno urbano - <span class="pueblo">El Bano&nbsp;3</span></h2></div><div class="ubicacion"><h3>Lerma</h3></div><div class="specs-row"><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>1011</p></div></div><div class="moneda">195000</div></div><a class="more no-style" href="inmuebles/111721668.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/101553321.html"><img alt="Terreno urbano en Lerma" loading="lazy" src="images/inmuebles/101553321/foto-001-1125913653.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Terreno urbano - <span class="pueblo">San Miguel&nbsp;22</span></h2></div><div class="ubicacion"><h3>Lerma</h3></div><div class="specs-row"><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>1894</p></div></div><div class="moneda">190000</div></div><a class="more no-style" href="inmuebles/101553321.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/102543598.html"><img alt="Terreno urbano en Villalmanzo" loading="lazy" src="images/inmuebles/102543598/foto-001-1159052164.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Terreno urbano - <span class="pueblo">Santa Inés&nbsp;24</span></h2></div><div class="ubicacion"><h3>Villalmanzo</h3></div><div class="specs-row"><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>1500</p></div></div><div class="moneda">49000</div></div><a class="more no-style" href="inmuebles/102543598.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/111214566.html"><img alt="Terreno urbanizable en Villalmanzo" loading="lazy" src="images/inmuebles/111214566/foto-001-1429303445.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Terreno urbanizable - <span class="pueblo">Albillo&nbsp;109</span></h2></div><div class="ubicacion"><h3>Villalmanzo</h3></div><div class="specs-row"><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>10538</p></div></div><div class="moneda">200000</div></div><a class="more no-style" href="inmuebles/111214566.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/110868288.html"><img alt="Terreno urbano en Villamayor de los Montes" loading="lazy" src="images/inmuebles/110868288/foto-001-1417992071.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Terreno urbano - <span class="pueblo">La Iglesia&nbsp;32</span></h2></div><div class="ubicacion"><h3>Villamayor de los Montes</h3></div><div class="specs-row"><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>1240</p></div></div><div class="moneda">20000</div></div><a class="more no-style" href="inmuebles/110868288.html">..más</a></div></div>
+<!-- copyright -->
+<!-- script to update year -->
+<div class="site-meta" role="contentinfo" aria-label="Información de InmoGL"><p class="site-year"><span data-current-year="">2026</span> InmoGL</p><div class="site-contact"><p>P.º de los Mesones, 22, Lerma, Burgos</p><p>Tel: 670 744 112</p></div></div></div>
+<footer>
+<div class="content">
+<nav>
+<ul>
+<li class="style-link"><a href="legal.html">Legal</a></li>
+<li class="style-link footer-mobile-contact"><a href="contacto.html">CONTACTO</a></li>
+<li class="style-link"><a class="footer-credits-link" href="Creditos.html"><span class="credits-desktop">Creditos</span><span class="credits-mobile">Créditos</span></a></li>
+</ul>
+<!--WHATSAPP-->
+<button class="desktop" id="whatsapp" onclick="window.open('https://wa.me/670744112', '_blank')">
+<img alt="botón de whatsapp" src="images/whatsapp.svg">
+</button>
+</nav>
+</div>
+<!--TELÉFONO MOBILE-->
+<button aria-label="Llamar al 670 744 112" class="mobile" id="phone-m" onclick="window.location.href='tel:+34670744112'">
+<img alt="" src="images/phone.svg">
+</button>
+<!--WHATSAPP MOBILE-->
+<button class="mobile" id="whatsapp-m" onclick="window.open('https://wa.me/670744112', '_blank')">
+<img alt="botón de whatsapp" src="images/whatsapp.svg">
+</button>
+</footer>
+<!-- Javascript code to format the
 	number as per the locale -->
-    <script>
+<script>
         let x = document.querySelectorAll(".moneda");
         for (let i = 0, len = x.length; i < len; i++) {
             let num = Number(x[i].innerHTML)
@@ -222,7 +106,6 @@
 
     </script>
 <!--HAMBURGUER BUTTON MENU MOBILE JS-->
-    <script defer src="JS/script.js"></script>
+<script defer src="JS/script.js"></script>
 </body>
-
 </html>

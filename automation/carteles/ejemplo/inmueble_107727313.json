@@ -1,0 +1,24 @@
+{
+  "id": "107727313",
+  "origen": "Ficha real InmoGL inmuebles/107727313.html",
+  "campos": {
+    "TIPO_INMUEBLE": "Chalet adosado",
+    "DIRECCION": "Calle Solana Baja, 6",
+    "LOCALIDAD": "Lerma",
+    "RESUMEN_INMUEBLE": "Chalet adosado de 171 m² distribuido en 4 plantas, con 2 dormitorios y 3 baños. Incluye balcón, plaza de garaje y trastero. Construido en 2013, en buen estado, con calefacción individual de gas natural y orientación este-oeste.",
+    "HABITACIONES": "2 hab",
+    "BANOS": "3 baños",
+    "M2_CONSTRUIDOS": "171 m²",
+    "PRECIO": "120.000 €"
+  },
+  "fotos": [
+    {
+      "campo": "FOTO_01",
+      "archivo": "foto-001-1321020806.webp"
+    },
+    {
+      "campo": "FOTO_02",
+      "archivo": "foto-006-1321020796.webp"
+    }
+  ]
+}

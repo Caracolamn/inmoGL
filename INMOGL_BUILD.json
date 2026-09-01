@@ -1,0 +1,23 @@
+{
+  "version": "CANDIDATA_PREPUBLICACION_20260901_SIN_MEDIOS",
+  "estado": "NO_PUBLICAR_HASTA_ANADIR_Y_VALIDAR_MEDIOS",
+  "segunda_capa_homogenea": true,
+  "tercera_capa": false,
+  "media_incluida": false,
+  "media_esperada_desde_paquete_completo": {
+    "fotos": 711,
+    "planos": 16,
+    "videos": 27
+  },
+  "inventario": {
+    "viviendas": 20,
+    "locales_naves": 2,
+    "terrenos": 5,
+    "total": 27
+  },
+  "cartel_scribus": {
+    "plantilla_canonica_incluida": true,
+    "generador_sla_incluido": true,
+    "pdf_y_correo_automaticos": false
+  }
+}

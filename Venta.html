@@ -1,487 +1,106 @@
 <!DOCTYPE html>
 <html lang="es" xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
 <title>Venta</title>
-    <!--META DESCRIPTION-->
-    <meta name="description" content="Inmobiliaria inmoGL Lerma - Pisos, casas y chalets a la venta en nuestra web. Contacta con nosotros hoy.">
-    <!--STYLES-->
+<!--META DESCRIPTION-->
+<meta content="Inmobiliaria inmoGL Lerma - Pisos, casas y chalets a la venta en nuestra web. Contacta con nosotros hoy." name="description">
+<!--STYLES-->
 <link href="styles.css" rel="stylesheet">
-    <link href="styles\venta_alquiler_style.css" rel="stylesheet">
-
-    <!--FAVICON-->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3399ff">
-<meta name="theme-color" content="#ffffff">
-    <!--FAVICON END-->
-    <!--Viewport for mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
+<link href="styles/venta_alquiler_style.css" rel="stylesheet">
+<!--FAVICON-->
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+<link color="#3399ff" href="/safari-pinned-tab.svg" rel="mask-icon">
+<meta content="#ffffff" name="theme-color">
+<!--FAVICON END-->
+<!--Viewport for mobile devices-->
+<meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
-
 <body class="sync-listings">
 <header>
-        <div class="content">
-            <!--HAMBURGUER BUTTON-->
-            <button id="hamburger-btn" aria-label="Menu">
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-                <span class="hamburger-line"></span>
-            </button>
-
-            <div class="logo-container">
-                <a class="logo" href="index.html"><img id="GL-Logo" src="images/Logo_Inmo_GL_50px.svg" alt="Logotipo con forma de casa"></a>
-                <h1 id="inmo-logo-text">inmo<span id="GL">GL</span>
-                    <br>
-                    <span id="soluciones">SOLUCIONES<br>INMOBILIARIAS</span>
-                    <br>
-                    <span id="Lerma" class="section-highlight-2">Lerma</span>
-                </h1>
-                <span class="brand-divider" aria-hidden="true"></span>
-                <a class="occident-header-link" href="index.html" aria-label="Ir a la página principal"><img class="occident-header-logo" src="images/occident_seguros_rojo.svg" alt="Occident seguros"></a>
-            </div>
-
-
-
-            <nav class="mobile" id="menu">
-                <ul class="vertical-header">
-                    <li><a class="vertical" href="index.html">inicio</a></li>
-                    <li class="current"><a href="Venta.html">venta</a></li>
-                    <li><a class="vertical" href="buscando_Alquiler_Lerma.html">Alquiler</a></li>
+<div class="content">
+<!--HAMBURGUER BUTTON-->
+<button aria-label="Menu" id="hamburger-btn">
+<span class="hamburger-line"></span>
+<span class="hamburger-line"></span>
+<span class="hamburger-line"></span>
+</button>
+<div class="logo-container">
+<a class="logo" href="index.html"><img alt="Logotipo con forma de casa" id="GL-Logo" src="images/Logo_Inmo_GL_50px.svg"></a>
+<h1 id="inmo-logo-text">inmo<span id="GL">GL</span>
+<br>
+<span id="soluciones">SOLUCIONES<br>INMOBILIARIAS</span>
+<br>
+<span class="section-highlight-2" id="Lerma">Lerma</span>
+</h1>
+<span aria-hidden="true" class="brand-divider"></span>
+<a aria-label="Ir a la página principal" class="occident-header-link" href="index.html"><img alt="Occident seguros" class="occident-header-logo" src="images/occident_seguros_rojo.svg"></a>
+</div>
+<nav class="mobile" id="menu">
+<ul class="vertical-header">
+<li><a class="vertical" href="index.html">inicio</a></li>
+<li class="current"><a href="Venta.html">venta</a></li>
+<li><a class="vertical" href="buscando_Alquiler_Lerma.html">Alquiler</a></li>
 <li><a class="vertical" href="buscando_Local_Lerma.html">Locales</a></li>
 <li><a class="vertical" href="buscando_Terreno_Lerma.html">Terrenos</a></li>
-                    <li><a class="vertical" href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-
-            <nav class="desktop">
-                <ul>
-                    <li class="style-link"><a href="index.html">Inicio</a></li>
-                    <li class="style-link"><a href="buscando_Alquiler_Lerma.html">Alquiler</a></li>
+<li><a class="vertical" href="contacto.html">Contacto</a></li>
+</ul>
+</nav>
+<nav class="desktop">
+<ul>
+<li class="style-link"><a href="index.html">Inicio</a></li>
+<li class="style-link"><a href="buscando_Alquiler_Lerma.html">Alquiler</a></li>
 <li class="style-link"><a href="buscando_Local_Lerma.html">Locales</a></li>
 <li class="style-link"><a href="buscando_Terreno_Lerma.html">Terrenos</a></li>
 <li class="style-link"><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-            <div class="stage mobile">
-                <div class="icon pulsing">
-                    <a href="Venta.html"><img id="sale-icon" src="images/for_sale.svg" alt="botón enlace a pisos en venta"></a>
-                </div>
-            </div>
-
-        </div>
-    </header>
-
-
-
-    <div class="main-content">
-
-        <h1 class="section-highlight center-h1">VENTA</h1>
-
-        <!--FILTER POBLACION DROPDOWN MENU-->
-        <div class="filter-pueblos">
-            <select id="location-select">
-                <option value="" selected class="center-pueblo">Filtrar por Localidad</option>
-                <option value="Lerma">Lerma</option>
-                <option value="Cobos de Cerrato">Cobos de Cerrato</option>
-                <option value="Covarrubias">Covarrubias</option>
-                <option value="Espinosa de Cerrato">Espinosa de Cerrato</option>
-                <option value="Fontioso" hidden>Fontioso</option>
-                <option value="Puentedura">Puentedura</option>
-                <option value="Royuela de Rio Franco">Royuela de Rio Franco</option>
-                <option value="Ruyales del Agua">Ruyales del Agua</option>
-                <option value="Santa María de Mercadillo">Santa María de Mercadillo</option>
-                <option value="Santillán del Agua">Santillán del Agua</option>
-                <option value="Solarana">Solarana</option>
-                <option value="Villoviado">Villoviado</option>
-            </select>
-        </div>
-        <!-- END DROPDOWN MENU-->
-
-
-
-        <div class='container' id='wrap'>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/112234215/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_112234215.webp" alt="Piso en Vista Alegre 1, Lerma" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Piso - <span class="pueblo">Vista Alegre 1</span></h2></div>
-                    <div class="ubicacion"><h3>Lerma</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>2 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>2 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>94</p></div>
-                    </div>
-                    <div class="moneda">130000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/112234215/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/112158825/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_112158825.webp" alt="Casa de pueblo en Santillán del Agua" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Casa de pueblo - <span class="pueblo">Mayor 1</span></h2></div>
-                    <div class="ubicacion"><h3>Santillán del Agua</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>2 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>1 baño</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>64</p></div>
-                    </div>
-                    <div class="moneda">66000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/112158825/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/112108761/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_112108761.webp" alt="Piso en Lerma" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Piso - <span class="pueblo">Santo Domingo 33</span></h2></div>
-                    <div class="ubicacion"><h3>Lerma</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>2 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>1 baño</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>89</p></div>
-                    </div>
-                    <div class="moneda">98000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/112108761/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/111961455/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_111961455.webp" alt="Chalet adosado en Cobos de Cerrato" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">Real Abajo 2</span></h2></div>
-                    <div class="ubicacion"><h3>Cobos de Cerrato</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>5 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>2 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>202</p></div>
-                    </div>
-                    <div class="moneda">130000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/111961455/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/111615015/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_111615015.webp" alt="Chalet adosado en Lerma" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">San Francisco 35</span></h2></div>
-                    <div class="ubicacion"><h3>Lerma</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>3 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>3 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>158</p></div>
-                    </div>
-                    <div class="moneda">163000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/111615015/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/111477969/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_111477969.webp" alt="Casa de pueblo en Ruyales del Agua" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Casa de pueblo - <span class="pueblo">Arroyo 18</span></h2></div>
-                    <div class="ubicacion"><h3>Ruyales del Agua</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>0 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>0 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>71</p></div>
-                    </div>
-                    <div class="moneda">17000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/111477969/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/111432813/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_111432813.webp" alt="Chalet independiente en Royuela de Rio Franco" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Chalet independiente - <span class="pueblo">Real 2</span></h2></div>
-                    <div class="ubicacion"><h3>Royuela de Rio Franco</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>3 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>1 baño</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>88</p></div>
-                    </div>
-                    <div class="moneda">39000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/111432813/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/110934402/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_110934402.webp" alt="Casa rural en Puentedura" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Casa rural - <span class="pueblo">La Fuente 13</span></h2></div>
-                    <div class="ubicacion"><h3>Puentedura</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>4 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>2 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>190</p></div>
-                    </div>
-                    <div class="moneda">245000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/110934402/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/110874063/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_110874063.webp" alt="Casa de pueblo en Villoviado" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Casa de pueblo - <span class="pueblo">Mayor 13</span></h2></div>
-                    <div class="ubicacion"><h3>Villoviado</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>5 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>3 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>368</p></div>
-                    </div>
-                    <div class="moneda">34000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/110874063/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/110828015/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_110828015.webp" alt="Casa rural en Lerma" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Casa rural - <span class="pueblo">Mayor 27</span></h2></div>
-                    <div class="ubicacion"><h3>Lerma</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>0 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>0 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>520</p></div>
-                    </div>
-                    <div class="moneda">55000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/110828015/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/110377005/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_110377005.webp" alt="Casa de pueblo en Ruyales del Agua" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Casa de pueblo - <span class="pueblo">Ruyales del Agua 45</span></h2></div>
-                    <div class="ubicacion"><h3>Ruyales del Agua</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>8 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>1 baño</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>282</p></div>
-                    </div>
-                    <div class="moneda">58000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/110377005/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/107855557/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_107855557.webp" alt="Chalet independiente en Espinosa de Cerrato" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Chalet independiente - <span class="pueblo">El Mesón 10</span></h2></div>
-                    <div class="ubicacion"><h3>Espinosa de Cerrato</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>4 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>2 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>160</p></div>
-                    </div>
-                    <div class="moneda">69000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/107855557/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/107850845/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_107850845.webp" alt="Casa de pueblo en Espinosa de Cerrato" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Casa de pueblo - <span class="pueblo">El Campillo 5</span></h2></div>
-                    <div class="ubicacion"><h3>Espinosa de Cerrato</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>4 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>2 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>151</p></div>
-                    </div>
-                    <div class="moneda">33000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/107850845/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/107727313/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_107727313.webp" alt="Chalet adosado en Lerma" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">Solana Baja 6</span></h2></div>
-                    <div class="ubicacion"><h3>Lerma</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>2 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>3 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>171</p></div>
-                    </div>
-                    <div class="moneda">120000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/107727313/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/103724641/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_103724641.webp" alt="Chalet adosado en Santa María de Mercadillo" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">Melilla 33</span></h2></div>
-                    <div class="ubicacion"><h3>Santa María de Mercadillo</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>2 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>2 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>100</p></div>
-                    </div>
-                    <div class="moneda">69000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/103724641/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/102360732/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_102360732.webp" alt="Casa rural en Covarrubias" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Casa rural - <span class="pueblo">Gómez Salazar 32</span></h2></div>
-                    <div class="ubicacion"><h3>Covarrubias</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>6 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>1 baño</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>230</p></div>
-                    </div>
-                    <div class="moneda">90000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/102360732/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/102103869/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_102103869.webp" alt="Chalet independiente en Solarana" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Chalet independiente - <span class="pueblo">Mayor 14</span></h2></div>
-                    <div class="ubicacion"><h3>Solarana</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>3 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>1 baño</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>169</p></div>
-                    </div>
-                    <div class="moneda">68000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/102103869/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/99227029/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_99227029.webp" alt="Chalet adosado en Lerma" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">Larga 31</span></h2></div>
-                    <div class="ubicacion"><h3>Lerma</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>3 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>2 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>290</p></div>
-                    </div>
-                    <div class="moneda">105000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/99227029/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-            <div class='box'>
-                <a class="foto-inmueble" href="https://www.idealista.com/inmueble/99227060/" target="_blank" rel="noopener noreferrer">
-                    <img src="images/idealista_99227060.webp" alt="Chalet adosado en Lerma" loading="lazy">
-                </a>
-                <div class="ficha">
-                    <div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">Travesía Madrid-Irún</span></h2></div>
-                    <div class="ubicacion"><h3>Lerma</h3></div>
-                    <div class="specs-row">
-                        <div class="specs-inmueble"><p><img src="images/habitaciones.svg" alt="habitaciones"><br>12 hab</p></div>
-                        <div class="specs-inmueble"><p><img src="images/WC.svg" alt="baños"><br>4 baños</p></div>
-                        <div class="specs-inmueble"><p class="meters-label"><img src="images/terrain.svg" alt="metros cuadrados"><br>721</p></div>
-                    </div>
-                    <div class="moneda">335000</div>
-                </div>
-                <a class="more no-style" href="https://www.idealista.com/inmueble/99227060/" target="_blank" rel="noopener noreferrer">..más</a>
-            </div>
-
-        </div>
-
-
-        <!-- copyright -->
-        <p class="copyright">
-            &copy; <span id="currentYear"></span> inmo GL
-        </p>
-        <!-- script to update year -->
-        <script type="text/javascript">
-            const currentYear = new Date().getFullYear();
-            document.getElementById("currentYear").innerHTML = currentYear;
-
-        </script>
-
-
-        <section class="adress-phone">
-            <p>P.º de los Mesones, 22, Lerma, Burgos</p>
-            <p>Tel: 670 744 112</p>
-        </section>
-    </div>
-
-
-    <footer>
-        <div class="content">
-            <nav>
-                <ul>
-                    <li class="style-link"><a href="legal.html">Legal</a></li>
-                    <li class="style-link footer-mobile-contact"><a href="contacto.html">CONTACTO</a></li>
-                    <li class="style-link"><a class="footer-credits-link" href="Creditos.html"><span class="credits-desktop">Creditos</span><span class="credits-mobile">Créditos</span></a></li>
-                </ul>
-                <!--WHATSAPP-->
-                <button id="whatsapp" class="desktop" onclick="window.open('https://wa.me/670744112', '_blank')">
-                    <img src="images/whatsapp.svg" alt="botón de whatsapp">
-                </button>
-            </nav>
-        </div>
-
-        <!--TELÉFONO MOBILE-->
-        <button id="phone-m" class="mobile" onclick="window.location.href='tel:+34670744112'" aria-label="Llamar al 670 744 112">
-            <img src="images/phone.svg" alt="">
-        </button>
-
-        <!--WHATSAPP MOBILE-->
-        <button id="whatsapp-m" class="mobile" onclick="window.open('https://wa.me/670744112', '_blank')">
-            <img src="images/whatsapp.svg" alt="botón de whatsapp">
-        </button>
-
-
-    </footer>
-
-    <!-- Javascript code to format the
+</ul>
+</nav>
+<div class="stage mobile">
+<div class="icon pulsing">
+<a href="Venta.html"><img alt="botón enlace a pisos en venta" id="sale-icon" src="images/for_sale.svg"></a>
+</div>
+</div>
+</div>
+</header>
+<div class="main-content">
+<h1 class="section-highlight center-h1">VENTA</h1>
+<!--FILTER POBLACION DROPDOWN MENU-->
+<div class="filter-pueblos">
+<select id="location-select"><option value="" class="center-pueblo" selected>Filtrar por Localidad</option><option value="Lerma">Lerma</option><option value="Cobos de Cerrato">Cobos de Cerrato</option><option value="Covarrubias">Covarrubias</option><option value="Espinosa de Cerrato">Espinosa de Cerrato</option><option value="Puentedura">Puentedura</option><option value="Royuela de Rio Franco">Royuela de Rio Franco</option><option value="Ruyales del Agua">Ruyales del Agua</option><option value="Santa Inés">Santa Inés</option><option value="Santa María de Mercadillo">Santa María de Mercadillo</option><option value="Santillán del Agua">Santillán del Agua</option><option value="Solarana">Solarana</option><option value="Villoviado">Villoviado</option></select>
+</div>
+<!-- END DROPDOWN MENU-->
+<div class="container" id="wrap"><div class="box"><a class="foto-inmueble" href="inmuebles/107727313.html"><img alt="Chalet adosado en Lerma" loading="lazy" src="images/inmuebles/107727313/foto-001-1321020806.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">Solana Baja&nbsp;6</span></h2></div><div class="ubicacion"><h3>Lerma</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>2 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>3 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>171</p></div></div><div class="moneda">120000</div></div><a class="more no-style" href="inmuebles/107727313.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/112108761.html"><img alt="Piso en Lerma" loading="lazy" src="images/inmuebles/112108761/foto-001-1459047585.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Piso - <span class="pueblo">Santo Domingo&nbsp;33</span></h2></div><div class="ubicacion"><h3>Lerma</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>2 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>1 baño</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>89</p></div></div><div class="moneda">98000</div></div><a class="more no-style" href="inmuebles/112108761.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/112372065.html"><img alt="Piso en Estación 2, Lerma" loading="lazy" src="images/inmuebles/112372065/foto-001-1467688884.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Piso - <span class="pueblo">Estación&nbsp;2</span></h2></div><div class="ubicacion"><h3>Lerma</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>4 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>2 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>100</p></div></div><div class="moneda">75000</div></div><a class="more no-style" href="inmuebles/112372065.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/111615015.html"><img alt="Chalet adosado en Lerma" loading="lazy" src="images/inmuebles/111615015/foto-001-1442252761.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">San Francisco&nbsp;35</span></h2></div><div class="ubicacion"><h3>Lerma</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>3 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>3 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>158</p></div></div><div class="moneda">163000</div></div><a class="more no-style" href="inmuebles/111615015.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/110828015.html"><img alt="Casa rural en Lerma" loading="lazy" src="images/inmuebles/110828015/foto-001-1416771283.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Casa rural - <span class="pueblo">Mayor&nbsp;27</span></h2></div><div class="ubicacion"><h3>Lerma</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>0 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>0 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>520</p></div></div><div class="moneda">55000</div></div><a class="more no-style" href="inmuebles/110828015.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/99227029.html"><img alt="Chalet adosado en Lerma" loading="lazy" src="images/inmuebles/99227029/foto-001-1037141082.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">Larga&nbsp;31</span></h2></div><div class="ubicacion"><h3>Lerma</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>3 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>2 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>290</p></div></div><div class="moneda">105000</div></div><a class="more no-style" href="inmuebles/99227029.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/99227060.html"><img alt="Chalet adosado en Lerma" loading="lazy" src="images/inmuebles/99227060/foto-001-1037141689.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">Travesía Madrid-Irún</span></h2></div><div class="ubicacion"><h3>Lerma</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>12 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>4 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>721</p></div></div><div class="moneda">335000</div></div><a class="more no-style" href="inmuebles/99227060.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/111961455.html"><img alt="Chalet adosado en Cobos de Cerrato" loading="lazy" src="images/inmuebles/111961455/foto-001-1454071006.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">Real Abajo&nbsp;2</span></h2></div><div class="ubicacion"><h3>Cobos de Cerrato</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>5 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>2 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>202</p></div></div><div class="moneda">130000</div></div><a class="more no-style" href="inmuebles/111961455.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/102360732.html"><img alt="Casa rural en Covarrubias" loading="lazy" src="images/inmuebles/102360732/foto-001-1153099119.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Casa rural - <span class="pueblo">Gómez Salazar&nbsp;32</span></h2></div><div class="ubicacion"><h3>Covarrubias</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>6 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>1 baño</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>230</p></div></div><div class="moneda">90000</div></div><a class="more no-style" href="inmuebles/102360732.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/107855557.html"><img alt="Chalet independiente en Espinosa de Cerrato" loading="lazy" src="images/inmuebles/107855557/foto-001-1326339930.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Chalet independiente - <span class="pueblo">El Mesón&nbsp;10</span></h2></div><div class="ubicacion"><h3>Espinosa de Cerrato</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>4 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>2 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>160</p></div></div><div class="moneda">69000</div></div><a class="more no-style" href="inmuebles/107855557.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/107850845.html"><img alt="Casa de pueblo en Espinosa de Cerrato" loading="lazy" src="images/inmuebles/107850845/foto-001-1326362970.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Casa de pueblo - <span class="pueblo">El Campillo&nbsp;5</span></h2></div><div class="ubicacion"><h3>Espinosa de Cerrato</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>4 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>2 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>151</p></div></div><div class="moneda">33000</div></div><a class="more no-style" href="inmuebles/107850845.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/110934402.html"><img alt="Casa rural en Puentedura" loading="lazy" src="images/inmuebles/110934402/foto-001-1420045136.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Casa rural - <span class="pueblo">La Fuente&nbsp;13</span></h2></div><div class="ubicacion"><h3>Puentedura</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>4 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>2 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>190</p></div></div><div class="moneda">245000</div></div><a class="more no-style" href="inmuebles/110934402.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/111432813.html"><img alt="Chalet independiente en Royuela de Rio Franco" loading="lazy" src="images/inmuebles/111432813/foto-001-1436375310.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Chalet independiente - <span class="pueblo">Real&nbsp;2</span></h2></div><div class="ubicacion"><h3>Royuela de Rio Franco</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>3 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>1 baño</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>88</p></div></div><div class="moneda">39000</div></div><a class="more no-style" href="inmuebles/111432813.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/110377005.html"><img alt="Casa de pueblo en Ruyales del Agua" loading="lazy" src="images/inmuebles/110377005/foto-001-1403385843.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Casa de pueblo - <span class="pueblo">Ruyales del Agua&nbsp;45</span></h2></div><div class="ubicacion"><h3>Ruyales del Agua</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>8 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>1 baño</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>282</p></div></div><div class="moneda">58000</div></div><a class="more no-style" href="inmuebles/110377005.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/111477969.html"><img alt="Casa de pueblo en Ruyales del Agua" loading="lazy" src="images/inmuebles/111477969/foto-001-1437909484.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Casa de pueblo - <span class="pueblo">Arroyo&nbsp;18</span></h2></div><div class="ubicacion"><h3>Ruyales del Agua</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>0 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>0 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>71</p></div></div><div class="moneda">17000</div></div><a class="more no-style" href="inmuebles/111477969.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/112387800.html"><img alt="Casa de pueblo en Cementerio 2, Santa Inés" loading="lazy" src="images/inmuebles/112387800/foto-001-1468277433.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Casa de pueblo - <span class="pueblo">Cementerio&nbsp;2</span></h2></div><div class="ubicacion"><h3>Santa Inés</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>3 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>1 baño</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>100</p></div></div><div class="moneda">36000</div></div><a class="more no-style" href="inmuebles/112387800.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/103724641.html"><img alt="Chalet adosado en Santa María de Mercadillo" loading="lazy" src="images/inmuebles/103724641/foto-001-1198229814.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Chalet adosado - <span class="pueblo">Melilla&nbsp;33</span></h2></div><div class="ubicacion"><h3>Santa María de Mercadillo</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>2 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>2 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>100</p></div></div><div class="moneda">69000</div></div><a class="more no-style" href="inmuebles/103724641.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/112158825.html"><img alt="Casa de pueblo en Santillán del Agua" loading="lazy" src="images/inmuebles/112158825/foto-001-1460647110.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Casa de pueblo - <span class="pueblo">Mayor&nbsp;1</span></h2></div><div class="ubicacion"><h3>Santillán del Agua</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>2 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>1 baño</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>64</p></div></div><div class="moneda">66000</div></div><a class="more no-style" href="inmuebles/112158825.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/102103869.html"><img alt="Chalet independiente en Solarana" loading="lazy" src="images/inmuebles/102103869/foto-001-1144370276.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Chalet independiente - <span class="pueblo">Mayor&nbsp;14</span></h2></div><div class="ubicacion"><h3>Solarana</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>3 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>1 baño</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>169</p></div></div><div class="moneda">68000</div></div><a class="more no-style" href="inmuebles/102103869.html">..más</a></div><div class="box"><a class="foto-inmueble" href="inmuebles/110874063.html"><img alt="Casa de pueblo en Villoviado" loading="lazy" src="images/inmuebles/110874063/foto-001-1418171628.webp"></a><div class="ficha"><div class="tipo-inmueble"><h2>Casa de pueblo - <span class="pueblo">Mayor&nbsp;13</span></h2></div><div class="ubicacion"><h3>Villoviado</h3></div><div class="specs-row"><div class="specs-inmueble"><p><img alt="habitaciones" src="images/habitaciones.svg"><br>5 hab</p></div><div class="specs-inmueble"><p><img alt="baños" src="images/WC.svg"><br>3 baños</p></div><div class="specs-inmueble"><p class="meters-label"><img alt="metros cuadrados" src="images/terrain.svg"><br>368</p></div></div><div class="moneda">34000</div></div><a class="more no-style" href="inmuebles/110874063.html">..más</a></div></div>
+<!-- copyright -->
+<!-- script to update year -->
+<div class="site-meta" role="contentinfo" aria-label="Información de InmoGL"><p class="site-year"><span data-current-year="">2026</span> InmoGL</p><div class="site-contact"><p>P.º de los Mesones, 22, Lerma, Burgos</p><p>Tel: 670 744 112</p></div></div></div>
+<footer>
+<div class="content">
+<nav>
+<ul>
+<li class="style-link"><a href="legal.html">Legal</a></li>
+<li class="style-link footer-mobile-contact"><a href="contacto.html">CONTACTO</a></li>
+<li class="style-link"><a class="footer-credits-link" href="Creditos.html"><span class="credits-desktop">Creditos</span><span class="credits-mobile">Créditos</span></a></li>
+</ul>
+<!--WHATSAPP-->
+<button class="desktop" id="whatsapp" onclick="window.open('https://wa.me/670744112', '_blank')">
+<img alt="botón de whatsapp" src="images/whatsapp.svg">
+</button>
+</nav>
+</div>
+<!--TELÉFONO MOBILE-->
+<button aria-label="Llamar al 670 744 112" class="mobile" id="phone-m" onclick="window.location.href='tel:+34670744112'">
+<img alt="" src="images/phone.svg">
+</button>
+<!--WHATSAPP MOBILE-->
+<button class="mobile" id="whatsapp-m" onclick="window.open('https://wa.me/670744112', '_blank')">
+<img alt="botón de whatsapp" src="images/whatsapp.svg">
+</button>
+</footer>
+<!-- Javascript code to format the
 	number as per the locale -->
-    <script>
+<script>
         let x = document.querySelectorAll(".moneda");
         for (let i = 0, len = x.length; i < len; i++) {
             let num = Number(x[i].innerHTML)
@@ -491,11 +110,8 @@
         }
 
     </script>
-
-
-    <!--HAMBURGUER BUTTON MENU MOBILE JS-->
-    <script defer src="JS/script.js"></script>
-    <!--FILTER POBLACION DROPDOWN MENU-->
+<!--HAMBURGUER BUTTON MENU MOBILE JS-->
+<script defer src="JS/script.js"></script>
+<!--FILTER POBLACION DROPDOWN MENU-->
 </body>
-
 </html>

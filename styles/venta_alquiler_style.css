@@ -216,9 +216,11 @@ p {
 /* 2026-08-04: fichas sincronizadas - títulos multilínea sin solaparse */
 .sync-listings .container {
     line-height: normal;
+    align-items: stretch;
 }
 .sync-listings .box {
-    height: 24rem;
+    min-height: 25.9rem;
+    height: auto;
     position: relative;
 }
 .sync-listings .foto-inmueble {
@@ -253,4 +255,43 @@ p {
     font-weight: 600;
     line-height: 1;
     text-align: right;
+}
+
+/* 2026-08-31: geometría mínima adaptativa para título, población e iconos. */
+.sync-listings .ficha {
+    display: grid;
+    grid-template-rows: minmax(4.4rem, auto) minmax(2.55rem, auto) 3.75rem auto;
+}
+.sync-listings .tipo-inmueble {
+    min-height: 4.4rem;
+    height: auto;
+    overflow: visible;
+}
+.sync-listings .tipo-inmueble h2 {
+    display: block;
+    overflow: visible;
+    overflow-wrap: anywhere;
+}
+.sync-listings .tipo-inmueble .pueblo {
+    display: block;
+    overflow: visible;
+    overflow-wrap: anywhere;
+}
+.sync-listings .ubicacion {
+    box-sizing: border-box;
+    min-height: 2.55rem;
+    height: auto;
+    padding: .16rem 0 .34rem;
+    overflow: visible;
+}
+.sync-listings .ubicacion h3 {
+    display: block;
+    overflow: visible;
+    overflow-wrap: anywhere;
+}
+.sync-listings .specs-row {
+    box-sizing: border-box;
+    height: 3.75rem;
+    min-height: 3.75rem;
+    align-items: center;
 }
