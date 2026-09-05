@@ -143,10 +143,20 @@
     let index = 0;
     let open = false;
 
+    function updateImageOrientation(){
+      const portrait = image.naturalHeight > image.naturalWidth;
+      image.classList.toggle('is-portrait', portrait);
+    }
+
+    image.addEventListener('load', updateImageOrientation);
+    image.addEventListener('error', () => image.classList.remove('is-portrait'));
+
     function show(position){
       index = (position + sources.length) % sources.length;
+      image.classList.remove('is-portrait');
       image.src = sources[index].src;
       image.alt = sources[index].alt;
+      if(image.complete && image.naturalWidth) updateImageOrientation();
       status.textContent = `${index + 1} / ${sources.length}`;
     }
     function syncSecondLayer(){
