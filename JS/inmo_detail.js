@@ -148,15 +148,21 @@
       image.classList.toggle('is-portrait', portrait);
     }
 
-    image.addEventListener('load', updateImageOrientation);
-    image.addEventListener('error', () => image.classList.remove('is-portrait'));
+    function revealImage(){
+      updateImageOrientation();
+      image.classList.remove('is-loading');
+    }
+
+    image.addEventListener('load', revealImage);
+    image.addEventListener('error', () => image.classList.remove('is-portrait', 'is-loading'));
 
     function show(position){
       index = (position + sources.length) % sources.length;
+      image.classList.add('is-loading');
       image.classList.remove('is-portrait');
       image.src = sources[index].src;
       image.alt = sources[index].alt;
-      if(image.complete && image.naturalWidth) updateImageOrientation();
+      if(image.complete && image.naturalWidth) revealImage();
       status.textContent = `${index + 1} / ${sources.length}`;
     }
     function syncSecondLayer(){
