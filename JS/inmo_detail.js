@@ -105,7 +105,22 @@
     const slides = Array.from(slider.querySelectorAll('.slide'));
     const sources = slides.map(slide => {
       const photo = slide.querySelector('img');
-      return {src:photo?.currentSrc || photo?.src || '', alt:photo?.alt || 'Fotografía del inmueble'};
+      const source = {
+        src:photo?.currentSrc || photo?.src || '',
+        alt:photo?.alt || 'Fotografía del inmueble',
+        element:photo,
+        portrait:null,
+        ready:false,
+        promise:null
+      };
+      const rememberOrientation = () => {
+        if(!photo?.naturalWidth) return;
+        source.portrait = photo.naturalHeight > photo.naturalWidth;
+        source.ready = true;
+      };
+      if(photo?.complete) rememberOrientation();
+      else photo?.addEventListener('load', rememberOrientation, {once:true});
+      return source;
     }).filter(photo => photo.src);
     if(!sources.length) return;
     slider.dataset.photoViewerReady = '1';
@@ -142,28 +157,60 @@
     const next = viewer.querySelector('.photo-viewer-next');
     let index = 0;
     let open = false;
+    let imageRequest = 0;
 
-    function updateImageOrientation(){
-      const portrait = image.naturalHeight > image.naturalWidth;
-      image.classList.toggle('is-portrait', portrait);
+    function prepareSource(position){
+      const preparedIndex = (position + sources.length) % sources.length;
+      const source = sources[preparedIndex];
+      const sourceImage = source.element;
+      if(sourceImage?.complete && sourceImage.naturalWidth){
+        source.portrait = sourceImage.naturalHeight > sourceImage.naturalWidth;
+        source.ready = true;
+      }
+      if(source.ready) return Promise.resolve(source);
+      if(source.promise) return source.promise;
+
+      source.promise = new Promise(resolve => {
+        const preloader = new Image();
+        preloader.decoding = 'async';
+        preloader.onload = async () => {
+          source.portrait = preloader.naturalHeight > preloader.naturalWidth;
+          try{ await preloader.decode(); }catch(error){}
+          source.ready = true;
+          resolve(source);
+        };
+        preloader.onerror = () => resolve(source);
+        preloader.src = source.src;
+      });
+      return source.promise;
     }
 
-    function revealImage(){
-      updateImageOrientation();
-      image.classList.remove('is-loading');
-    }
-
-    image.addEventListener('load', revealImage);
-    image.addEventListener('error', () => image.classList.remove('is-portrait', 'is-loading'));
-
-    function show(position){
+    async function show(position){
+      const request = ++imageRequest;
       index = (position + sources.length) % sources.length;
-      image.classList.add('is-loading');
-      image.classList.remove('is-portrait');
-      image.src = sources[index].src;
-      image.alt = sources[index].alt;
-      if(image.complete && image.naturalWidth) revealImage();
+      const source = sources[index];
       status.textContent = `${index + 1} / ${sources.length}`;
+      image.classList.add('is-loading');
+      await prepareSource(index);
+      if(request !== imageRequest) return;
+
+      image.classList.toggle('is-portrait', source.portrait === true);
+      image.alt = source.alt;
+      image.onload = () => {
+        if(request !== imageRequest) return;
+        source.portrait = image.naturalHeight > image.naturalWidth;
+        source.ready = true;
+        image.classList.toggle('is-portrait', source.portrait);
+        image.classList.remove('is-loading');
+      };
+      image.onerror = () => {
+        if(request === imageRequest) image.classList.remove('is-portrait', 'is-loading');
+      };
+      image.src = source.src;
+      if(image.complete && image.naturalWidth) image.onload();
+
+      void prepareSource(index - 1);
+      void prepareSource(index + 1);
     }
     function syncSecondLayer(){
       slider.dispatchEvent(new CustomEvent('inmogl:photo-index', {detail:{index}}));
