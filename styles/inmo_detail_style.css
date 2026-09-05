@@ -104,6 +104,9 @@ body.detail-page>header,body.detail-page>footer{z-index:1000}
     object-fit:contain;
     background:#000;
 }
+.photo-viewer-image.is-loading{
+    visibility:hidden;
+}
 .photo-viewer-image.is-portrait{
     width:auto;
     height:auto;
