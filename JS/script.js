@@ -83,3 +83,19 @@ document.addEventListener('DOMContentLoaded', () => {
       .forEach(({ box }) => propertyContainer.appendChild(box));
   }
 });
+
+/* INMOGL · Frescura de publicación: cobertura común para listados y fichas.
+   Funciona sin pasos adicionales tanto en publicaciones manuales como futuras
+   publicaciones automáticas. No instala cachés de contenido ni hace precarga. */
+(function registerInmoglFreshness() {
+  if (!('serviceWorker' in navigator) || !/^https?:$/.test(location.protocol)) return;
+  const sharedScript = document.currentScript;
+  const siteRoot = new URL('../', sharedScript ? sharedScript.src : location.href);
+  const worker = new URL('sw.js', siteRoot);
+  navigator.serviceWorker.register(worker.href, {
+    scope: siteRoot.pathname,
+    updateViaCache: 'none'
+  }).catch(error => {
+    console.warn('INMOGL: no se ha podido activar la actualización de caché', error);
+  });
+})();
