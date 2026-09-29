@@ -286,27 +286,28 @@ body {
     }
 }
 
-
 /* =========================================================
    MOBILE · CABECERA + BOTON FLOTANTE VENTA
-   2026-09-29
-   - Logos a la izquierda.
-   - Hamburguesa a la derecha.
-   - Venta: tercer boton independiente, centrado en viewport.
-   - Un unico anillo exterior; icono totalmente estatico.
+   REVISION 2026-09-29
+   - Conjunto InmoGL + Occident vuelve a su posicion inicial.
+   - Hamburguesa se mantiene a la derecha.
+   - Boton Venta sigue fijo en lateral derecho y centrado en viewport.
+   - Un unico anillo exterior en rojo Occident.
+   - Icono de Venta totalmente estatico.
    - Telefono y WhatsApp no se modifican.
    ========================================================= */
 @media only screen and (max-width: 768px) {
-    /* Misma cota lateral que tenia la hamburguesa original. */
+    /* Restaurar la posicion inicial del bloque logo + Occident. */
     header .logo-container {
-        left: 1rem !important;
+        left: 50% !important;
         right: auto !important;
         top: 50% !important;
         bottom: auto !important;
-        transform: translateY(-50%) !important;
+        transform: translate(-50%, -50%) !important;
         margin: 0 !important;
     }
 
+    /* Hamburguesa sigue a la derecha. */
     button#hamburger-btn {
         left: auto !important;
         right: 1rem !important;
@@ -315,7 +316,8 @@ body {
         margin: 0 !important;
     }
 
-    /* Reutiliza el actual enlace/icono Venta, pero fuera visualmente de la cabecera. */
+    /* El boton Venta sigue independiente, fijo en el lateral derecho
+       y centrado en la parte visible de la pantalla. */
     header .stage.mobile {
         display: block !important;
         position: fixed !important;
@@ -329,7 +331,7 @@ body {
         margin: 0 !important;
         padding: 0 !important;
         transform: translateY(-50%) !important;
-        z-index: 0 !important;    /* queda por debajo del menu cuando este se abre */
+        z-index: 0 !important;    /* por debajo del menu abierto */
     }
 
     header .stage.mobile .icon {
@@ -368,7 +370,7 @@ body {
         border-radius: 50%;
     }
 
-    /* El pulso antiguo interno queda anulado por completo. */
+    /* El pulso interno antiguo queda completamente anulado. */
     header .stage.mobile .pulsing::before {
         content: none !important;
         animation: none !important;
@@ -376,7 +378,7 @@ body {
         box-shadow: none !important;
     }
 
-    /* Icono de Venta: sin movimiento, sin pulso interno. */
+    /* Icono de Venta inmovil: sin animacion interna. */
     header .stage.mobile #sale-icon {
         position: static !important;
         display: block !important;
@@ -392,7 +394,7 @@ body {
         filter: none !important;
     }
 
-    /* UN solo anillo. Su borde interior nace exactamente en el perimetro del boton. */
+    /* UN solo anillo exterior en rojo Occident. */
     header .stage.mobile .icon::after {
         content: "" !important;
         position: absolute !important;
@@ -400,7 +402,7 @@ body {
         width: auto !important;
         height: auto !important;
         box-sizing: border-box !important;
-        border: 2px solid #3399FF !important;
+        border: 2px solid #D71920 !important;
         border-radius: 50% !important;
         background: transparent !important;
         box-shadow: none !important;
@@ -421,7 +423,7 @@ body {
 @keyframes inmogl-sale-ring {
     0% {
         transform: scale(1);
-        opacity: .72;
+        opacity: .78;
     }
     72%, 100% {
         transform: scale(1.62);
