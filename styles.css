@@ -323,7 +323,7 @@ body {
         position: fixed !important;
         top: auto !important;
         right: 20px !important;
-        bottom: 390px !important;  /* mismo sistema de referencia vertical que telefono y WhatsApp */
+        bottom: 210px !important;  /* mismo sistema de referencia vertical que telefono y WhatsApp */
         left: auto !important;
         width: 52px !important;
         height: 52px !important;
@@ -428,17 +428,4 @@ body {
         transform: scale(1.62);
         opacity: 0;
     }
-}
-
-
-/* MOBILE · ELIMINAR DESTELLO AZUL AL TOCAR (Chrome/Android) */
-a,
-button,
-input,
-select,
-textarea,
-label,
-[role="button"],
-[tabindex] {
-    -webkit-tap-highlight-color: transparent;
 }
