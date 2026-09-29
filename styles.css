@@ -285,3 +285,146 @@ body {
         pointer-events: none;
     }
 }
+
+
+/* =========================================================
+   MOBILE · CABECERA + BOTON FLOTANTE VENTA
+   2026-09-29
+   - Logos a la izquierda.
+   - Hamburguesa a la derecha.
+   - Venta: tercer boton independiente, centrado en viewport.
+   - Un unico anillo exterior; icono totalmente estatico.
+   - Telefono y WhatsApp no se modifican.
+   ========================================================= */
+@media only screen and (max-width: 768px) {
+    /* Misma cota lateral que tenia la hamburguesa original. */
+    header .logo-container {
+        left: 1rem !important;
+        right: auto !important;
+        top: 50% !important;
+        bottom: auto !important;
+        transform: translateY(-50%) !important;
+        margin: 0 !important;
+    }
+
+    button#hamburger-btn {
+        left: auto !important;
+        right: 1rem !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        margin: 0 !important;
+    }
+
+    /* Reutiliza el actual enlace/icono Venta, pero fuera visualmente de la cabecera. */
+    header .stage.mobile {
+        display: block !important;
+        position: fixed !important;
+        top: 50% !important;      /* fallback */
+        top: 50dvh !important;    /* centro real de la pantalla visible */
+        right: 20px !important;
+        bottom: auto !important;
+        left: auto !important;
+        width: 52px !important;
+        height: 52px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        transform: translateY(-50%) !important;
+        z-index: 0 !important;    /* queda por debajo del menu cuando este se abre */
+    }
+
+    header .stage.mobile .icon {
+        position: relative !important;
+        inset: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        box-sizing: border-box !important;
+        width: 52px !important;
+        height: 52px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: 0 !important;
+        border-radius: 50% !important;
+        background: #fff !important;
+        box-shadow:
+            inset 0 2px 4px rgba(255,255,255,.25),
+            inset 0 -5px 8px rgba(0,0,0,.28),
+            0 9px 20px rgba(0,0,0,.36) !important;
+        overflow: visible !important;
+        animation: none !important;
+        transition: none !important;
+    }
+
+    header .stage.mobile .icon > a {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 50%;
+    }
+
+    /* El pulso antiguo interno queda anulado por completo. */
+    header .stage.mobile .pulsing::before {
+        content: none !important;
+        animation: none !important;
+        transition: none !important;
+        box-shadow: none !important;
+    }
+
+    /* Icono de Venta: sin movimiento, sin pulso interno. */
+    header .stage.mobile #sale-icon {
+        position: static !important;
+        display: block !important;
+        width: 32px !important;
+        height: 32px !important;
+        max-width: 32px !important;
+        max-height: 32px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        transform: none !important;
+        animation: none !important;
+        transition: none !important;
+        filter: none !important;
+    }
+
+    /* UN solo anillo. Su borde interior nace exactamente en el perimetro del boton. */
+    header .stage.mobile .icon::after {
+        content: "" !important;
+        position: absolute !important;
+        inset: -2px !important;
+        width: auto !important;
+        height: auto !important;
+        box-sizing: border-box !important;
+        border: 2px solid #3399FF !important;
+        border-radius: 50% !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        pointer-events: none !important;
+        transform-origin: center center !important;
+        animation: inmogl-sale-ring 2.7s ease-out infinite !important;
+        transition: none !important;
+    }
+}
+
+@media only screen and (max-width: 768px) and (prefers-reduced-motion: reduce) {
+    header .stage.mobile .icon::after {
+        animation: none !important;
+        opacity: .45;
+    }
+}
+
+@keyframes inmogl-sale-ring {
+    0% {
+        transform: scale(1);
+        opacity: .72;
+    }
+    72%, 100% {
+        transform: scale(1.62);
+        opacity: 0;
+    }
+}
