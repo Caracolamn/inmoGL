@@ -291,7 +291,7 @@ body {
    REVISION 2026-09-29
    - Conjunto InmoGL + Occident vuelve a su posicion inicial.
    - Hamburguesa se mantiene a la derecha.
-   - Boton Venta sigue fijo en lateral derecho y centrado en viewport.
+   - Boton Venta sigue fijo en lateral derecho con posicion estable a 56svh.
    - Un unico anillo exterior en rojo Occident.
    - Icono de Venta totalmente estatico.
    - Telefono y WhatsApp no se modifican.
@@ -321,8 +321,7 @@ body {
     header .stage.mobile {
         display: block !important;
         position: fixed !important;
-        top: 50% !important;      /* fallback */
-        top: 50dvh !important;    /* centro real de la pantalla visible */
+        top: 56svh !important;    /* posicion estable, ligeramente por debajo del centro */
         right: 20px !important;
         bottom: auto !important;
         left: auto !important;
