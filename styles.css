@@ -429,3 +429,16 @@ body {
         opacity: 0;
     }
 }
+
+
+/* MOBILE · ELIMINAR DESTELLO AZUL AL TOCAR (Chrome/Android) */
+a,
+button,
+input,
+select,
+textarea,
+label,
+[role="button"],
+[tabindex] {
+    -webkit-tap-highlight-color: transparent;
+}
