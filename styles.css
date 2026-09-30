@@ -378,3 +378,60 @@ footer .footer-mobile-contact {
         opacity: 0;
     }
 }
+
+/* MOBILE · REUBICACION LEGAL INDEX / ALQUILER / CONTACTO */
+.mobile-index-legal,
+.mobile-map-legal {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* En estas páginas Legal deja el footer solo en mobile. */
+    footer .footer-legal-link {
+        display: none !important;
+    }
+
+    /* CONTACTO queda centrado y conserva exactamente su tamaño de fuente actual. */
+    footer .footer-mobile-contact {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    /* Quitar el punto/separador que acompañaba a CONTACTO. */
+    footer .footer-mobile-contact::before,
+    footer .footer-mobile-contact::after {
+        content: none !important;
+        display: none !important;
+    }
+
+    /* Index: Legal debajo del teléfono, negro y del mismo tamaño que Tel. */
+    .mobile-index-legal {
+        display: block !important;
+        margin: .12rem 0 !important;
+        text-align: center !important;
+    }
+    .mobile-index-legal a {
+        color: #171717 !important;
+        font-size: inherit !important;
+        font-weight: 400 !important;
+        line-height: inherit !important;
+        text-decoration: none !important;
+    }
+
+    /* Alquiler y Contacto: Legal inmediatamente debajo del mapa. */
+    .mobile-map-legal {
+        display: block !important;
+        margin: .45rem 0 2.6rem !important;
+        text-align: center !important;
+    }
+    .mobile-map-legal a {
+        color: #3399FF !important;
+        font-size: clamp(.2rem,.7rem,3rem) !important;
+        font-weight: 700 !important;
+        line-height: 1.6 !important;
+        text-decoration: none !important;
+    }
+}
