@@ -211,3 +211,16 @@ section {
         font-weight: 700;
     }
 }
+
+
+/* HOME DESKTOP · PANORÁMICA DE LERMA COMO FONDO ÚNICO
+   Sustituye visualmente el mosaico anterior sin tocar mobile. */
+@media only screen and (min-width: 991px) {
+    body.home-page {
+        background-image: url("../images/Lerma_inmoGl_Pano.webp") !important;
+        background-repeat: no-repeat !important;
+        background-position: center top !important;
+        background-size: cover !important;
+        background-attachment: fixed !important;
+    }
+}
