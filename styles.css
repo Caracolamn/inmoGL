@@ -398,7 +398,9 @@ footer .footer-mobile-contact {
     }
 
     /* Mismo tamaño visual que tenía CONTACTO. */
-    footer .footer-legal-link a {
+    /* LEGAL: misma medida en TODAS las páginas, aunque el <li> no lleve
+       la clase footer-legal-link. Coincide también con ../legal.html. */
+    footer a[href$="legal.html"] {
         font-weight: 800 !important;
         font-size: 0.78rem !important;
         text-transform: uppercase !important;
@@ -415,15 +417,6 @@ footer .footer-mobile-contact {
         display: none !important;
     }
 }
-
-
-/* MOBILE · FORZAR LEGAL EN MAYUSCULAS EN TODOS LOS PIES */
-@media only screen and (max-width: 768px) {
-    footer a[href$="legal.html"] {
-        text-transform: uppercase !important;
-    }
-}
-
 /* MOBILE · ELIMINAR RESALTADO AZUL DE TOQUE / FOCO TACTIL EN CHROME ANDROID */
 @media only screen and (max-width: 768px) {
     *,
