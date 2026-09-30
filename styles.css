@@ -415,3 +415,11 @@ footer .footer-mobile-contact {
         display: none !important;
     }
 }
+
+
+/* MOBILE · FORZAR LEGAL EN MAYUSCULAS EN TODOS LOS PIES */
+@media only screen and (max-width: 768px) {
+    footer a[href$="legal.html"] {
+        text-transform: uppercase !important;
+    }
+}
