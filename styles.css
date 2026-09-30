@@ -41,10 +41,6 @@ body {
 .footer-mobile-contact {
     display: none;
 }
-.credits-mobile {
-    display: none;
-}
-
 @media only screen and (max-width: 990px) {
     header .content {
         position: relative;
@@ -94,19 +90,12 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
-    .credits-desktop {
-        display: none;
-    }
-    .credits-mobile {
-        display: inline;
-    }
-    footer .footer-mobile-contact {
+footer .footer-mobile-contact {
         display: flex;
         align-items: center;
         font-weight: 800;
     }
-    footer .footer-mobile-contact::before,
-    footer .footer-mobile-contact::after {
+    footer .footer-mobile-contact::before {
         content: "";
         display: block;
         flex: 0 0 auto;
@@ -138,8 +127,7 @@ body {
     #Lerma {
         font-size: 0.72rem !important;
     }
-    footer .footer-mobile-contact::before,
-    footer .footer-mobile-contact::after {
+    footer .footer-mobile-contact::before {
         margin: 0 0.85rem;
     }
 }
@@ -158,15 +146,13 @@ body {
         padding: 0 !important;
     }
 
-    footer .footer-mobile-contact::before,
-    footer .footer-mobile-contact::after {
+    footer .footer-mobile-contact::before {
         margin: 0 0.45rem;
     }
 }
 
 @media only screen and (max-width: 390px) {
-    footer .footer-mobile-contact::before,
-    footer .footer-mobile-contact::after {
+    footer .footer-mobile-contact::before {
         margin: 0 0.35rem;
     }
 }
@@ -248,43 +234,6 @@ body {
 }
 
 
-
-/* PIE DESKTOP / TABLET ANCHO: conservar la geometria original del nav/WhatsApp.
-   El separador se posiciona de forma absoluta respecto al alto real del item para
-   evitar diferencias de baseline entre Chrome y Firefox. */
-@media only screen and (min-width: 991px) {
-    /* No convertir .content ni nav en flex: asi WhatsApp conserva su posicion. */
-    footer nav ul {
-        justify-content: center;
-        gap: 0;
-    }
-
-    /* Correccion vertical del conjunto Legal · Creditos sin alterar el flujo general. */
-    footer nav ul > li {
-        position: relative;
-        transform: translateY(-0.16rem);
-    }
-
-    /* Reserva exactamente el espacio del punto + margenes. */
-    footer nav li:last-child {
-        position: relative;
-        padding-left: 1.62rem !important;
-    }
-
-    /* Punto azul centrado matematicamente en el alto del item, no en la baseline. */
-    footer nav li:last-child::before {
-        content: "";
-        position: absolute;
-        width: 0.32rem;
-        height: 0.32rem;
-        left: 0.65rem;
-        top: 50%;
-        transform: translateY(-50%);
-        background-color: #3399FF;
-        border-radius: 50%;
-        pointer-events: none;
-    }
-}
 
 /* =========================================================
    MOBILE · CABECERA + BOTON FLOTANTE VENTA
