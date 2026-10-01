@@ -639,11 +639,11 @@ body.detail-page{background:var(--v217-white)!important;color:var(--v217-text)!i
 }
 
 /* ================================================================
-   INMOGL · V0102 · BARRAS CREMA CALIDO · 2026-10-01
+   INMOGL · V0102 · BARRAS CREMA SUAVE · 2026-10-01
    Cabecera/navegacion superior y pie inferior siempre a juego.
-   Color: #FFE8BA
+   Color: #FDF0CC
    ================================================================ */
 header,
 footer{
-  background-color:#FFE8BA!important;
+  background-color:#FDF0CC!important;
 }
