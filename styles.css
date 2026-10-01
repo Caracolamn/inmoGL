@@ -1106,3 +1106,14 @@ header nav.mobile#menu li.current a{
     transform:scale(1.08)!important;
   }
 }
+
+
+/* ================================================================
+   INMOGL · DIVISOR CENTRAL NEGRO · 2026-10-01
+   Cambio único adicional:
+   - línea horizontal divisoria de la portada -> negro
+   ================================================================ */
+body.home-page .horizontal-divider::after,
+body.home-page .horizontal-divider:after{
+  background:#000000!important;
+}
