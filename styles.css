@@ -1056,3 +1056,53 @@ header nav.mobile#menu li.current a{
   color:var(--occident-red)!important;
   font-weight:900!important;
 }
+
+/* ================================================================
+   INMOGL · LEGAL NEGRO + HOVER FICHAS · 2026-10-01
+   Base: ultimo parche #FFFCF2.
+   - Legal: textos/titulos azules de contenido -> negro.
+   - Desktop: "..más" aumenta visualmente al hover sin mover la ficha.
+   - Desktop: imagen de fichas Venta/Locales/Terrenos hace zoom suave
+     dentro de su propio marco.
+   ================================================================ */
+
+/* LEGAL: solo contenido de la pagina; navegacion y logos no se tocan */
+#legal-section h2.section-highlight-2,
+#legal-section + .site-meta .site-year{
+  color:#000000!important;
+}
+
+/* Hover real solo en dispositivos con raton/puntero fino */
+@media (min-width:991px) and (hover:hover) and (pointer:fine){
+
+  /* "..más": zoom tipografico sin reflujo ni desplazamiento */
+  body.sync-listings a.more.no-style{
+    display:inline-block!important;
+    transform-origin:right center!important;
+    transition:transform .18s ease!important;
+    will-change:transform;
+  }
+  body.sync-listings a.more.no-style:hover,
+  body.sync-listings a.more.no-style:focus-visible{
+    transform:scale(1.18)!important;
+  }
+
+  /* Imagen de ficha: el marco permanece fijo y recorta el zoom */
+  body.sync-listings a.foto-inmueble{
+    display:block!important;
+    overflow:hidden!important;
+  }
+  body.sync-listings a.foto-inmueble > img{
+    display:block!important;
+    width:100%!important;
+    height:auto!important;
+    transform:scale(1)!important;
+    transform-origin:center center!important;
+    transition:transform .32s ease!important;
+    will-change:transform;
+  }
+  body.sync-listings a.foto-inmueble:hover > img,
+  body.sync-listings a.foto-inmueble:focus-visible > img{
+    transform:scale(1.08)!important;
+  }
+}
