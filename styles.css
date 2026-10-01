@@ -485,7 +485,7 @@ body.detail-page header nav.desktop li:nth-child(2) a::before,body.detail-page h
 
 /* --- Portada: NO tocar panorama ni geometria; solo retirar masa azul --- */
 body.home-page #index-frame,body.home-page .frame{background-color:var(--v217-white)!important;color:var(--v217-text)!important}
-body.home-page #index-frame section,body.home-page #index-frame .index-section{background-color:var(--v217-white)!important;color:var(--v217-text)!important}
+body.home-page #index-frame .index-section{background-color:var(--v217-white)!important;color:var(--v217-text)!important}
 body.home-page .buscando-title{color:var(--inmogl-blue)!important}
 body.home-page .index-section h2 .section-highlight{color:var(--occident-red)!important}
 body.home-page .VyT .section-highlight-3{color:var(--occident-red)!important}
@@ -514,9 +514,9 @@ body.sync-listings .specs-row{border-color:var(--v217-border)!important}
 body.contact-page,body.rental-page{background:var(--v217-white)!important;color:var(--v217-text)!important}
 body.rental-page .frame,body.rental-page #buscando-frame,body.rental-page section.index-section{background:transparent!important;color:var(--v217-text)!important}
 body.rental-page .buscando-title{color:var(--inmogl-blue)!important}
-.business-container,.business-container p,.business-container li{color:var(--v217-text)!important}
+.business-container,.business-container p,.business-container li{color:var(--occident-red)!important}
 .business-container img.business{filter:none!important;mix-blend-mode:normal!important}
-#email-link,#email-link:hover,#email-link:active{color:var(--inmogl-blue)!important}
+#email-link,#email-link:hover,#email-link:active{color:var(--occident-red)!important}
 #point{color:var(--inmogl-blue)!important}
 
 /* --- Legal --- */
