@@ -1117,3 +1117,50 @@ body.home-page .horizontal-divider::after,
 body.home-page .horizontal-divider:after{
   background:#000000!important;
 }
+
+
+/* ================================================================
+   INMOGL · MENU HAMBURGUESA BLANCO · 2026-10-01
+   Cambio único:
+   - cortina del menú mobile abierta -> blanco
+   - resto sin cambios
+   ================================================================ */
+@media only screen and (max-width:990px){
+  header nav.mobile#menu,
+  header nav.mobile#menu.open,
+  nav.mobile#menu,
+  nav.mobile#menu.open{
+    background-color:#FFFFFF!important;
+  }
+}
+
+
+/* ================================================================
+   INMOGL · CORRECCION REAL DIVISOR + MENU MOBILE · 2026-10-01
+   - La clase real del divisor es .horizoontal-divider (doble "oo").
+   - La cortina mobile se fuerza con background completo, no solo color.
+   ================================================================ */
+
+/* PORTADA: divisor horizontal negro, conservando desvanecido en extremos */
+body.home-page .horizoontal-divider::after,
+body.home-page .horizoontal-divider:after{
+  background:
+    linear-gradient(
+      to right,
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,1) 50%,
+      rgba(0,0,0,0) 100%
+    ) !important;
+}
+
+/* MOBILE: cortina completa del menú hamburguesa en blanco */
+@media only screen and (max-width:990px){
+  html body header nav#menu.mobile,
+  html body header nav#menu.mobile.open,
+  html body header nav#menu.mobile > ul.vertical-header,
+  html body header nav#menu.mobile.open > ul.vertical-header{
+    background:#FFFFFF !important;
+    background-color:#FFFFFF !important;
+    background-image:none !important;
+  }
+}
