@@ -917,3 +917,55 @@ footer{
     filter:none!important;
   }
 }
+
+
+/* ================================================================
+   INMOGL · FONDOS GENERALES #FFFCF2 · 2026-10-01
+   Mantiene:
+   - cabecera superior blanca
+   - barra inferior blanca
+   - tarjetas/cajas blancas
+   - resto de estructura y botones del parche anterior
+   Cambia:
+   - fondos generales
+   - fondo alrededor de inmuebles
+   - columna central de portada
+   - grandes superficies antes blancas/azules
+   ================================================================ */
+:root{
+  --inmogl-surface-cream:#FFFCF2!important;
+}
+
+body,
+body:not(.home-page),
+body.contact-page,
+body.rental-page,
+body.sync-listings,
+body.detail-page{
+  background-color:#FFFCF2!important;
+}
+
+body.home-page #index-frame,
+body.home-page .frame,
+body.home-page #index-frame .index-section,
+body.home-page section.index-section,
+body.home-page .main-content{
+  background-color:#FFFCF2!important;
+}
+
+@media only screen and (max-width:990px){
+  body,
+  body.home-page,
+  body.contact-page,
+  body.rental-page,
+  body.sync-listings,
+  body.detail-page{
+    background-color:#FFFCF2!important;
+  }
+}
+
+/* Barras permanecen blancas */
+header,
+footer{
+  background-color:#FFFFFF!important;
+}
