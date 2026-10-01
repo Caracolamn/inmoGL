@@ -639,64 +639,148 @@ body.detail-page{background:var(--v217-white)!important;color:var(--v217-text)!i
 }
 
 /* ================================================================
-   INMOGL · V0102 · BARRAS CREMA SUAVE · 2026-10-01
+   INMOGL · V0102 · BARRAS MARFIL TENUE · 2026-10-01
    Cabecera/navegacion superior y pie inferior siempre a juego.
-   Color: #FDF0CC
+   Color: #FCFBF8
    ================================================================ */
 header,
 footer{
-  background-color:#FDF0CC!important;
+  background-color:#FCFBF8!important;
 }
 
 /* ================================================================
-   INMOGL · FONDOS MARFIL CALIDO · 2026-10-01
-   - Fondo general de paginas: #FAEFD9.
-   - Fichas/tarjetas de inmuebles permanecen blancas.
-   - En portada, la columna central adopta #FAEFD9.
-   - Cabecera y pie NO se modifican: conservan #FDF0CC.
+   INMOGL · AJUSTE FINAL MARFIL · 2026-10-01
+   - Barras/navegacion: #FDF0CC
+   - Fondos generales: #FCF2D7
+   - Menu mobile abierto al mismo tono de navegacion.
+   - Tarjetas/fichas siguen en blanco.
+   - Boton Venta y Telefono: mismo tratamiento visual base que WhatsApp.
    ================================================================ */
 :root{
-  --inmogl-warm-bg:#FAEFD9;
+  --inmogl-bar-cream:#FDF0CC;
+  --inmogl-surface-cream:#FCF2D7;
 }
 
-/* Venta / Locales / Terrenos: fondo cálido detrás de fichas blancas */
-body.sync-listings{
-  background-color:var(--inmogl-warm-bg)!important;
-  background-image:none!important;
-}
-body.sync-listings .box{
-  background-color:#FFFFFF!important;
-}
-
-/* Alquiler y Contacto */
-body.rental-page,
-body.contact-page{
-  background-color:var(--inmogl-warm-bg)!important;
-  background-image:none!important;
-}
-
-/* Fichas de inmueble: fondo exterior cálido; ficha interior blanca */
-body.detail-page{
-  background-color:var(--inmogl-warm-bg)!important;
-  background-image:none!important;
-}
-body.detail-page .detail-card,
-body.detail-page .detail-content,
-body.detail-page .gallery-column,
-body.detail-page .detail-summary,
-body.detail-page .content-section{
-  background-color:#FFFFFF!important;
-}
-
-/* Portada: solo la columna central y sus bloques principales */
-body.home-page #index-frame,
-body.home-page .frame,
-body.home-page #index-frame .index-section:not(#map){
-  background-color:var(--inmogl-warm-bg)!important;
-}
-
-/* Cabecera y pie: mantener exactamente el tono actual */
+/* Barras superior e inferior siempre a juego */
 header,
 footer{
-  background-color:#FDF0CC!important;
+  background-color:var(--inmogl-bar-cream)!important;
+}
+
+/* Fondos generales de contenido */
+body,
+body:not(.home-page),
+body.contact-page,
+body.rental-page,
+body.sync-listings,
+body.detail-page{
+  background-color:var(--inmogl-surface-cream)!important;
+}
+
+/* Portada: columna central/fondos de contenido en marfil; tarjetas siguen en blanco */
+body.home-page #index-frame,
+body.home-page .frame,
+body.home-page #index-frame .index-section,
+body.home-page section.index-section,
+body.home-page .main-content{
+  background-color:var(--inmogl-surface-cream)!important;
+  color:var(--v217-text)!important;
+}
+
+/* Listados / alquiler / contacto: superficies de fondo en marfil */
+body.sync-listings .main-content,
+body.rental-page .main-content,
+body.contact-page .main-content,
+body.detail-page .main-content,
+body.contact-page .frame,
+body.rental-page .frame,
+body.rental-page #buscando-frame,
+body.rental-page section.index-section,
+body.contact-page .frame,
+body.contact-page #contact-frame,
+body.contact-page .business-container,
+body.contact-page .site-meta,
+body.rental-page .site-meta,
+body.sync-listings .site-meta,
+body.detail-page .site-meta{
+  background-color:transparent!important;
+}
+
+/* Tarjetas y cajas mantienen blanco */
+body.sync-listings .box,
+.detail-card,
+.detail-content,
+.gallery-column,
+.detail-summary,
+.content-section,
+#location-select,
+body.home-page .financing-card,
+#legal-section{
+  background-color:#FFFFFF!important;
+}
+
+/* Menu mobile abierto: mismo tono que la navegacion */
+@media only screen and (max-width:990px){
+  body,
+  body.home-page,
+  body.contact-page,
+  body.rental-page,
+  body.sync-listings,
+  body.detail-page{
+    background-color:var(--inmogl-surface-cream)!important;
+    background-image:none!important;
+  }
+  header nav.mobile#menu{
+    background-color:var(--inmogl-bar-cream)!important;
+  }
+}
+
+/* Sin franjas blancas residuales al final: heredar el marfil del fondo */
+html,
+body,
+.main-content,
+.site-meta{
+  background-color:transparent;
+}
+body{
+  background-color:var(--inmogl-surface-cream)!important;
+}
+
+/* Boton Venta mobile: mismo lenguaje visual base que WhatsApp
+   (contenedor transparente + sombra aplicada al icono SVG) */
+@media only screen and (max-width:768px){
+  header .stage.mobile .icon{
+    background:transparent!important;
+    box-shadow:none!important;
+    overflow:visible!important;
+  }
+  header .stage.mobile .icon > a::before{
+    content:none!important;
+    display:none!important;
+  }
+  header .stage.mobile #sale-icon{
+    width:3rem!important;
+    height:3rem!important;
+    max-width:3rem!important;
+    max-height:3rem!important;
+    filter:drop-shadow(.10rem .28rem .18rem rgba(0,0,0,.34))!important;
+  }
+}
+
+/* Boton telefono mobile: mismo lenguaje visual base que WhatsApp */
+@media only screen and (max-width:600px){
+  #phone-m.mobile{
+    background:transparent!important;
+    box-shadow:none!important;
+    filter:none!important;
+  }
+  #phone-m.mobile::before{
+    content:none!important;
+    display:none!important;
+  }
+  #phone-m.mobile img{
+    width:3rem!important;
+    height:3rem!important;
+    filter:drop-shadow(.10rem .28rem .18rem rgba(0,0,0,.34))!important;
+  }
 }
