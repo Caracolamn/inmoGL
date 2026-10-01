@@ -568,3 +568,72 @@ body.detail-page{background:var(--v217-white)!important;color:var(--v217-text)!i
     background-color:var(--inmogl-blue)!important;
   }
 }
+
+/* =========================================================
+   V217 · MOBILE · BOTONES FLOTANTES AZULES CON RELIEVE 3D
+   2026-10-01
+   - Telefono y Venta conservan fondo azul corporativo.
+   - Recuperan relieve/sombra visual equivalente a WhatsApp.
+   - Brillo superior mediante elipse blanca translucida.
+   - No modifica posicion, tamano, pulso exterior ni iconos.
+   ========================================================= */
+@media only screen and (max-width:768px){
+  header .stage.mobile .icon{
+    background-color:var(--inmogl-blue)!important;
+    background-image:none!important;
+    box-shadow:
+      inset 0 .16rem .22rem rgba(255,255,255,.42),
+      inset 0 -.24rem .30rem rgba(0,0,0,.20),
+      .10rem .28rem .18rem rgba(0,0,0,.34)!important;
+  }
+  header .stage.mobile .icon > a{
+    overflow:hidden!important;
+  }
+  header .stage.mobile .icon > a::before{
+    content:""!important;
+    position:absolute!important;
+    z-index:1!important;
+    left:13%!important;
+    top:8%!important;
+    width:74%!important;
+    height:39%!important;
+    border-radius:50%!important;
+    background:rgba(255,255,255,.34)!important;
+    transform:rotate(-7deg)!important;
+    pointer-events:none!important;
+  }
+  header .stage.mobile #sale-icon{
+    position:relative!important;
+    z-index:2!important;
+  }
+}
+
+@media only screen and (max-width:600px){
+  #phone-m.mobile{
+    position:fixed!important;
+    overflow:hidden!important;
+    background-color:var(--inmogl-blue)!important;
+    background-image:none!important;
+    box-shadow:
+      inset 0 .16rem .22rem rgba(255,255,255,.42),
+      inset 0 -.24rem .30rem rgba(0,0,0,.20),
+      .10rem .28rem .18rem rgba(0,0,0,.34)!important;
+  }
+  #phone-m.mobile::before{
+    content:""!important;
+    position:absolute!important;
+    z-index:1!important;
+    left:13%!important;
+    top:8%!important;
+    width:74%!important;
+    height:39%!important;
+    border-radius:50%!important;
+    background:rgba(255,255,255,.34)!important;
+    transform:rotate(-7deg)!important;
+    pointer-events:none!important;
+  }
+  #phone-m.mobile img{
+    position:relative!important;
+    z-index:2!important;
+  }
+}
