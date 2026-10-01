@@ -639,11 +639,11 @@ body.detail-page{background:var(--v217-white)!important;color:var(--v217-text)!i
 }
 
 /* ================================================================
-   INMOGL · V0102 · BARRAS MARFIL TENUE · 2026-10-01
+   INMOGL · V0102 · BARRAS CREMA CALIDO · 2026-10-01
    Cabecera/navegacion superior y pie inferior siempre a juego.
-   Color: #FCFBF8
+   Color: #FFE8BA
    ================================================================ */
 header,
 footer{
-  background-color:#FCFBF8!important;
+  background-color:#FFE8BA!important;
 }
