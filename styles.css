@@ -637,3 +637,13 @@ body.detail-page{background:var(--v217-white)!important;color:var(--v217-text)!i
     z-index:2!important;
   }
 }
+
+/* ================================================================
+   INMOGL · V0102 · BARRAS MARFIL TENUE · 2026-10-01
+   Cabecera/navegacion superior y pie inferior siempre a juego.
+   Color: #FCFBF8
+   ================================================================ */
+header,
+footer{
+  background-color:#FCFBF8!important;
+}
