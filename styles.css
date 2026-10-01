@@ -9,6 +9,15 @@ html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',sour
     white-space: nowrap;
 }
 
+/* ================================================================
+   INMOGL · OCULTAR TEXTO ALT DURANTE LA CARGA · 2026-10-01
+   - Evita que se vea el texto alternativo dentro de las fotos.
+   - La fotografía y el texto normal de la ficha no se modifican.
+   ================================================================ */
+body.sync-listings .foto-inmueble img{
+  color:transparent;
+}
+
 /* PRUEBA LOCAL: fondo azul en toda la web; mosaico solo en inicio de escritorio. */
 body {
     background: #3399FF;
