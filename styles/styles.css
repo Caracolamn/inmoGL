@@ -1,0 +1,657 @@
+html{font-family:Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',source-sans-pro,sans-serif;font-size:1rem}body{background:url(images/HOME_PATTERNS_1080px_BLUE_02.webp);background-repeat:repeat;background-position:bottom;background-attachment:fixed;background-size:45rem;margin:0 auto}.main-content{margin:0 auto;max-width:80%;min-width:min-content;position:relative;top:9rem;padding-bottom:4.3rem}.section-highlight{color:#fff}.section-highlight-2{color:#39f}.section-highlight-3{color:#fff;font-weight:700}.no-bold{font-weight:400}#Lerma{font-size:clamp(.45rem,.9rem,3.6rem);padding:0}.features li a{padding:0;color:#000;font-size:1rem;font-weight:bolder}h2,ul{margin:.5rem 0}p{margin:.5rem 0}#phone{border:.125rem solid #ff8000;background-image:url(images/phone.svg);background-size:clamp(2rem,2rem,20rem);background-repeat:no-repeat;background-position:center;background-color:#cae4fd;display:inline-flex;align-items:center;justify-content:center;align-content:center;border-radius:50%;width:3.8rem;height:3.8rem;margin:1.125rem auto;padding:0}button{display:flex;align-items:center;align-content:center;justify-items:center;justify-content:center}.stage{position:absolute!important;top:50%;right:10%;transform:translate(-50%,-50%);z-index:0;width:1.9rem!important;height:1.9rem!important;margin:0 auto!important;padding:0!important}.stage-left{position:absolute!important;top:50%;left:20%;transform:translate(-50%,-50%);z-index:0;width:1.9rem!important;height:1.9rem!important;margin:0 auto!important;padding:0!important}.icon{position:relative!important;top:0!important;bottom:0!important;right:0!important;left:0!important;display:flex!important;align-items:center!important;width:1.9rem!important;height:1.9rem!important;background:#fff;border-radius:50%;cursor:pointer;color:#000;padding:0!important}#sale-icon{padding:0!important;margin:0 auto!important;width:1.9rem!important;height:1.9rem!important;position:relative!important;top:0!important;bottom:0!important;right:0!important;left:0!important;cursor:pointer}.icon:after{pointer-events:none;position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;content:'';box-shadow:inset 0 0 0 px #39f;transition:transform .2s,opacity .2s}.pulsing:before{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:50%;content:'';box-shadow:inset 0 0 0 1px #39f;transition:transform .2s,opacity .2s;animation:pulsing 2.7s infinite}@keyframes pulsing{0%{transform:scale(1);opacity:1}50%{transform:scale(2);opacity:0}100%{transform:scale(1);opacity:0}}header{display:flex;color:#39f;position:fixed;top:0;left:0;right:0;z-index:1;width:100%;height:6rem;box-shadow:0 0 2.5rem 0 rgba(0,0,0,2.99);background-color:#fff;align-items:center;align-content:center;line-height:.6;justify-content:space-between}header .content{padding:0;width:75%;height:4rem;margin:0 auto;display:flex;align-items:center;justify-content:space-around;align-content:center}span.keeptogether{white-space:nowrap}.logo-container{padding-top:.9rem;display:flex;align-items:first baseline baseline}header .logo{align-items:center;font-size:clamp(.75rem,1.5rem,6rem);flex:1}#GL-Logo{width:4.3rem;height:auto;align-content:baseline}#GL-Logo:hover{color:transparent;opacity:.7;top:.125rem}#GL,#inmo-logo-text{position:relative;font-size:clamp(.75rem,1.5rem,6rem);padding-left:.7rem;align-content:baseline}#inmo-logo-text{color:#000}#GL{padding:0;color:#39f}#soluciones{font-size:clamp(.8rem,.8rem,3.2rem)}header nav ul{list-style-type:none;display:flex}nav li{font-weight:700;padding-left:1.5rem}.horizoontal-divider{letter-spacing:-3px;display:flex;align-items:center;align-content:center;justify-content:center;justify-items:center;margin:0 auto;padding:0;min-width:48%}.style-link a{color:#39f;position:relative;text-decoration:none}.style-link a::before{content:'';position:absolute;width:100%;height:.125rem;border-radius:.125rem;background-color:#39f;bottom:0;left:0;transform-origin:right;transform:scaleX(0);transition:transform .3s ease-in-out}.style-link a:hover::before{transform-origin:left;transform:scaleX(1)}#email-link{margin:0;padding:0;color:#fff;text-align:center;margin-top:0;text-decoration:underline}#email-link:hover{color:#000}#email-link:active{color:#000;font-weight:700}.tag ul{list-style-type:none;margin:0;padding:0}nav a{line-height:1.6;font-size:clamp(.5rem,1rem,4rem);color:#39f}header .icon{width:1rem;padding-left:.75rem}header .mobile{display:none}iframe{padding:0;min-height:12.5rem;width:100%;filter:grayscale(100%);mix-blend-mode:multiply;border-radius:1.25rem}#map{background-color:#cae4fd;position:relative;padding:0;min-height:12.5rem;width:100%;border-radius:1.25rem;box-shadow:0 0 .625rem 0 rgba(0,0,0,.7)}#map-XL{background-color:#cae4fd;position:relative;padding:0;min-height:12.5rem;width:100%}#map-XL iframe{width:100%;border-radius:0}.adress-phone{color:#000;text-align:center;margin:.5rem auto;padding:0;line-height:1}.copyright{color:#fff;text-align:center;margin:1.5rem auto;padding:0;line-height:0}.copyright-ventas{margin-top:1rem;color:#fff;text-align:center}footer{padding:0 .3125rem;display:flex;color:#39f;font-size:clamp(.25rem,.5rem,2rem);position:fixed;bottom:0;left:0;z-index:1;width:100%;height:1.975rem;box-shadow:0 0 2.5rem 0 rgba(0,0,0,2.99);background-color:#fff;align-items:center;align-content:center}footer .content{padding:0;height:2.5rem;width:50%;margin:0 auto;display:inline-block;align-items:center;align-content:center}footer nav ul{padding:0;list-style-type:none;display:flex;justify-content:space-around}footer nav li{padding:0;font-weight:700}@media only screen and (max-width:990px){.main-content{top:7rem;max-width:100%}section #map{padding:1rem 1.5rem!important}.logo-container h1{font-size:clamp(.25rem,.5rem,1.5rem)!important;line-height:.9rem}.VyT{line-height:1.5}}@media only screen and (max-width:990px){nav li:last-child{display:block}nav.mobile{align-self:center;padding:0!important}ul.logo-container{display:flex;align-items:flex-start;align-content:flex-start;position:absolute;top:0}.logo-container{display:flex;position:absolute;top:.5rem;bottom:.5rem;align-items:flex-end;align-content:center}#inmo-logo-text{margin:0!important;padding:0!important}#GL-Logo{width:3rem!important;height:auto;padding-right:.3rem!important}#GL,#inmo-logo-text{font-size:clamp(.5rem,.95rem,2rem)!important;padding-left:0!important;line-height:.8!important}#inmo-logo-text #soluciones{font-size:clamp(.5rem,.6rem,2rem)!important;color:#000;padding:0!important}#GL{padding:0;color:#39f}#Lerma{font-size:clamp(.4rem,.8rem,3.6rem)!important}header{height:4.5rem!important}.frame{width:90%!important}section{min-width:60%!important}header .content{padding:0}footer a{padding:0!important;font-size:clamp(.2rem,.7rem,3rem)}}@media only screen and (max-width:990px){header .desktop{display:none}header{height:5rem}header .mobile{display:block;width:100%;padding-left:.5rem!important}header .content{padding:0 .5rem;width:100%;align-items:baseline!important;align-content:baseline!important}header .mobile ul{padding:0;display:flex;justify-content:right;align-items:center;width:100%;margin:0 auto;align-items:baseline!important;align-content:baseline!important}header .mobile li{padding:0}.mobile img{padding:0;display:block;width:1.58rem;align-items:baseline;padding-left:2rem}}@media only screen and (min-width:760px) and (max-width:990px){nav.mobile #phone-image{display:none!important}}@media only screen and (max-width:460px),(max-width:990px){body{padding:0!important;background:0 0;background-color:#39f}.main-content{top:5rem}.frame{padding:0!important;max-width:100%!important;min-width:min-content;display:flex;flex-wrap:wrap}section{padding:1rem 1rem 1rem 1rem;min-width:28rem;margin-bottom:.9rem}}@media only screen and (max-width:460px){body{font-size:1rem;padding:0!important;background:0 0;background-color:#39f}.main-content{top:4rem}section{padding:1rem;min-width:28rem}#phone{display:inline-block}footer nav ul a{padding:0 .625rem!important;display:flex!important;justify-content:space-between!important;align-content:space-between!important;align-items:center!important}footer a{padding:0!important;font-size:clamp(.2rem,.7rem,3rem)}}@media only screen and (min-width:460px){#phone{display:none!important}}#whatsapp{position:relative;display:flex;justify-content:flex-end;justify-items:flex-end;margin:auto;bottom:4.7rem;right:28rem;left:25rem;border:transparent;background-color:#3399ff00;padding:.625rem;border-radius:50%;z-index:2}#whatsapp.desktop img{min-width:.3125rem;min-height:3.125rem}#whatsapp.desktop img:hover{width:3.5rem;height:3.5rem}#whatsapp-m.mobile{display:none}@media (max-width:768px){.button{bottom:calc(1.975rem + 1.25rem)}#whatsapp.desktop{display:none}#whatsapp-m.mobile{display:flex!important;position:fixed!important;bottom:0!important;right:.625rem!important;border:transparent!important;background-color:#3399ff00!important;padding:.625rem;border-radius:50%;z-index:2}#whatsapp-m.mobile img{width:3rem!important;height:3rem!important}}button#hamburger-btn{position:relative;align-self:center;z-index:10000;display:inline-block;background-color:transparent;border:none;padding:0;cursor:pointer;outline:0}#hamburger-btn .hamburger-line{display:block;width:1.5rem;height:.1875rem;margin:.375rem auto;background-color:#000;transition:all .3s ease-in-out}#hamburger-btn.active .hamburger-line:nth-child(2){opacity:0}#hamburger-btn.active .hamburger-line:nth-child(1){transform:translateY(9px) rotate(45deg)}#hamburger-btn.active .hamburger-line:nth-child(3){transform:translateY(-9px) rotate(-45deg)}#menu ul{display:flex;flex-direction:column;justify-content:center;align-items:center;height:100%;margin:0;padding:0}#menu li{color:#fff}#menu a{font-size:2rem;text-align:center;line-height:1.5;color:#fff;text-transform:uppercase}#menu{position:absolute;top:0;right:0;width:100%;height:100vmax;background-color:#39f;z-index:9999;transform:translateY(-100%);transition:transform .3s ease-in-out;z-index:1!important;display:flex;justify-content:center;justify-items:center;align-items:center;align-content:center}#menu.open{transform:translateY(0);z-index:1!important}#menu li{margin-bottom:1.5rem!important}#menu .current a{font-size:2rem;text-align:center;line-height:1.5;color:#000;text-transform:uppercase}li.current{color:#000;border-top:.125rem solid #000;border-bottom:.125rem solid #000;font-weight:bolder}a{text-decoration:none}a:active.vertical{color:#000!important;font-weight:bolder;background-color:transparent!important}header ul.vertical-header{align-items:center!important;align-content:center!important;width:100%;height:100VW}@media only screen and (min-width:990px){button#hamburger-btn{display:none}#menu{display:none}}@media screen and (min-width:2560px){html{font-size:1.33rem}}@media screen and (min-width:3840px){html{font-size:2rem}}@media screen and (min-width:7680px){html{font-size:4rem!important}}@media only screen and (min-width:991px){footer nav ul{justify-content:center;gap:1rem}}
+
+/* CO-BRANDING INMOGL + OCCIDENT / HEADER + MOBILE FOOTER */
+.logo-container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+/* PRUEBA LOCAL: fondo azul en toda la web; mosaico solo en inicio de escritorio. */
+body {
+    background: #3399FF;
+}
+
+@media only screen and (min-width: 991px) {
+    body.home-page {
+        background-image: url(images/HOME_PATTERNS_1080px_BLUE_02.webp);
+        background-repeat: repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+        background-size: 45rem;
+    }
+}
+.brand-divider {
+    display: block;
+    flex: 0 0 auto;
+    width: 0.125rem;
+    height: 2.9rem;
+    margin: 0 1.15rem;
+    background-color: #3399FF;
+    border-radius: 0.125rem;
+}
+.occident-header-logo {
+    display: block;
+    flex: 0 0 auto;
+    width: auto;
+    height: 2.9rem;
+}
+.footer-mobile-contact {
+    display: none;
+}
+@media only screen and (max-width: 990px) {
+    header .content {
+        position: relative;
+        height: 100%;
+        align-items: center !important;
+        align-content: center !important;
+        justify-content: center;
+    }
+    button#hamburger-btn {
+        position: absolute;
+        left: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0;
+    }
+    .logo-container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        transform: translate(-50%, -50%);
+        padding-top: 0;
+        align-items: center;
+        align-content: center;
+    }
+    .brand-divider {
+        width: 0.1rem;
+        height: 2.65rem;
+        margin: 0 0.7rem;
+    }
+   .occident-header-logo {
+        width: auto;
+        height: 2.65rem;
+    }
+    .stage {
+        top: 50% !important;
+        right: 1rem !important;
+        transform: translateY(-50%) !important;
+    }
+    footer .content {
+        width: 100%;
+    }
+    footer nav ul {
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+footer .footer-mobile-contact {
+        display: flex;
+        align-items: center;
+        font-weight: 800;
+    }
+    footer .footer-mobile-contact::before {
+        content: "";
+        display: block;
+        flex: 0 0 auto;
+        width: 0.32rem;
+        height: 0.32rem;
+        margin: 0 1.35rem;
+        background-color: #3399FF;
+        border-radius: 50%;
+    }
+    footer .footer-mobile-contact a {
+        font-weight: 800;
+        font-size: 0.78rem !important;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .brand-divider {
+        margin: 0 0.5rem;
+    }
+    #GL-Logo {
+        width: 2.7rem !important;
+    }
+    #GL, #inmo-logo-text {
+        font-size: 0.86rem !important;
+    }
+    #inmo-logo-text #soluciones {
+        font-size: 0.54rem !important;
+    }
+    #Lerma {
+        font-size: 0.72rem !important;
+    }
+    footer .footer-mobile-contact::before {
+        margin: 0 0.85rem;
+    }
+}
+
+/* AJUSTE COMPACTO DEL PIE EN MOBILE */
+@media only screen and (max-width: 990px) {
+    footer nav ul {
+        justify-content: center;
+        gap: 0;
+    }
+
+    footer nav li,
+    footer nav ul a,
+    footer .footer-mobile-contact {
+        margin: 0;
+        padding: 0 !important;
+    }
+
+    footer .footer-mobile-contact::before {
+        margin: 0 0.45rem;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    footer .footer-mobile-contact::before {
+        margin: 0 0.35rem;
+    }
+}
+
+/* AJUSTE VERTICAL CO-BRANDING EN ESCRITORIO / FIREFOX + WEBKIT */
+@media only screen and (min-width: 991px) {
+    header .logo-container {
+        padding-top: 0;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+/* Firma sin copyright: integrada directamente sobre el fondo azul. */
+.site-meta{box-sizing:border-box;width:min(100%,64rem);margin:1.6rem auto 0;padding:.8rem 1rem 1rem;text-align:center;background:transparent;border:0;border-radius:0;line-height:1.25}
+.site-year{margin:0 0 .65rem;color:#fff;font-weight:800}
+.site-contact{color:#171717;font-size:.88rem}
+.site-contact p{margin:.12rem 0}
+.detail-page .site-meta{width:min(1180px,calc(100% - 2rem));margin-top:1rem;margin-bottom:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+@media(max-width:560px){.detail-page .site-meta{width:100%}.site-meta{padding:.7rem .75rem .9rem}.site-year{margin-bottom:.55rem}}
+
+/* TELEFONO FLOTANTE: SOLO MOVIL (NO TABLET/ESCRITORIO). Mismo diametro visible que WhatsApp. */
+#phone-m.mobile{display:none}
+@media only screen and (max-width:600px){
+#phone-m.mobile{display:flex!important;position:fixed!important;right:1.25rem!important;bottom:4.25rem!important;width:3rem!important;height:3rem!important;box-sizing:border-box!important;border:0!important;background-color:#cae4fd!important;padding:0!important;border-radius:50%!important;z-index:2!important;align-items:center!important;justify-content:center!important;box-shadow:.22rem .22rem .42rem rgba(0,0,0,.28)!important;cursor:pointer}
+#phone-m.mobile img{display:block!important;width:2rem!important;height:2rem!important;padding:0!important;margin:0!important}
+}
+
+/* BOTONES FLOTANTES MOBILE: DIAMETRO VISUAL IGUALADO + SOMBRA CSS SUTIL */
+@media only screen and (max-width:600px){
+    /* WhatsApp conserva su posicion actual invadiendo parcialmente el pie. */
+    #whatsapp-m.mobile{
+        animation:none!important;
+        transition:none!important;
+    }
+    #whatsapp-m.mobile img{
+        animation:none!important;
+        transition:none!important;
+        filter:drop-shadow(.22rem .22rem .42rem rgba(0,0,0,.28))!important;
+    }
+
+    /* El circulo vectorial visible de WhatsApp mide 112/120 del lienzo de 3rem = 2.8rem.
+       Telefono se iguala a ese diametro real, manteniendo alineado el borde izquierdo.
+       Al reducir su diametro se conserva la cota superior previa para ganar separacion vertical. */
+    #phone-m.mobile{
+        width:2.8rem!important;
+        height:2.8rem!important;
+        right:1.45rem!important;
+        bottom:4.45rem!important;
+        box-shadow:.22rem .22rem .42rem rgba(0,0,0,.28)!important;
+        filter:none!important;
+        animation:none!important;
+        transition:none!important;
+    }
+    #phone-m.mobile img{
+        width:1.87rem!important;
+        height:1.87rem!important;
+        animation:none!important;
+        transition:none!important;
+    }
+}
+
+
+/* SOMBRA FINAL BOTONES FLOTANTES: mas cercana, mas definida y con caida principalmente inferior. */
+#whatsapp.desktop img{
+    filter:drop-shadow(.10rem .28rem .18rem rgba(0,0,0,.34));
+}
+#whatsapp.desktop img:hover{
+    filter:drop-shadow(.10rem .28rem .18rem rgba(0,0,0,.34));
+}
+@media only screen and (max-width:600px){
+    #whatsapp-m.mobile img{
+        filter:drop-shadow(.10rem .28rem .18rem rgba(0,0,0,.34))!important;
+    }
+    #phone-m.mobile{
+        box-shadow:.10rem .28rem .18rem rgba(0,0,0,.34)!important;
+        filter:none!important;
+    }
+}
+
+
+
+/* =========================================================
+   MOBILE · CABECERA + BOTON FLOTANTE VENTA
+   REVISION 2026-09-29
+   - Conjunto InmoGL + Occident vuelve a su posicion inicial.
+   - Hamburguesa se mantiene a la derecha.
+   - Boton Venta sigue fijo en lateral derecho y anclado desde abajo a 390px.
+   - Un unico anillo exterior en rojo Occident.
+   - Icono de Venta totalmente estatico.
+   - Telefono y WhatsApp no se modifican.
+   ========================================================= */
+@media only screen and (max-width: 768px) {
+    /* Restaurar la posicion inicial del bloque logo + Occident. */
+    header .logo-container {
+        left: 50% !important;
+        right: auto !important;
+        top: 50% !important;
+        bottom: auto !important;
+        transform: translate(-50%, -50%) !important;
+        margin: 0 !important;
+    }
+
+    /* Hamburguesa sigue a la derecha. */
+    button#hamburger-btn {
+        left: auto !important;
+        right: 1rem !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        margin: 0 !important;
+    }
+
+    /* El boton Venta sigue independiente, fijo en el lateral derecho
+       y centrado en la parte visible de la pantalla. */
+    header .stage.mobile {
+        display: block !important;
+        position: fixed !important;
+        top: auto !important;
+        right: 20px !important;
+        bottom: 210px !important;  /* mismo sistema de referencia vertical que telefono y WhatsApp */
+        left: auto !important;
+        width: 52px !important;
+        height: 52px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        transform: none !important;
+        z-index: 0 !important;    /* por debajo del menu abierto */
+    }
+
+    header .stage.mobile .icon {
+        position: relative !important;
+        inset: auto !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        box-sizing: border-box !important;
+        width: 52px !important;
+        height: 52px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: 0 !important;
+        border-radius: 50% !important;
+        background: #fff !important;
+        box-shadow:
+            inset 0 2px 4px rgba(255,255,255,.25),
+            inset 0 -5px 8px rgba(0,0,0,.28),
+            0 9px 20px rgba(0,0,0,.36) !important;
+        overflow: visible !important;
+        animation: none !important;
+        transition: none !important;
+    }
+
+    header .stage.mobile .icon > a {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 50%;
+    }
+
+    /* El pulso interno antiguo queda completamente anulado. */
+    header .stage.mobile .pulsing::before {
+        content: none !important;
+        animation: none !important;
+        transition: none !important;
+        box-shadow: none !important;
+    }
+
+    /* Icono de Venta inmovil: sin animacion interna. */
+    header .stage.mobile #sale-icon {
+        position: static !important;
+        display: block !important;
+        width: 32px !important;
+        height: 32px !important;
+        max-width: 32px !important;
+        max-height: 32px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        transform: none !important;
+        animation: none !important;
+        transition: none !important;
+        filter: none !important;
+    }
+
+    /* UN solo anillo exterior en rojo Occident. */
+    header .stage.mobile .icon::after {
+        content: "" !important;
+        position: absolute !important;
+        inset: -2px !important;
+        width: auto !important;
+        height: auto !important;
+        box-sizing: border-box !important;
+        border: 2px solid #D71920 !important;
+        border-radius: 50% !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        pointer-events: none !important;
+        transform-origin: center center !important;
+        animation: inmogl-sale-ring 2.7s ease-out infinite !important;
+        transition: none !important;
+    }
+}
+
+@media only screen and (max-width: 768px) and (prefers-reduced-motion: reduce) {
+    header .stage.mobile .icon::after {
+        animation: none !important;
+        opacity: .45;
+    }
+}
+
+@keyframes inmogl-sale-ring {
+    0% {
+        transform: scale(1);
+        opacity: .78;
+    }
+    72%, 100% {
+        transform: scale(1.62);
+        opacity: 0;
+    }
+}
+
+/* MOBILE · FOOTER FINAL: SOLO LEGAL CENTRADO */
+@media only screen and (max-width: 768px) {
+    /* CONTACTO desaparece únicamente del footer móvil. */
+    footer .footer-mobile-contact {
+        display: none !important;
+    }
+
+    /* LEGAL queda como único enlace del footer móvil, centrado. */
+    footer .footer-legal-link {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    /* Mismo tamaño visual que tenía CONTACTO. */
+    /* LEGAL: misma medida en TODAS las páginas, aunque el <li> no lleve
+       la clase footer-legal-link. Coincide también con ../legal.html. */
+    footer a[href$="legal.html"] {
+        font-weight: 800 !important;
+        font-size: 0.78rem !important;
+        text-transform: uppercase !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* Sin puntos ni separadores residuales. */
+    footer .footer-legal-link::before,
+    footer .footer-legal-link::after,
+    footer .footer-mobile-contact::before,
+    footer .footer-mobile-contact::after {
+        content: none !important;
+        display: none !important;
+    }
+}
+/* MOBILE · ELIMINAR RESALTADO AZUL DE TOQUE / FOCO TACTIL EN CHROME ANDROID */
+@media only screen and (max-width: 768px) {
+    *,
+    *::before,
+    *::after {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+    }
+
+    *:focus:not(:focus-visible) {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+
+/* ===== INMOGL V217 INTEGRADO 2026-10-01 ===== */
+/* ================================================================
+   INMOGL · PRODUCCION V217
+   Blanco dominante · Blanco · Nitido · Medio-alto
+   2026-10-01
+
+   Criterios fijados tras MVT:
+   - blanco/hielo como masas; azul corporativo como acento
+   - rojo Occident funcional
+   - activo desktop: rojo + negrita, SIN rayas
+   - activo mobile: rojo + negrita ENTRE dos rayas
+   - menu mobile completo + logo de casa centrado arriba
+   - mapas en color natural
+   - portada/panoramica y geometria canonica sin cambios
+   ================================================================ */
+
+:root{
+  --inmogl-blue:#3399FF;
+  --occident-red:#D90028;
+  --v217-page:#FFFFFF;
+  --v217-ice:#F8FBFF;
+  --v217-text:#0A2036;
+  --v217-heading:#071F33;
+  --v217-muted:#475A6B;
+  --v217-border:#AFC9E2;
+  --v217-shadow:0 .55rem 1.35rem rgba(10,32,54,.17);
+  --v217-divider:rgba(51,153,255,.42);
+}
+
+html,body{accent-color:var(--inmogl-blue)}
+body{color:var(--v217-text)}
+body:not(.home-page){background-image:none!important;background-color:var(--v217-page)!important;color:var(--v217-text)!important}
+@media only screen and (max-width:990px){body.home-page{background-image:none!important;background-color:var(--v217-page)!important;color:var(--v217-text)!important}}
+
+/* Cabecera/pie: conservar estructura canonica; solo color. */
+header,footer{background-color:#fff!important}
+#GL,#Lerma,.style-link a,footer a{color:var(--inmogl-blue)!important}
+.style-link a::before{background-color:var(--inmogl-blue)!important}
+.brand-divider{background:var(--inmogl-blue)!important}
+
+/* Navegacion desktop: la pagina activa NO desaparece. Rojo + negrita, sin rayas. */
+header nav.desktop li.current{
+  color:var(--occident-red)!important;
+  border:0!important;
+  font-weight:900!important;
+}
+header nav.desktop li.current a{
+  color:var(--occident-red)!important;
+  font-weight:900!important;
+  text-decoration:none!important;
+  border:0!important;
+}
+header nav.desktop li.current a::before,
+header nav.desktop li.current a::after{
+  content:none!important;
+  display:none!important;
+  transform:none!important;
+}
+
+/* Menu mobile: hielo, seis opciones completas y logo centrado arriba. */
+header nav.mobile#menu{background:var(--v217-ice)!important}
+header nav.mobile#menu ul.vertical-header{
+  display:flex!important;
+  flex-direction:column!important;
+  justify-content:center!important;
+  align-items:center!important;
+  align-content:center!important;
+  width:100%!important;
+  height:100%!important;
+}
+header nav.mobile#menu a{
+  color:var(--v217-heading)!important;
+  font-weight:700!important;
+  text-decoration:none!important;
+}
+header nav.mobile#menu li.current{
+  color:var(--occident-red)!important;
+  border-top:.125rem solid var(--occident-red)!important;
+  border-bottom:.125rem solid var(--occident-red)!important;
+  font-weight:900!important;
+}
+header nav.mobile#menu li.current a{
+  color:var(--occident-red)!important;
+  font-weight:900!important;
+}
+header nav.mobile#menu .mobile-menu-logo{
+  border:0!important;
+  padding:0!important;
+  margin:0 0 1.65rem!important;
+  line-height:1!important;
+}
+header nav.mobile#menu .mobile-menu-logo img{
+  display:block!important;
+  width:4.65rem!important;
+  height:auto!important;
+  margin:0 auto!important;
+  padding:0!important;
+  filter:none!important;
+}
+#hamburger-btn .hamburger-line{background-color:var(--v217-heading)!important}
+
+/* Firma: se pidio expresamente azul corporativo. */
+.site-year{color:var(--inmogl-blue)!important}
+.site-contact,.site-contact p{color:var(--v217-text)!important}
+
+/* PORTADA: panoramica y composicion intactas; se retira la masa azul central. */
+body.home-page #index-frame{
+  background:#fff!important;
+  color:var(--v217-text)!important;
+  box-shadow:var(--v217-shadow)!important;
+}
+body.home-page #index-frame .blue,
+body.home-page #index-frame section.index-section{
+  background:#fff!important;
+  color:var(--v217-text)!important;
+}
+body.home-page .buscando-title{color:var(--inmogl-blue)!important}
+body.home-page .blue .index-section h2 .section-highlight{color:var(--occident-red)!important}
+body.home-page .VyT .section-highlight-3{color:var(--occident-red)!important}
+body.home-page .features li,
+body.home-page .features li a,
+body.home-page .VyT,
+body.home-page .blue p{color:var(--v217-text)!important}
+body.home-page .financing-card{
+  background:var(--v217-ice)!important;
+  color:var(--v217-text)!important;
+  border:1px solid var(--v217-border)!important;
+  box-shadow:var(--v217-shadow)!important;
+}
+body.home-page .financing-card h3,
+body.home-page .financing-card p{color:var(--v217-text)!important}
+body.home-page .insurance-section{background:var(--occident-red)!important;color:#fff!important}
+body.home-page .insurance-section p{color:#fff!important}
+body.home-page .horizoontal-divider::after{
+  background:linear-gradient(to right,transparent,var(--v217-divider),transparent)!important;
+}
+
+/* Mapas: sin filtro azul/gris en V217. */
+#map,#map-XL{background:var(--v217-ice)!important}
+#map iframe,#map-XL iframe,.map-frame{
+  filter:none!important;
+  mix-blend-mode:normal!important;
+  background:#fff!important;
+}
+
+/* LISTADOS Venta / Locales / Terrenos */
+body.sync-listings{background:#fff!important;color:var(--v217-text)!important}
+body.sync-listings .center-h1,
+body.sync-listings h1{color:var(--inmogl-blue)!important}
+body.sync-listings .box{
+  background:#fff!important;
+  color:var(--v217-text)!important;
+  border:1px solid var(--v217-border)!important;
+  box-shadow:var(--v217-shadow)!important;
+}
+body.sync-listings .box h2,
+body.sync-listings .box h3,
+body.sync-listings .box p,
+body.sync-listings .box .moneda{color:var(--v217-text)!important}
+body.sync-listings .box .ubicacion h3{color:var(--v217-muted)!important}
+body.sync-listings .more{color:var(--inmogl-blue)!important}
+body.sync-listings .specs-row{border-color:var(--v217-border)!important}
+#location-select{border:1px solid var(--v217-border)!important;background:#fff!important;color:var(--v217-text)!important}
+
+/* ALQUILER / CONTACTO: blanco, texto oscuro, acentos azules. */
+.main-content-2,.main-content-2 #buscando-frame,
+.business-container{background:transparent!important;color:var(--v217-text)!important}
+.main-content-2 section.index-section{background:transparent!important;color:var(--v217-text)!important}
+.main-content-2 section.index-section p,
+.main-content-2 section.index-section li,
+.business-container p,.business-container li{color:var(--v217-text)!important}
+.buscando-title{color:var(--inmogl-blue)!important}
+#email-link{color:var(--inmogl-blue)!important}
+#email-link:hover,#email-link:active{color:var(--inmogl-blue)!important}
+#point{color:var(--inmogl-blue)!important}
+.business-container img.business{filter:none!important;mix-blend-mode:normal!important}
+
+/* LEGAL */
+#legal-section{
+  background:var(--v217-ice)!important;
+  color:var(--v217-text)!important;
+  border:1px solid var(--v217-border)!important;
+  box-shadow:var(--v217-shadow)!important;
+}
+#legal-section h2{color:var(--inmogl-blue)!important}
+#legal-section p,#legal-section strong{color:var(--v217-text)!important}
+
+/* FICHAS DE INMUEBLE: misma familia V217 sin cambiar geometria ni controles. */
+body.detail-page{background:#fff!important;color:var(--v217-text)!important}
+.detail-card,.detail-content,.gallery-column,.detail-summary,.content-section{
+  background:#fff!important;
+  color:var(--v217-text)!important;
+}
+.detail-card,.detail-content{box-shadow:var(--v217-shadow)!important}
+.detail-title,.content-section h2,.content-section h3{color:var(--v217-heading)!important}
+.detail-price{color:var(--inmogl-blue)!important}
+.detail-location,.content-section p,.feature-list{color:var(--v217-text)!important}
+.detail-spec{
+  background:var(--v217-ice)!important;
+  border-color:var(--v217-border)!important;
+  color:var(--v217-text)!important;
+}
+.media-shortcut{
+  background:#fff!important;
+  border-color:var(--v217-border)!important;
+  color:var(--inmogl-blue)!important;
+}
+.media-shortcut:hover,.media-shortcut:focus-visible{
+  border-color:var(--inmogl-blue)!important;
+  color:var(--inmogl-blue)!important;
+  background:var(--v217-ice)!important;
+}
+.content-section{border-bottom-color:var(--v217-border)!important}
+.plan-open,.media-figure img{
+  background:var(--v217-ice)!important;
+  border-color:var(--v217-border)!important;
+}
+.energy-card{background:var(--v217-ice)!important;border-color:var(--v217-border)!important}
+.energy-exempt{border-color:var(--inmogl-blue)!important;background:var(--v217-ice)!important;color:var(--inmogl-blue)!important}
+.compare-handle{color:var(--inmogl-blue)!important}
+.video-shell{background:#fff!important}
+
+/* En fondos claros, la iconografia general no hereda inversiones blancas. */
+.detail-spec img,.section-anchor-title>img,.media-shortcut img{mix-blend-mode:normal!important}
