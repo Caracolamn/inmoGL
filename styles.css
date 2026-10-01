@@ -544,3 +544,27 @@ body.detail-page{background:var(--v217-white)!important;color:var(--v217-text)!i
 @media only screen and (max-width:768px){
   body.detail-page .main-content{padding-bottom:7rem!important}
 }
+
+/* ================================================================
+   INMOGL · V217 · AJUSTE MOBILE FINAL · 2026-10-01
+   - Menu mobile inactivo: azul corporativo.
+   - Activo: rojo Occident + dos rayas (se conserva).
+   - Boton flotante Venta y telefono: fondo azul corporativo.
+   ================================================================ */
+@media only screen and (max-width:990px){
+  header nav.mobile#menu li:not(.current) a{
+    color:var(--inmogl-blue)!important;
+  }
+}
+
+@media only screen and (max-width:768px){
+  header .stage.mobile .icon{
+    background:var(--inmogl-blue)!important;
+  }
+}
+
+@media only screen and (max-width:600px){
+  #phone-m.mobile{
+    background-color:var(--inmogl-blue)!important;
+  }
+}
