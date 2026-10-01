@@ -969,3 +969,90 @@ header,
 footer{
   background-color:#FFFFFF!important;
 }
+
+/* ================================================================
+   INMOGL · #FFFCF2 + TEXTOS/ICONOS NEGROS SOBRE ESE FONDO · 2026-10-01
+   Mantiene:
+   - cabecera superior blanca
+   - barra inferior blanca
+   - fondo general #FFFCF2
+   - tarjetas/cajas blancas
+   - navegacion de cabecera azul; activa rojo Occident
+   - logos e imagenes corporativas sin alterar
+   Cambia:
+   - textos azules directamente sobre #FFFCF2 -> negro
+   - iconos azules de contacto directamente sobre #FFFCF2 -> negro
+   ================================================================ */
+
+/* PORTADA: titulo azul sobre el fondo general -> negro */
+body.home-page .buscando-title,
+body.home-page h1.buscando-title{
+  color:#000000!important;
+}
+
+/* LISTADOS: titulo principal sobre el fondo general -> negro.
+   Los enlaces '..mas' y el contenido de las tarjetas blancas conservan su color. */
+body.sync-listings .center-h1,
+body.sync-listings h1.center-h1{
+  color:#000000!important;
+}
+
+/* ALQUILER: titulo principal sobre fondo general -> negro */
+body.rental-page .buscando-title,
+body.rental-page h1.buscando-title{
+  color:#000000!important;
+}
+
+/* CONTACTO / ALQUILER: textos e iconos apoyados directamente en #FFFCF2 */
+body.contact-page .business-container,
+body.contact-page .business-container p,
+body.contact-page .business-container li,
+body.contact-page .business-container a,
+body.rental-page .business-container,
+body.rental-page .business-container p,
+body.rental-page .business-container li,
+body.rental-page .business-container a,
+body.contact-page #email-link,
+body.rental-page #email-link,
+body.contact-page #point,
+body.rental-page #point{
+  color:#000000!important;
+}
+
+/* Los SVG/imagenes azules de contacto pasan a negro, sin afectar logos ni fotos */
+body.contact-page .business-container img.business,
+body.rental-page .business-container img.business{
+  filter:brightness(0) saturate(100%)!important;
+  mix-blend-mode:normal!important;
+}
+
+/* Metadatos situados sobre el fondo general */
+body.home-page .site-year,
+body.contact-page .site-year,
+body.rental-page .site-year,
+body.sync-listings .site-year,
+body.detail-page .site-year{
+  color:#000000!important;
+}
+
+/* Titulos azules de bloques de contacto que descansan directamente en #FFFCF2 */
+body.contact-page .site-meta,
+body.rental-page .site-meta,
+body.contact-page .site-contact,
+body.rental-page .site-contact{
+  color:#000000!important;
+}
+
+/* Excepciones deliberadas: navegacion y pie estan sobre blanco y siguen azules */
+header nav.desktop a,
+header nav.mobile#menu a:not(.current a),
+footer a{
+  color:var(--inmogl-blue)!important;
+}
+
+/* Pagina activa: rojo Occident, como estaba fijado */
+header nav.desktop li.current a,
+header nav.mobile#menu li.current a{
+  color:var(--occident-red)!important;
+  font-weight:900!important;
+}
