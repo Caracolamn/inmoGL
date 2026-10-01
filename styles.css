@@ -647,3 +647,56 @@ header,
 footer{
   background-color:#FDF0CC!important;
 }
+
+/* ================================================================
+   INMOGL · FONDOS MARFIL CALIDO · 2026-10-01
+   - Fondo general de paginas: #FAEFD9.
+   - Fichas/tarjetas de inmuebles permanecen blancas.
+   - En portada, la columna central adopta #FAEFD9.
+   - Cabecera y pie NO se modifican: conservan #FDF0CC.
+   ================================================================ */
+:root{
+  --inmogl-warm-bg:#FAEFD9;
+}
+
+/* Venta / Locales / Terrenos: fondo cálido detrás de fichas blancas */
+body.sync-listings{
+  background-color:var(--inmogl-warm-bg)!important;
+  background-image:none!important;
+}
+body.sync-listings .box{
+  background-color:#FFFFFF!important;
+}
+
+/* Alquiler y Contacto */
+body.rental-page,
+body.contact-page{
+  background-color:var(--inmogl-warm-bg)!important;
+  background-image:none!important;
+}
+
+/* Fichas de inmueble: fondo exterior cálido; ficha interior blanca */
+body.detail-page{
+  background-color:var(--inmogl-warm-bg)!important;
+  background-image:none!important;
+}
+body.detail-page .detail-card,
+body.detail-page .detail-content,
+body.detail-page .gallery-column,
+body.detail-page .detail-summary,
+body.detail-page .content-section{
+  background-color:#FFFFFF!important;
+}
+
+/* Portada: solo la columna central y sus bloques principales */
+body.home-page #index-frame,
+body.home-page .frame,
+body.home-page #index-frame .index-section:not(#map){
+  background-color:var(--inmogl-warm-bg)!important;
+}
+
+/* Cabecera y pie: mantener exactamente el tono actual */
+header,
+footer{
+  background-color:#FDF0CC!important;
+}
