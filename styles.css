@@ -430,3 +430,117 @@ footer .footer-mobile-contact {
         box-shadow: none !important;
     }
 }
+
+
+/* ================================================================
+   INMOGL · V217 PRODUCCION FINAL · 2026-10-01
+   Base MVT: Blanco dominante · Blanco · Nitido · Medio-alto
+   Solo cromatica/estado de navegacion. Estructura canonica intacta.
+   ================================================================ */
+:root{
+  --inmogl-blue:#3399FF;
+  --occident-red:#D90028;
+  --v217-white:#FFFFFF;
+  --v217-ice:#F6FAFE;
+  --v217-ice-2:#EEF6FD;
+  --v217-text:#0A2036;
+  --v217-muted:#526679;
+  --v217-border:#C7D9EA;
+  --v217-shadow:0 .45rem 1.15rem rgba(10,32,54,.13);
+}
+
+/* --- Base cromatica: blanco/hielo; azul como acento --- */
+html,body{accent-color:var(--inmogl-blue)}
+body{color:var(--v217-text)}
+body:not(.home-page){background-image:none!important;background-color:var(--v217-white)!important;color:var(--v217-text)!important}
+header,footer{background-color:var(--v217-white)!important}
+#GL,#Lerma,.style-link a,footer a{color:var(--inmogl-blue)!important}
+.style-link a::before{background-color:var(--inmogl-blue)!important}
+.brand-divider{background-color:var(--inmogl-blue)!important}
+.site-year{color:var(--inmogl-blue)!important}
+.site-contact,.site-contact p{color:var(--v217-text)!important}
+
+/* --- Desktop: pagina activa visible, rojo Occident + negrita, SIN rayas --- */
+header nav.desktop li.current{border:0!important;color:var(--occident-red)!important;font-weight:900!important}
+header nav.desktop li.current a{color:var(--occident-red)!important;font-weight:900!important;border:0!important;text-decoration:none!important}
+header nav.desktop li.current a::before,header nav.desktop li.current a::after{content:none!important;display:none!important}
+/* Las fichas pertenecen a Venta. */
+body.detail-page header nav.desktop li:nth-child(2) a{color:var(--occident-red)!important;font-weight:900!important}
+body.detail-page header nav.desktop li:nth-child(2) a::before,body.detail-page header nav.desktop li:nth-child(2) a::after{content:none!important;display:none!important}
+
+/* --- Mobile: cortina hielo, logo centrado y activa entre dos rayas rojas --- */
+@media only screen and (max-width:990px){
+  body{background-image:none!important;background-color:var(--v217-white)!important}
+  header nav.mobile#menu{background-color:var(--v217-ice)!important}
+  header nav.mobile#menu ul.vertical-header{display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:center!important;width:100%!important;height:100%!important;margin:0!important;padding:0!important}
+  header nav.mobile#menu ul.vertical-header::before{content:"";display:block;flex:0 0 auto;width:4.65rem;height:4.65rem;margin:0 auto 1.45rem;background:url("images/Logo_Inmo_GL_50px.svg") center/contain no-repeat}
+  header nav.mobile#menu li{display:block!important;color:var(--v217-text)!important;border:0!important}
+  header nav.mobile#menu li a{display:block!important;color:var(--v217-text)!important;font-weight:700!important;text-decoration:none!important}
+  header nav.mobile#menu li.current{border-top:.125rem solid var(--occident-red)!important;border-bottom:.125rem solid var(--occident-red)!important;color:var(--occident-red)!important;font-weight:900!important}
+  header nav.mobile#menu li.current a{color:var(--occident-red)!important;font-weight:900!important}
+  body.detail-page header nav.mobile#menu li:nth-child(2){border-top:.125rem solid var(--occident-red)!important;border-bottom:.125rem solid var(--occident-red)!important}
+  body.detail-page header nav.mobile#menu li:nth-child(2) a{color:var(--occident-red)!important;font-weight:900!important}
+  #hamburger-btn .hamburger-line{background-color:var(--v217-text)!important}
+}
+
+/* --- Portada: NO tocar panorama ni geometria; solo retirar masa azul --- */
+body.home-page #index-frame,body.home-page .frame{background-color:var(--v217-white)!important;color:var(--v217-text)!important}
+body.home-page #index-frame section,body.home-page #index-frame .index-section{background-color:var(--v217-white)!important;color:var(--v217-text)!important}
+body.home-page .buscando-title{color:var(--inmogl-blue)!important}
+body.home-page .index-section h2 .section-highlight{color:var(--occident-red)!important}
+body.home-page .VyT .section-highlight-3{color:var(--occident-red)!important}
+body.home-page .features li,body.home-page .features li a,body.home-page .VyT,body.home-page .index-section p{color:var(--v217-text)!important}
+body.home-page .financing-card{background:var(--v217-ice)!important;color:var(--v217-text)!important;border:1px solid var(--v217-border)!important;box-shadow:none!important}
+body.home-page .financing-card h3,body.home-page .financing-card p{color:var(--v217-text)!important}
+body.home-page .insurance-section{background:var(--occident-red)!important;color:#fff!important}
+body.home-page .insurance-section p{color:#fff!important}
+body.home-page .horizoontal-divider::after{background:linear-gradient(to right,transparent,rgba(51,153,255,.5),transparent)!important}
+
+/* --- Mapas: color natural, sin filtro azul/gris --- */
+#map,#map-XL{background:var(--v217-ice)!important}
+#map iframe,#map-XL iframe,.map-frame{filter:none!important;mix-blend-mode:normal!important;background:#fff!important}
+
+/* --- Venta / Locales / Terrenos --- */
+body.sync-listings{background:var(--v217-white)!important;color:var(--v217-text)!important}
+body.sync-listings .center-h1{color:var(--inmogl-blue)!important}
+body.sync-listings .box{background:var(--v217-white)!important;color:var(--v217-text)!important;border:1px solid var(--v217-border)!important;box-shadow:var(--v217-shadow)!important}
+body.sync-listings .box h2,body.sync-listings .box h3,body.sync-listings .box p,body.sync-listings .box .moneda{color:var(--v217-text)!important}
+body.sync-listings .box .ubicacion h3{color:var(--v217-muted)!important}
+body.sync-listings .more{color:var(--inmogl-blue)!important}
+body.sync-listings .specs-row{border-color:var(--v217-border)!important}
+#location-select{background:#fff!important;color:var(--v217-text)!important;border:1px solid var(--v217-border)!important}
+
+/* --- Alquiler / Contacto --- */
+body.contact-page,body.rental-page{background:var(--v217-white)!important;color:var(--v217-text)!important}
+body.rental-page .frame,body.rental-page #buscando-frame,body.rental-page section.index-section{background:transparent!important;color:var(--v217-text)!important}
+body.rental-page .buscando-title{color:var(--inmogl-blue)!important}
+.business-container,.business-container p,.business-container li{color:var(--v217-text)!important}
+.business-container img.business{filter:none!important;mix-blend-mode:normal!important}
+#email-link,#email-link:hover,#email-link:active{color:var(--inmogl-blue)!important}
+#point{color:var(--inmogl-blue)!important}
+
+/* --- Legal --- */
+#legal-section{background:var(--v217-ice)!important;color:var(--v217-text)!important;border:1px solid var(--v217-border)!important;box-shadow:var(--v217-shadow)!important}
+#legal-section h2{color:var(--inmogl-blue)!important}
+#legal-section p,#legal-section strong{color:var(--v217-text)!important}
+
+/* --- Fichas de inmueble: misma familia V217, sin alterar geometria ni controles --- */
+body.detail-page{background:var(--v217-white)!important;color:var(--v217-text)!important}
+.detail-card,.detail-content,.gallery-column,.detail-summary,.content-section{background:var(--v217-white)!important;color:var(--v217-text)!important}
+.detail-card,.detail-content{box-shadow:var(--v217-shadow)!important}
+.detail-title,.content-section h2,.content-section h3{color:var(--v217-text)!important}
+.detail-price{color:var(--inmogl-blue)!important}
+.detail-location,.content-section p,.feature-list{color:var(--v217-text)!important}
+.detail-spec{background:var(--v217-ice)!important;border-color:var(--v217-border)!important;color:var(--v217-text)!important}
+.media-shortcut{background:#fff!important;border-color:var(--v217-border)!important;color:var(--inmogl-blue)!important}
+.media-shortcut:hover,.media-shortcut:focus-visible{background:var(--v217-ice)!important;border-color:var(--inmogl-blue)!important;color:var(--inmogl-blue)!important}
+.content-section{border-bottom-color:var(--v217-border)!important}
+.plan-open,.media-figure img{background:var(--v217-ice)!important;border-color:var(--v217-border)!important}
+.energy-card{background:var(--v217-ice)!important;border-color:var(--v217-border)!important}
+.energy-exempt{background:var(--v217-ice)!important;border-color:var(--inmogl-blue)!important;color:var(--inmogl-blue)!important}
+.video-shell{background:#fff!important}
+
+/* --- Control mobile: evitar que el pie invada la ficha --- */
+@media only screen and (max-width:768px){
+  body.detail-page .main-content{padding-bottom:7rem!important}
+}
