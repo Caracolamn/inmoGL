@@ -43,10 +43,31 @@ document.addEventListener('DOMContentLoaded', () => {
   #whatsapp-m.mobile { bottom:9px!important; right:20px!important; color:#fff!important;
     background:radial-gradient(circle at 34% 18%, #75efa0 0%, #32da70 27%, #25d366 53%, #15984d 80%, #086333 100%)!important;
   }
-  /* Mismo margen derecho; 15px libres entre ambos círculos de 52px. */
-  #phone-m.mobile { bottom:76px!important; right:20px!important; color:#25d366!important;
-    background:#fff!important;
+  /* Mismo margen derecho; 15px libres entre ambos círculos de 52px.
+     Teléfono: MISMA receta visual que WhatsApp, sustituyendo el verde por azul corporativo. */
+  #phone-m.mobile { bottom:76px!important; right:20px!important; color:#fff!important;
+    background:radial-gradient(circle at 34% 18%, #8fd4ff 0%, #56b7ff 27%, #3399ff 53%, #1c70bf 80%, #0a416f 100%)!important;
   }
+
+  /* Venta: misma familia visual 3D que WhatsApp/teléfono.
+     Se conservan tamaño, posición y el anillo exterior rojo ya existente. */
+  header .stage.mobile .icon {
+    background:radial-gradient(circle at 34% 18%, #8fd4ff 0%, #56b7ff 27%, #3399ff 53%, #1c70bf 80%, #0a416f 100%)!important;
+    box-shadow:inset 0 2px 4px rgba(255,255,255,.25), inset 0 -5px 8px rgba(0,0,0,.28), 0 9px 20px rgba(0,0,0,.36)!important;
+    filter:none!important;
+    overflow:visible!important;
+  }
+  header .stage.mobile .icon > a {
+    position:relative!important; overflow:hidden!important; border-radius:50%!important;
+  }
+  header .stage.mobile .icon > a::before {
+    content:""!important; position:absolute!important; top:5px!important; left:8px!important; right:8px!important;
+    width:auto!important; height:17px!important; border-radius:50%!important; pointer-events:none!important;
+    background:linear-gradient(180deg,rgba(255,255,255,.34),rgba(255,255,255,0))!important;
+    transform:none!important; z-index:1!important;
+  }
+  header .stage.mobile #sale-icon { position:relative!important; z-index:2!important; }
+
   #whatsapp-m.mobile svg, #phone-m.mobile svg {
     display:block!important; width:32px!important; height:32px!important;
     padding:0!important; margin:0!important; max-width:32px!important;
