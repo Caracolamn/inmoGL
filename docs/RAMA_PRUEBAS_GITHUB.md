@@ -16,7 +16,7 @@ Utilizar un sitio GitHub Pages de pruebas separado del sitio publicado (por ejem
 
 Requisitos técnicos de la copia de pruebas:
 1. Nunca llevar el `CNAME` de producción a la raíz de publicación de la previsualización; `www.inmogl.com` pertenece exclusivamente a producción.
-2. Añadir `noindex, nofollow` a todos los HTML de pruebas y bloquear la indexación con `robots.txt`; esto NO constituye control de acceso.
+2. Añadir `noindex, nofollow` a todos los HTML de pruebas, no publicar sitemap de pruebas y verificar que los robots puedan leer la etiqueta `noindex`; un `Disallow` de `robots.txt` puede impedirlo. Ninguna de estas medidas constituye control de acceso.
 3. Revisar y ajustar `canonical`, Open Graph, enlaces absolutos, rutas relativas, navegación y rutas de multimedia para que la prueba no redirija accidentalmente a producción.
 4. Revisar el alcance del `service worker` (`sw.js`) y del manifest PWA, para impedir conflictos de caché, instalación o alcance con producción. Preferir no registrar el service worker en la vista de pruebas.
 5. Validar cargas de fotos, planos, vídeos, fichas, vista móvil y escritorio; respetar límite de 1 GB del sitio Pages publicado.
